@@ -10,6 +10,18 @@ I lead paid media and build tools that make the team's work easier. My focus is 
 
 This is a real browser capture of this portfolio. Private product screens and client records are withheld.
 
+## Featured campaign, with original evidence
+
+[Read the full Compartés case on the website](case-studies/compartes.html).
+
+The case includes my original operating-task excerpts, a five-stage $200,000 budget plan, six creative images from the award submission, ad-level performance, the Black Friday and full-season tables, store/customer results and placement comparisons. The full-season return tradeoff is included alongside growth.
+
+- [Original planning excerpts](case-studies/compartes-planning.md)
+- [Full campaign section of the submission, privacy edited](case-studies/compartes-submission.md)
+- [Download the case and evidence pack](case-studies/compartes-evidence.pdf)
+
+Campaign outcomes are team results. Creative is shown as original stills, not a new mockup; video and GIF assets are not playable here. Private source IDs and identity fields stay private.
+
 ## What I have worked on
 
 - [AI for marketing teams](case-studies/marketing-ai-operations.md): Make common account tasks easier.
