@@ -1,55 +1,51 @@
-# Marketing AI operations: turning recommendations into accountable work
+# Making AI easier for paid-media teams to use
 
-**My role:** Performance marketing leader directing requirements, priorities, AI-assisted implementation and review. **Evidence:** Private repository records and approved career evidence. **Status:** Representative features merged; not every merged change is asserted to be deployed.
+My role: Paid-media leader, product direction and hands-on development with AI. This is a private work platform. Its code, client records and screens stay private.
 
-## The business problem
+## The problem I am solving
 
-Marketing teams have plenty of dashboards. The harder problem is moving from fragmented information to a decision that is specific enough to execute, safe enough to approve and clear enough to check afterward. Across many accounts, small inconsistencies multiply: calculations use different periods, copy audits flag legitimate language, competitor research implies performance it cannot observe, and platform changes break workflows.
+A paid-media strategist already has a full day: check accounts, explain results, write briefs, manage budgets and answer clients. Learning how to get good work from AI can feel like one more job.
 
-My professional context includes directing $50M+ in annual media spend across 50+ clients and 60+ accounts, and leading 5+ strategists and specialists. Those are aggregate career figures, not this software's adoption or revenue. That experience shapes the problems I prioritize: reduce ambiguity for the person making the next account decision.
+I am building an AI workspace around those existing tasks. My goal is to make the useful part easy to reach. A person should be able to choose a client, pick the job they need done and review a useful answer.
 
-## What I direct
+I use the work myself. I set the requirements, work through the details with Claude Code and OpenAI Codex, review the results and keep improving the parts that cause friction.
 
-I translate an account-management problem into a bounded requirement: the user, the decision, required evidence, failure cases and acceptance criteria. Claude Code, OpenAI Codex and ChatGPT support research, planning and implementation. My contribution is marketing judgment and delivery direction, including checking whether the behavior answers the original question. AI-assisted code is part of the implementation method; I do not present every line as independently hand-written.
+## Bring the client context together
 
-## Budget pacing that explains its arithmetic
+Important information lives in different places: account data, meeting notes, decks, team conversations and tasks. A new chat often starts without that history.
 
-A merged browser-extension feature puts monthly pacing next to the account or campaign under review. It distinguishes planned spend to date, actual spend and a month-end projection, then supplies a daily reference for the remaining period. Differences below a 5% threshold stay quiet instead of generating constant adjustment noise.
+The platform brings those sources into a client workspace. Its chat can use the available account history and work records. That helps a strategist ask a useful question without pasting the same background into every conversation.
 
-Making the arithmetic inspectable and keeping the feature read-only are deliberate choices. Being ahead of a linear plan does not establish that spend should be cut. Promotional timing, demand and efficiency still require a marketer's judgment. The calculator on this site recreates the reasoning with fictional values and editable assumptions.
+Coverage depends on the connected and indexed sources. Missing information is shown so the person knows when more investigation is needed.
 
-## Creative research with an evidence ceiling
+## Explain why performance changed
 
-A merged workflow examines competitor ad material, extracts angles and separates observations from conclusions. Visible copy or a video cover is usable evidence; an unseen script is not. Long runtime can identify an ad worth studying, but cannot prove a competitor's campaign is profitable.
+I have worked on a tool called What Changed? A strategist picks a measure and a date range. The tool compares it with the previous period and shows up to three measured contributors.
 
-Counts, dates and coverage measures come from data and code instead of asking a language model to invent them. Concept generation operates within approved claims and bounded output limits. Restrictions address copying competitor language, unsupported prices or guarantees, and uncontrolled generation volume. This makes research useful without dressing unknown performance up as certainty.
+It brings in related work notes and saves the explanation so it can be reopened. The practical job is to help someone move from “sales are down” to a clearer explanation of what moved and what to check next.
 
-## Copy audits calibrated against failure cases
+The tool distinguishes a measured change from a possible explanation. A task being marked complete does not prove it caused a sales result.
 
-One merged fix addressed seven false positives in a copy audit. The earlier rule treated protected search phrases, social references and URLs as ordinary brand spelling errors. A noisy validator consumes review time and can teach people to ignore warnings.
+## Turn an ad gap into a brief
 
-The correction distinguishes exact protected language from prose and adds regression fixtures. The public demonstration uses newly written fictional copy, not original client examples. It shows both requirements: accepted exceptions remain accepted, and incorrect brand spelling still gets flagged.
+Creative work often stalls between identifying a problem and telling a designer what to make. The brief generator connects those steps.
 
-## Compatibility fixes that preserve intent
+It starts with a missing message or a test idea. It uses available customer feedback, brand information, prior tests and current ads to draft a brief. The brief includes the audience, reason to buy, proof, offer, format and next step.
 
-Another merged change addressed an advertising API field that was no longer supported. The question was not simply whether a request stopped failing. It was whether the revised request retained intended settings, surfaced settings that could not be guaranteed, and preserved safe defaults and read-back behavior.
+It drafts two versions that change the message while holding the other parts steady. That makes the test easier to learn from. If key information is missing, it names what needs to be filled in before production.
 
-Some reliability work also repairs earlier implementation mistakes. I use those failures to strengthen acceptance criteria and regression coverage rather than implying that every bug came from an external platform.
+## Help people judge ads and budgets
 
-## Controlled actions need verification
+Another tool helps a strategist compare ad results against a chosen cost or return target. It shows the ad image and copy alongside the numbers and can produce a visual report. It also marks results that do not yet have enough evidence.
 
-The operating pattern is: identify the exact target, preview a bounded change, get approval, recheck that the target is current, execute once, read back the result and record what happened. A mismatch is failed verification even when an API request returns successfully. An expired preview requires a new review.
+Budget work includes monthly plans, actual spend, projected spend and a browser extension that puts the pacing information beside the ad manager. The aim is to make a problem visible where the person is already working.
 
-The simulator on this site demonstrates success, a stale preview and a read-back mismatch. It is original code with no account connection, making the failure behavior inspectable without exposing private source or records.
+I also refine the checks themselves. One merged fix removed false warnings that treated valid links, social handles and protected phrases as copy mistakes. A tool should save attention, not create needless review work.
 
-## Delivery evidence and its limits
+## What I have delivered
 
-Authenticated records show **860 author-attributed PRs merged from July 15 through October 12, 2026**. This supports sustained AI-assisted delivery. It is not a count of bugs fixed, equal-sized features, independent reviews or production deployments. Representative changes matter more than the count alone.
+My repository record shows 860 merged pull requests attributed to my account from July 15 through October 12, 2026. They cover features, reporting, account tools and reliability fixes. This is evidence of sustained AI-assisted delivery; it is not a count of bugs or production releases.
 
-Approved career evidence separately reports **20+ hours per week saved** through workflow tools and AI-assisted reporting and analysis. This is a reported aggregate outcome, not a measured saving for this specific platform. No incremental revenue or ROAS improvement is attributed to these features here.
+My career evidence separately reports 20+ hours saved per week through workflow tools and AI-assisted reporting and analysis. That figure covers the broader work, not this platform alone.
 
-## What this demonstrates
-
-The capability is identifying where AI helps a real team, giving work constraints and insisting on evidence before calling it complete. These examples combine commercial context with product detail: useful calculations, bounded research, lower-noise checks and recovery when an action cannot be verified.
-
-Private source, client records, identifiers and internal repository links are absent. Public demonstrations are rebuilt examples, not screenshots of the private product.
+Team adoption is still part of the job. My focus is to keep making useful tasks easier so people can get value from AI during their normal work.
