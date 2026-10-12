@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="AI strategy and product delivery: detailed marketing, workflow and extension case studies with working fictional-data demonstrations.">
+  <meta name="color-scheme" content="light"><title>AI Work Showcase</title>
+  <link rel="stylesheet" href="assets/style.css"><script type="module" src="assets/app.mjs"></script>
+</head>
+<body>
+<!-- THESIS: Senior AI judgment becomes credible when the visitor can inspect a decision and its failure path.
+OWN-WORLD: A professional working notebook: Newsreader titles, paper ground, ink rules, restrained blue controls; no invented texture.
+STORY: Try arithmetic first, inspect four real projects, exercise verification and audit rules, then inspect claim boundaries.
+FIRST VIEWPORT: The working pacing artifact shares the opening with a compact statement of contribution.
+FORM: Brief-pinned restrained editorial direction, seed cbdc7048. Wide artifact split becomes a single reading column on mobile.
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md. -->
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><a class="wordmark" href="index.html">AI Work Showcase</a><nav aria-label="Main"><a href="#work">Selected work</a><a href="#demos">Try the demos</a><a href="#method">How I work</a></nav></header>
+<main id="main">
+<section class="opening" aria-labelledby="intro-title">
+  <div class="intro"><h1 id="intro-title">From marketing problems to working AI systems.</h1>
+  <p class="lead">I set strategy, design workflows and direct AI-assisted product delivery with Claude Code, OpenAI Codex and ChatGPT.</p>
+  <p>My work connects paid-media leadership with practical AI adoption: useful tools, clear review boundaries and evidence that a change did what it was supposed to do.</p>
+  <a class="text-link" href="case-studies/marketing-ai-operations.html">Start with the marketing operations case <span aria-hidden="true">→</span></a>
+  <p class="caption">Four detailed cases. Three working demonstrations. Contributions and evidence limits stated in each.</p></div>
+  <div class="artifact" aria-labelledby="pacing-title"><div class="artifact-heading"><h2 id="pacing-title">Inspect the budget decision</h2><span class="label">Fictional data</span></div>
+  <p class="artifact-intro">Change the inputs. See what the arithmetic supports before deciding what to do.</p>
+  <form id="pacing-form" novalidate><div class="field-grid">
+    <label>Period budget ($)<input name="budget" type="number" min="1" value="30000" inputmode="decimal"></label>
+    <label>Spend to date ($)<input name="spend" type="number" min="0" value="14500" inputmode="decimal"></label>
+    <label>Elapsed days<input name="day" type="number" min="1" value="12" inputmode="numeric"></label>
+    <label>Days in period<input name="days" type="number" min="1" max="366" value="30" inputmode="numeric"></label>
+  </div></form>
+  <div class="preset-row" aria-label="Pacing examples"><button type="button" data-preset="over">Ahead</button><button type="button" data-preset="on">On pace</button><button type="button" data-preset="under">Behind</button></div>
+  <p id="pace-error" class="error" role="alert" hidden></p>
+  <div id="pace-output" aria-live="polite"><p id="pace-status" class="status"></p><p id="pace-detail"></p>
+    <div class="pace-track" aria-hidden="true"><div id="pace-bar"></div><i id="plan-marker"></i></div><p class="caption">Blue: actual spend / period budget. Line: planned spend to date.</p>
+    <dl class="output-list"><div><dt>Planned to date</dt><dd id="planned"></dd></div><div><dt>Projected period-end</dt><dd id="projection"></dd></div><div><dt>Remaining reference</dt><dd id="reference"></dd></div></dl>
+  </div><p class="caption">Linear pacing reference, not a budget recommendation. No account connected. No data sent.</p></div>
+</section>
+<section id="work" class="work-section"><div class="section-heading"><h2>Work worth examining</h2><p>Business outcomes, product choices and the details behind delivery.</p></div>
+  <article class="project-row"><div><h3><a href="case-studies/marketing-ai-operations.html">Marketing AI operations</a></h3><p>Private platform · representative features merged</p></div><div><p>Budget pacing, competitor research with evidence limits, copy-audit calibration and verified action workflows. The story behind 860 author-attributed merged PRs in a defined 2026 window.</p><a class="text-link" href="case-studies/marketing-ai-operations.html">Read the decisions and delivery evidence →</a></div></article>
+  <article class="project-row"><div><h3><a href="case-studies/compartes.html">Compartés holiday campaign</a></h3><p>Team campaign · reported 2026 Meta award</p></div><div><p>How I contributed AI-assisted creative, copy, analysis and tooling to campaign strategy. Reported commercial outcomes, clearly separated by measurement window and team attribution.</p><a class="text-link" href="case-studies/compartes.html">Read the strategy and results →</a></div></article>
+  <article class="project-row"><div><h3><a href="projects/summoner.html">Summoner</a></h3><p>Private desktop prototype · sample features integrated</p></div><div><p>Model choice stays with the user. Code changes have diffs and checkpoints. Context has provenance. A desktop AI workspace built around reviewable work.</p><a class="text-link" href="projects/summoner.html">Read the product and architecture choices →</a></div></article>
+  <article class="project-row"><div><h3><a href="projects/workflow-companion.html">Local workflow companion</a></h3><p>Public Claude Code extension · early access</p></div><div><p>A hands-off progression system driven by work activity, with no runtime model calls. Local state, multi-session coordination and a product brief that respects attention and inference cost.</p><a class="text-link" href="projects/workflow-companion.html">Read the extension design and evidence →</a></div></article>
+</section>
+<section id="demos"><div class="section-heading"><h2>Try the failure paths</h2><p>A plausible answer is not enough. These rebuilt examples let you inspect how the work behaves when assumptions fail.</p></div>
+<article class="demo-row"><div class="demo-context"><h3>Approval is a state, not a sentence.</h3><p>A proposed change needs an exact target, a current preview and verified read-back. A successful request can still leave the wrong value.</p><p>Choose a scenario, then walk through preview, approval and execution. The stale scenario advances the simulation clock beyond the preview's expiry.</p><a href="case-studies/marketing-ai-operations.html#controlled-actions-need-verification">Why this matters in account operations →</a></div>
+<div class="artifact action-demo"><div class="artifact-heading"><h4>Change verification simulator</h4><span class="label">Fictional data</span></div>
+<label>Scenario<select id="scenario"><option value="success">Matching read-back</option><option value="stale">Expired preview</option><option value="mismatch">Read-back mismatch</option></select></label>
+<dl class="output-list"><div><dt>Target</dt><dd>Campaign A</dd></div><div><dt>Observed daily budget</dt><dd id="observed-budget"></dd></div><div><dt>Proposed daily budget</dt><dd>$1,200</dd></div></dl>
+<p class="status" id="action-status" aria-live="polite"></p><div class="button-row"><button class="primary" id="action-step" type="button">Build a preview</button><button id="action-reset" type="button">Reset</button></div>
+<ol id="action-log" class="event-log" aria-live="polite"></ol><p id="receipt" class="receipt" hidden></p><p class="caption">Simulation only. No API, credentials or live account actions.</p></div></article>
+<article class="demo-row"><div class="demo-context"><h3>A useful audit catches the right mistakes.</h3><p>More warnings do not necessarily mean better quality. A spelling rule that treats URLs, social handles and protected search phrases as prose creates avoidable work.</p><p>This illustration preserves the exact protected phrase <code>"examplebrand gifts"</code> while flagging incorrect brand spelling in ordinary prose. Edit the copy to test both cases.</p><a href="case-studies/marketing-ai-operations.html#copy-audits-calibrated-against-failure-cases">Read the real audit-calibration example →</a></div>
+<div class="artifact"><div class="artifact-heading"><h4>Copy audit calibration</h4><span class="label">Fictional copy</span></div>
+<label>Example copy<textarea id="copy-input" rows="5" spellcheck="false">Try "examplebrand gifts", visit https://example.invalid/examplebrand, or follow @examplebrand. Examplebrand is the incorrect spelling in prose.</textarea></label>
+<dl class="output-list"><div><dt>Naive-rule warnings</dt><dd id="naive-count"></dd></div><div><dt>Calibrated-rule warnings</dt><dd id="calibrated-count"></dd></div></dl>
+<p id="audit-summary" aria-live="polite"></p><ul id="copy-issues" class="event-log"></ul><p class="caption">Original illustration of a rule, not the private production validator. Copy stays in your browser.</p></div></article>
+</section>
+<section id="method" class="method-section"><div class="section-heading"><h2>How I direct AI work</h2><p>Commercial context comes first. Models support delivery; they do not establish that a result is correct.</p></div>
+<ol class="method-list"><li><h3>Define the decision</h3><p>Who needs to act, what outcome matters, and which evidence is available?</p></li><li><h3>Bound the work</h3><p>Specify ownership, permitted actions, failure cases and acceptance criteria.</p></li><li><h3>Build and review</h3><p>Use AI-assisted implementation, inspect the changes and test the behavior.</p></li><li><h3>Verify the result</h3><p>Check observed state, preserve receipts and separate tests from user acceptance.</p></li></ol>
+<details><summary>Inspect the evidence boundaries</summary><div class="table-wrap"><table><thead><tr><th>Evidence</th><th>What it supports</th><th>What it does not establish</th></tr></thead><tbody><tr><td>Campaign report</td><td>Period-specific team outcomes</td><td>AI-caused uplift or incrementality</td></tr><tr><td>860 merged PRs, Jul 15–Oct 12, 2026</td><td>Author-attributed delivery activity</td><td>860 bugs, equal-size changes or deployments</td></tr><tr><td>Private project records</td><td>Requirements and checkpoint status</td><td>A current full runtime audit</td></tr><tr><td>Public demonstrations</td><td>Inspectable arithmetic and failure behavior</td><td>Access to the private production systems</td></tr></tbody></table></div></details>
+<div class="resource-links"><a href="skills/decision-brief/SKILL.md">Decision-brief workflow template</a><a href="skills/creative-review/SKILL.md">Creative-review workflow template</a><a href="tests/core.test.mjs">Inspect the demonstration tests</a></div></section>
+</main><footer><p>Published as finalpantasy · No analytics, account connections or model calls on this site.</p><a href="https://github.com/finalpantasy/ai-work-showcase">Source and Markdown case studies</a></footer>
+<noscript><p class="noscript">The case studies work without JavaScript. Enable JavaScript to use the local-only demonstrations.</p></noscript>
+</body></html>
