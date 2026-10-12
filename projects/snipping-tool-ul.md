@@ -1,6 +1,6 @@
 # Snipping Tool UL: a small tool for a daily task
 
-Native Windows 11 app in active development. Installed local preview. Public release and a measured Microsoft comparison are being coordinated with the project owner.
+Native Windows 11 app in active development. Version 0.3.6 is installed as a local preview. Public release and a measured Microsoft comparison are being coordinated with the project owner.
 
 I wanted a screenshot tool that feels light and gets out of the way. The task is common: select an area, paste it into a chat, add a mark when needed and get back to work. Waiting on a heavy interface makes that small task feel bigger than it should.
 
@@ -13,6 +13,10 @@ The app includes region, window and full-screen capture, configurable hotkeys an
 The editor includes pencil strokes, arrows, shapes, highlights, pixelation, text and numbered steps. Width and size controls are visible. Selecting a mark lets you move or change it; deleting a numbered step renumbers the later steps, and undo restores the change.
 
 There is also saving, OCR, optional history and sharing. History and auto-save are off by default. Public uploads happen only when the person chooses them; live upload acceptance remains part of the project's unfinished checks.
+
+The 0.3.6 build adds an explicit “Upload publicly” confirmation showing the destination and link visibility. Cancelling or changing the image clears approval. Repeated requests can reuse a small in-memory cache of successful links instead of uploading the same image again. Headless tests cover those states; they do not prove a live host accepted an upload.
+
+Saving also has practical safeguards. Auto-save creates a chosen missing folder and preserves files when timestamps collide. Manual Save asks for a destination before flattening or encoding the image, so cancelling avoids that work. Encoding runs on a worker after selection. These are implemented choices; native Save-dialog latency is still unmeasured.
 
 ## Make lightness a design choice
 
@@ -28,7 +32,7 @@ This is where product and performance meet. A fast preview should still produce 
 
 ![Actual light editor code rendered offscreen with a synthetic image](../assets/snipping/editor-light.png)
 
-These are actual application client renders produced headlessly with a synthetic image. They are not photographs of a running native window and do not show Windows' title bar or prove capture and paste. Genuine working screenshots are being coordinated for the public release.
+These are actual application client renders from the 0.3.5 checkpoint, produced headlessly with a synthetic image. They are not photographs of a running native window and do not show Windows' title bar or prove capture and paste. Genuine working screenshots are being coordinated for the public release.
 
 The interface uses restrained teal controls, light and dark themes, a frosted workspace and clear tool names. The image stays sharp and opaque inside the surrounding workspace. The supplied bird-and-scissors identity gives the small app a recognizable visual character.
 
@@ -50,7 +54,7 @@ Those figures describe a specific internal optimization. Buffer bytes are not th
 
 I want a fair comparison with the default Windows Snipping Tool. The current evidence does not include a matched Microsoft baseline or full-app responsiveness test. I therefore do not publish a percentage saving or claim that this benchmark proves UL is faster than Microsoft's app.
 
-The remaining comparison needs the same machine, image dimensions, app state and test sequence, with both memory measures and a clear timing boundary. The current version has 178 passing headless tests and five mocked installer checks. Those checks do not substitute for real capture and paste. The project is preserving the working desktop and keeping native tests isolated. The portfolio will use those results when that comparison exists.
+The remaining comparison needs the same machine, image dimensions, app state and test sequence, with both memory measures and a clear timing boundary. The installed 0.3.6 preview has 189 passing headless tests and five mocked installer checks. Those checks do not substitute for real capture and paste. The project is preserving the working desktop and keeping native tests isolated. The portfolio will use those results when that comparison exists.
 
 ## My contribution
 
