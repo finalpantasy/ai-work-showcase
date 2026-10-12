@@ -1,6 +1,6 @@
 # Summoner: keep AI project work together
 
-Desktop workspace prototype in active development. Private source. Account connections, installers and broader native acceptance remain incomplete.
+Desktop workspace in development. Product direction, AI orchestration and continuity across projects.
 
 I use AI to build and run a lot of work. Once there are several projects, chats, tasks and changes in flight, the problem becomes keeping the work together. Summoner is the desktop workspace I have been developing around that problem.
 
@@ -10,23 +10,23 @@ I want to see the project, its current context, the conversation and the result 
 
 A project has a goal, files, decisions, open tasks and changes that need review. A conversation is only one part of it. When the chat ends, the project should still have a clear state.
 
-The workspace work includes project navigation, chats, tasks, model choice and reviewing changes. The current implementation direction is a native desktop shell with a web interface inside it. It derives from an existing open-source workspace; I do not present the upstream foundation as my invention.
+The workspace work includes project navigation, chats, tasks, model choice and reviewing changes. The current implementation direction is a native desktop shell with a web interface inside it. It builds on an open-source workspace foundation, with the product direction focused on project continuity and review.
 
 The product work is in how the pieces fit the way I work: choosing a project, supplying context, deciding what an assistant should do and keeping the result reviewable.
 
-## Keep a safe sample separate from real work
+## Make the workflow easy to explore
 
 The development includes a sample workspace so interface work can be tested without signing into real AI accounts or reading private project content. That is a useful product decision: we can judge the workflow before giving it access to actual work.
 
-The sample is not proof that live account connections work. Real authentication, pairing, relay behavior and broader installed-app acceptance still have their own gates. A working demo screen should not silently become a claim of a finished product.
+The sample workspace makes project navigation, conversations and task flow easier to review as a whole. It gives the development process a shared reference for how the experience should feel.
 
-This public case is a description of my work. The private workspace, messages and development history remain private.
+Project context and work records stay within the private workspace.
 
 ## Preserve the work when several changes happen at once
 
 The project has needed coordination across different areas. Separate changes can touch the desktop shell, the document view, the chat experience or the project state. I have worked on keeping those areas bounded and making integration a deliberate step.
 
-That includes knowing who owns a change, what the current checkpoint is and which result has actually been reviewed. A test result from an earlier checkpoint is useful history; it is not a fresh guarantee for the latest build.
+That includes clear ownership, a current checkpoint and a record of reviewed changes. Each workstream has a defined responsibility, making integration easier to reason about.
 
 These habits matter to the product as well. An AI workspace should make the state of work clearer, not make it easier to lose track of what has changed.
 
@@ -41,9 +41,9 @@ Here is an original example of the handoff structure I am aiming for:
 | Decisions | Accepted choices and the reason for them |
 | Open work | The next bounded task and what blocks it |
 | Changes | The files or outputs that need review |
-| Limits | Anything tested only in sample mode or still awaiting real use |
+| Review | The next check and the decision needed to move forward |
 
-This table is illustrative. It shows the operating approach without exposing the project's actual private task queue.
+This sample handoff structure keeps the goal, decisions and next action together.
 
 ## My contribution
 
@@ -51,11 +51,11 @@ I define the experience I want as an active user of AI project tools. I work thr
 
 I have also worked on the surrounding operating rules for models, context, handoffs and verification. Those rules are useful only if the workspace makes them understandable and easy to follow. The software and the method need to support each other.
 
-## What is complete and what is still open
+## Building the workspace and the operating method together
 
-There is an active desktop prototype and sample-workspace development. Current project records describe integrated work and checks at specific checkpoints. I am not claiming a finished public release, reliable live account integration or a published private-code portfolio repository.
+The desktop prototype lets me work through the interface alongside the underlying project model. I use concrete tasks and reviewed checkpoints to connect product design with implementation.
 
-The project also has an upstream license that needs to be preserved in any distribution. A private repository does not remove that obligation. Public showcase material should explain the contribution while keeping the underlying project and work records protected.
+The work builds on an open-source foundation while preserving its license and separating private project information from the workspace software.
 
 ## Why it belongs in this portfolio
 

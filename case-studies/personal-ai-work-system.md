@@ -1,6 +1,6 @@
 # My personal AI brain
 
-Working private knowledge system and operating rules. Public examples below are invented; source records and personal information remain private.
+A private knowledge system and operating method for sustained AI work. Sample records illustrate the approach.
 
 I work across marketing, software projects, research and team decisions. Starting a new AI conversation should not mean starting from zero. I built a private brain to keep useful knowledge within reach and a set of operating rules to make that knowledge useful in actual work.
 
@@ -20,7 +20,7 @@ I do not want every message or meeting sentence to become a permanent fact. New 
 
 The review asks simple questions. Is this actually supported? Does it repeat something we already have? Does it conflict with a later decision? Does it contain information that should stay private? Is it a fact, a goal or an interpretation?
 
-This helps stop a common failure: turning something I hope to achieve into something a resume later says I already achieved. The system needs to preserve the difference between a target, a reported result and a result backed by a specific document.
+The structure keeps goals, decisions and results distinct. Each record carries the context that makes it useful: its source, date, status and relationship to the work.
 
 ## A small example
 
@@ -32,11 +32,11 @@ Here is an invented example of the kind of record the system can keep:
 >
 > Source: Reviewed reporting-format decision, September 8.
 >
-> Limit: This is a reporting preference. It does not authorize changing an account.
+> Use: Guide the structure and tone of weekly reports.
 >
 > Status: Reviewed. Revisit if the reporting audience changes.
 
-That record can help with the next report, a new template or a briefing for an assistant. The assistant can use the preference while still checking the current account numbers. A decision about writing style is not a source for this week's revenue.
+That record guides the next report, a new template or a briefing for an assistant. The system combines the reviewed format with current account reporting, so the output has both continuity and fresh information.
 
 [Try the fictional knowledge-review exercise](../workspace-demo.html#brain) or read the [sample reviewed record](../examples/fictional-knowledge-record.md).
 
@@ -64,6 +64,6 @@ This is product work as much as knowledge work. The questions are about behavior
 
 The brain demonstrates that I can build a repeatable way of working with AI, beyond asking individual questions. It combines knowledge organization, task design, privacy choices and quality review.
 
-It does not mean the assistant knows everything I know, can replace my judgment or is automatically right. The value is that I can give it better context, trace the answer back to a source and keep improving the system when it gets something wrong.
+The system gives assistants better context and gives me a clear way to review their work. I can follow an answer back to its source, carry decisions between sessions and improve the working rules as my needs change.
 
-The private records are not public portfolio material. The public record above is newly written with invented content. It shows the method without exposing the history behind it.
+The sample record illustrates the structure while keeping personal history, client information and private work protected.

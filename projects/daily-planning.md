@@ -1,6 +1,6 @@
 # Start the day with useful drafts ready
 
-Reusable planning skill and implementation artifacts. The public morning brief is invented; unattended end-to-end execution is not claimed here.
+AI-assisted planning workflow. A short morning brief with ready-to-review drafts, decisions and clear ownership.
 
 I want AI to help with the work before I sit down to do it. A list of tasks is a start, but it still leaves me asking where to begin. The day-ahead planning work prepares the actual draft, the needed research or the decision I have to make.
 
@@ -39,7 +39,7 @@ The public example has a draft creative comment, a reporting-format decision, a 
 
 [Read the sample morning brief](../examples/fictional-morning-brief.md).
 
-It is newly written fictional material. No real tasks, client messages or private meeting content are included.
+The example uses sample tasks to show the format while keeping actual client and team work private.
 
 ## Make approval specific
 
@@ -47,10 +47,10 @@ The design lets me approve individual item numbers instead of giving an open-end
 
 That is useful even outside automation. It makes the prepared work concrete: here is the text, here are the sources, here is the intended destination and here is what the next action would do. The brief can then report what actually happened rather than what it intended to do.
 
-The underlying design contains implementation and connector limitations. I do not claim that every step can run unattended or that an unavailable connector has been worked around. The planning artifact can still be useful when the final action is manual.
+The workflow prepares the work and keeps approval specific. It supports both connected actions and manual handoffs, so a useful draft stays useful whichever tool owns the final step.
 
 ## My contribution
 
 I defined the scope, the task window, the four lanes and the approval behavior. I designed around how I actually use overdue tasks and how I read a morning brief. I worked with AI on the research and drafting process and the artifacts that support it.
 
-This shows workflow design, prioritization and a practical approach to AI assistance. The intended benefit is less time getting oriented and more useful preparation. A measured daily time saving and a fully reliable unattended rollout remain separate things to evaluate.
+This work combines workflow design, prioritization and practical AI assistance. It turns a scattered queue into something I can act on: a draft to review, a decision to make or a clear handoff to another owner.

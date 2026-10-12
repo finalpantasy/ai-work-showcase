@@ -1,6 +1,6 @@
 # A short AI lesson: explain an account change
 
-Original public training example with invented data. This is one lesson sample, not evidence of a completed team rollout.
+Sample AI training lesson: turn account data into a useful weekly explanation.
 
 ## The task
 

@@ -1,6 +1,6 @@
 # Give the next ad a clear reason to exist
 
-Existing creative tools and workflow design. Broader creative-process rollout remains planned. Public examples are fictional.
+Creative strategy, testing and AI-assisted tools. Sample brand and creative shown below.
 
 I work on creative strategy from the customer's point of view: what are they trying to do, what is stopping them and what would give them a useful reason to act? AI helps me research, draft, compare and build tools around that work. The brief still needs a clear idea.
 
@@ -18,7 +18,7 @@ If proof is missing, the tool needs to say so. It should not invent a product be
 
 A test is easier to learn from when we know what changed. The brief identifies a planned variable and what should stay the same. Two concepts can then compare a strategic message without changing the audience, offer, landing page and format at the same time.
 
-This does not mean every platform experiment is perfectly controlled. Delivery and customers can still differ. It means we give the team a useful test question and avoid changing everything before asking why one ad performed differently.
+The test question gives the team a direction for learning. Keeping the main inputs consistent makes the comparison easier to interpret, while delivery and customer mix provide context for the result.
 
 ## A fictional brief you can inspect
 
@@ -34,7 +34,7 @@ The public sample is for Juniper Supply, an invented outdoor brand. Its made-up 
 | Keep the same | Product, audience, format, destination and offer |
 | Call to action | Explore the bottle |
 
-The image is AI-generated for the fictional brand. It has not run in a real advertising account. The performance figures in the exercise are invented and do not establish which message works.
+AI-generated creative for the sample Juniper Supply brand. The exercise uses illustrative performance data to show the review process.
 
 ![AI-generated bottle advertisement for the fictional Juniper Supply brand](../assets/workspace/juniper-ad.png)
 
@@ -44,7 +44,7 @@ The image is AI-generated for the fictional brand. It has not run in a real adve
 
 The creative-review work in the platform combines results with the ad itself. It can prepare notes for different readers: a client needs a clear explanation, while a designer needs a useful next concept.
 
-An observation should stay close to its evidence. If a small group of ads shares an opening question and performs better in a particular window, that may suggest a direction to test. It does not prove the question caused the improvement. The report needs the number of ads, the window and the limits of the comparison.
+I keep observations close to their context: the ads, dates, delivery and customer response. A useful pattern becomes a focused idea for the next test, with a clear reason for trying it.
 
 The product's creative-confidence work also considers whether enough delivery has happened to make a purchase-performance judgment. A new ad should not automatically be called a failure because it has no orders after very little spend. Awareness work needs different judgment from a purchase campaign.
 
@@ -58,7 +58,7 @@ This is the kind of practical direction I want an AI tool to help prepare. It sh
 
 I have also worked on a broader creative operating system: preparation, production, quality review, launch and learning. It separates account evidence from task ownership and makes the handoffs explicit.
 
-That broader process is still awaiting some leadership and rollout choices. The existing brief and review tools are a more concrete part of the work. I keep those stages clear so a planned team process is not presented as a completed transformation.
+The process design connects the existing brief and review tools to the wider team workflow. A designer gets a clear starting point; a strategist gets a defined review; the next round uses what the team learned.
 
 The [ad-launch mapper](../projects/ad-launch-mapper.html) handles another practical handoff. It converts planner content into the fields the launch tool expects and checks the copy, links and assets before import.
 
@@ -66,4 +66,4 @@ The [ad-launch mapper](../projects/ad-launch-mapper.html) handles another practi
 
 I define the marketing questions, the brief structure, the evidence needs and the review standard. I work hands-on with AI to build and improve the tools, then check whether the result is useful to the person doing the work.
 
-This demonstrates customer thinking, creative strategy, test planning and AI-assisted product delivery. The campaign results live in the separate campaign case; the invented example here demonstrates my method, not a commercial outcome.
+This work brings together customer thinking, creative strategy, test planning and AI-assisted product delivery. Explore the [holiday campaign](compartes.html) for the business results, original creative and budget planning behind a specific engagement.

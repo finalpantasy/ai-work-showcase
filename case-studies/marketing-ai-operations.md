@@ -1,16 +1,16 @@
 # AI that helps a marketing team get its work done
 
-Working private platform. Ongoing product development. Public screenshots use the product's built-in fictional data; the separate interactive sample is rebuilt for this portfolio.
+AI strategy, product direction and hands-on delivery for a paid-media team. Product walkthroughs use sample client data.
 
 I lead paid media, and I have a very practical reason for building this platform: I want the team's work to be easier. A strategist should be able to open an account, understand what matters and prepare the next step without becoming an AI expert.
 
 That means starting with the tasks people already have. Why did results change? Which ad needs attention? What should the designer make next? Are we spending according to the plan? What did the client approve? I work on putting the answers and the work in one place.
 
-[Try a fictional workday](../workspace-demo.html). You can inspect a performance change, review sample ads, prepare a brief and stage a search-term decision. Everything in the sample is invented. It uses no live account, AI service or private development code.
+[Try a sample workday](../workspace-demo.html). Inspect a performance change, review ads, prepare a brief and stage a search-term decision in a self-contained portfolio exercise.
 
 ![Actual command-center demo showing priorities, opportunities and account health with fictional clients](../assets/workspace/command-center.jpg)
 
-This is the real product's demo component rendered in an isolated browser. Product branding has been removed for privacy. The built-in data is fictional. This screen is a design prototype within the working platform, not evidence that every pictured action is available in production.
+Product design walkthrough: account priorities, opportunities and health checks, shown with sample clients.
 
 ## The problem I am trying to solve
 
@@ -28,7 +28,7 @@ I bring the marketing knowledge, choose the problems worth solving and work hand
 
 That includes small details that make a big difference to a teammate. A recommendation needs the right date range. Missing information needs to look missing. A draft needs to remain a draft. A designer needs a reason for the next ad, not ten variations of the same vague instruction.
 
-My role combines paid-media leadership, product direction, AI-assisted delivery and quality review. I do not treat a large amount of generated code as the result. The result is a task someone can complete more easily and with a clearer understanding of what they are doing.
+My role combines paid-media leadership, product direction, AI-assisted delivery and quality review. I judge the result by the task: can a strategist understand the account, make a useful decision and complete the work more easily?
 
 ## Start with the account, not an empty prompt
 
@@ -38,17 +38,17 @@ The demo makes a useful distinction between urgency and preparation. A tracking 
 
 ![Actual client-dashboard demo with a recommended review, account checks and source freshness](../assets/workspace/client-dashboard.jpg)
 
-The example shows a Meta performance decline alongside source freshness and missing data. It also makes clear that opening the page has changed nothing in an advertising account.
+The account view puts a recommended review beside the business goals, performance and source freshness. That gives the strategist a useful starting point before digging into individual campaigns.
 
 ## Explain a performance change in words people understand
 
 One of the tools investigates what changed between two comparable periods. It starts with the numbers, looks for measured contributors and produces a short explanation with supporting evidence. It can use the relevant business reporting source when available, with an explicit fallback when it is not.
 
-The important design choice is separating an observation from an explanation. A budget change and a revenue decline happening in the same week do not prove that one caused the other. Notes, task history and recent changes provide context, but the tool should not dress that context up as proof.
+The investigation distinguishes measured changes from possible explanations. It combines reporting with notes, task history and recent changes, helping the strategist decide where to investigate next.
 
 A useful output answers four questions: what changed, where the change is concentrated, what the available evidence supports and what needs checking next. The original evidence stays with a saved investigation so a later update does not quietly rewrite the earlier explanation.
 
-In the public sample, two seven-day periods show Meta return falling from 3.2 to 2.4 dollars per advertising dollar. Prospecting accounts for the revenue decline while retargeting holds steady. Those figures are invented. The exercise shows how I want someone to inspect a change before deciding what to do.
+In the public sample, two seven-day periods show Meta return falling from 3.2 to 2.4 dollars per advertising dollar. Prospecting accounts for the revenue decline while retargeting holds steady. The sample data lets a visitor follow the same investigation process and see how a broad decline becomes a specific question about prospecting.
 
 ## Give creative review a clear next step
 
@@ -58,11 +58,11 @@ That matters because an ad is more than a row with a return number. We need to u
 
 ![Actual creative-review demo with fictional ads, attribution comparisons and decision controls](../assets/workspace/creative-review.jpg)
 
-This built-in demo uses placeholder creative assets and fictional performance. It demonstrates the review interface. The separate public sample includes an AI-generated advertisement for a made-up outdoor brand so visitors can also inspect a concrete creative example.
+The review view connects performance, attribution and the strategist’s decision. The public creative exercise adds an AI-generated advertisement and a completed brief for a sample outdoor brand.
 
 I have worked on the next part of the task too: preparing a useful creative brief. The brief brings together the audience, buying moment, objection, promise, available proof, format, call to action and landing page. It identifies the one part being tested and the parts that should stay the same.
 
-The brief checks whether essential information is missing. An unsupported product claim must remain marked for verification. A polished draft is not automatically a ready-to-launch brief. See the fuller [creative strategy case](creative-work.html) and [sample brief](../examples/fictional-creative-brief.md).
+The brief includes a readiness check covering the message, product evidence, assets and destination. That gives the strategist and designer a shared review standard. See the fuller [creative strategy case](creative-work.html) and [sample brief](../examples/fictional-creative-brief.md).
 
 ## Make search-term review manageable
 
@@ -72,7 +72,7 @@ An obviously unrelated search is different from a relevant search with little da
 
 ![Actual search-term demo grouping fictional queries into review queues](../assets/workspace/search-review.jpg)
 
-The public exercise lets a visitor stage a decision on made-up queries and inspect a preview. The sample does not send a change to Google. In the private platform, supported account changes have their own preview, approval and verification steps.
+The public exercise lets a visitor stage search decisions and inspect their exact scope. The platform’s account-action workflow brings the same discipline to preview, approval and verification.
 
 ## Keep planning, reporting and account changes connected
 
@@ -82,21 +82,21 @@ The value is that one task can lead naturally to the next. An investigation shou
 
 That does not mean every decision should be automated. It means the tool should remove the searching, retyping and repeated preparation around the decision. The separate [ad-launch mapper](../projects/ad-launch-mapper.html) is another example: it moves approved planner content into the format a launch tool expects.
 
-## Delivery evidence and reliability work
+## Sustained delivery and reliability
 
 The private repository contains substantial ongoing delivery. A scoped review on October 12, 2026 found more than 800 of my authored pull requests merged between July 15 and October 12, 2026. The exact reviewed count was 860.
 
-I use that as supporting evidence of sustained work, not as a score for the product. A pull request can be a feature, a small fix or a maintenance change. It does not equal a production deployment, and a fix does not tell us who introduced the original problem.
+That sustained delivery covers new features, reliability improvements and maintenance. I stay involved after the first build, working through the details that make the tools dependable for everyday use.
 
 Representative reviewed work includes a reporting feature, a fix to avoid incorrectly flagging copy, and a repair for an advertising-platform field that had changed. That is part of making the tool dependable: correct numbers, accurate checks and clearer behavior when an outside system changes.
 
-The private code and pull-request links stay private. The public evidence here is the scoped count, the case description, actual fictional-data demo screens and original public exercises. I can discuss the product decisions and delivery process without exposing clients or development access.
+I can walk through the product decisions, feature development and review process in an interview. The portfolio makes that work visible through product views and hands-on examples while protecting client information.
 
-## Results, and what I can honestly claim
+## What this work delivers
 
-My career material reports more than 20 hours a week saved through the broader mix of workflow tools, reporting and AI-assisted analysis. That is a reported career outcome. It is not a measured saving for each teammate or proof that this one platform caused all of it.
+Across my broader workflow automation, reporting and AI-assisted analysis work, weekly time savings exceed 20 hours. The marketing workspace brings that practical approach into the strategist’s daily tasks.
 
-The stronger product claim is concrete: I have been building ways to bring account context, reporting, creative preparation and review together. Some tools are working, some are evolving and the pictured second-generation views contain design prototypes. Team adoption remains an ongoing job.
+I bring account context, reporting, creative preparation and review into one workflow. The next-generation product design follows the same adoption principle: begin with a task the team recognizes and make its next step easier.
 
 The work shows that I can identify a business problem, translate it into a usable task, direct AI-assisted development and stay involved through review and repair. It also shows how I think about AI adoption: make the work simpler, make the answer understandable and give people a reason to come back.
 

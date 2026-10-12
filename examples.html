@@ -11,7 +11,7 @@
   <div id="pace-output" aria-live="polite"><p id="pace-status" class="status"></p><p id="pace-detail"></p>
     <div class="pace-track" aria-hidden="true"><div id="pace-bar"></div><i id="plan-marker"></i></div><p class="caption">Blue: actual spend / period budget. Line: planned spend to date.</p>
     <dl class="output-list"><div><dt>Planned to date</dt><dd id="planned"></dd></div><div><dt>Expected spend at this pace</dt><dd id="projection"></dd></div><div><dt>Daily amount left in the plan</dt><dd id="reference"></dd></div></dl>
-  </div><p class="caption">This compares spend with an even daily plan. It uses made-up numbers and stays in this browser.</p></div></section><section id="demos"><div class="section-heading"><h2>Try the failure paths</h2><p>A plausible answer is not enough. These rebuilt examples let you inspect how the work behaves when assumptions fail.</p></div>
+  </div><p class="caption">This compares spend with an even daily plan. It uses made-up numbers and stays in this browser.</p></div></section><section id="demos"><div class="section-heading"><h2>Explore the review workflows</h2><p>Try the steps behind a dependable workflow: review the exact change, check the result and keep approved copy intact.</p></div>
 <article class="demo-row"><div class="demo-context"><h3>Review a change and check that it worked.</h3><p>Before changing a budget, check the account and amount. After the change, read the budget again to see whether it matches.</p><p>Choose an example and follow the steps. One example shows what happens when the plan gets too old to use.</p><a href="case-studies/marketing-ai-operations.html">Read about the real work →</a></div>
 <div class="artifact action-demo"><div class="artifact-heading"><h4>Change checking simulator</h4><span class="label">Fictional data</span></div>
 <label>Scenario<select id="scenario"><option value="success">Matching result check</option><option value="stale">Expired preview</option><option value="mismatch">Check the result mismatch</option></select></label>
@@ -22,6 +22,6 @@
 <div class="artifact"><div class="artifact-heading"><h4>Check the example copy</h4><span class="label">Fictional copy</span></div>
 <label>Example copy<textarea id="copy-input" rows="5" spellcheck="false">Try "examplebrand gifts", visit https://example.invalid/examplebrand, or follow @examplebrand. Examplebrand is the incorrect spelling in prose.</textarea></label>
 <dl class="output-list"><div><dt>Warnings from a simple spelling rule</dt><dd id="naive-count"></dd></div><div><dt>Warnings after protecting links and phrases</dt><dd id="calibrated-count"></dd></div></dl>
-<p id="audit-summary" aria-live="polite"></p><ul id="copy-issues" class="event-log"></ul><p class="caption">Original illustration of a rule, not the private production validator. Copy stays in your browser.</p></div></article>
+<p id="audit-summary" aria-live="polite"></p><ul id="copy-issues" class="event-log"></ul><p class="caption">Interactive copy-review example. Your edits stay in this browser.</p></div></article>
 </section>
 <script type="module" src="assets/app.mjs"></script></main><footer><p>Published as finalpantasy</p><a href="https://github.com/finalpantasy/ai-work-showcase">Portfolio source</a></footer></body></html>

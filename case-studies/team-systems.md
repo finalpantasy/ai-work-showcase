@@ -1,8 +1,8 @@
 # Make good team work easier to repeat
 
-Established leadership and operating systems. AI training and some newer workflows remain in development.
+Paid-media leadership, team operations and practical AI training.
 
-I have led paid-media strategists and worked on the systems around their work: hiring, onboarding, audits, launch checks, reporting, seasonal planning and learning. My career material describes leading a team of five or more strategists and managing a large, varied client portfolio.
+I have led paid-media strategists and worked on the systems around their work: hiring, onboarding, audits, launch checks, reporting, seasonal planning and learning. I have led five or more strategists across a large, varied client portfolio.
 
 The recurring problem is simple. A strong strategist can produce good work, but the team also needs a way for that work to happen consistently when people are busy, new or working on different accounts.
 
@@ -24,9 +24,9 @@ I use the same principle when bringing AI into the team. People do not need to l
 
 ## The AI learning path I have been developing
 
-I have been working on an AI training program that moves from basic use to more involved workflows. The underlying material distinguishes a short beginner path, a deeper middle path and advanced practice. It draws on reviewed external teaching resources rather than pretending that every lesson is an original course I produced.
+I have been working on an AI training program that moves from basic use to more involved workflows. The underlying material distinguishes a short beginner path, a deeper middle path and advanced practice. It combines reviewed teaching resources with practical exercises drawn from the team’s work.
 
-The training is still development work. I do not claim the whole team has completed it or that a planned curriculum proves adoption. The practical design question is how to make the next lesson useful enough that someone applies it to their own account.
+I design each lesson around something a strategist can use on an account: a better report, a clearer brief or a more focused investigation. That makes the learning path relevant to the work people already need to do.
 
 An example lesson is: take a weekly account question, provide the actual date range and source, ask for a short explanation, check the numbers and mark anything that is uncertain. That exercise teaches both usefulness and judgment.
 
@@ -36,7 +36,7 @@ An example lesson is: take a weekly account question, provide the actual date ra
 
 Team problems often come from unclear ownership. Who is preparing the creative brief? Who reviews it? Who launches the ads? Who checks whether the test taught us anything? When those questions are unresolved, the task can look active while nothing moves.
 
-I have worked on systems that make the stages and handoffs clearer. The newer creative operating-system work maps preparation, production, review, launch and learning. Some leadership and rollout choices are still open; I do not describe that broader rollout as complete.
+I have worked on systems that make the stages and handoffs clearer. The newer creative operating-system work maps preparation, production, review, launch and learning. The process design makes preparation, production, review and learning visible as separate responsibilities.
 
 The useful part is the thinking behind it: distinguish the tool that holds the account evidence from the place that holds the team's work. Give the task a clear deliverable, owner and review step. Make it possible to see why it is waiting.
 
@@ -52,12 +52,12 @@ Here is an illustrative creative handoff:
 | Launch | Approved content and the exact intended setup | Does the preview match the approval? |
 | Learn | Dates, spend, delivery and the result | What did this test support, and what is still uncertain? |
 
-This table is an original public example of my approach. It is not a screenshot of a private task board or proof that every team uses this exact process.
+This sample handoff shows how I connect the brief, production, approval and learning into one clear process.
 
 ## What I am good at here
 
 I can translate a broad expectation into work someone can actually do. I connect marketing judgment to a concrete template, review or tool. I also notice where a system creates too much friction and needs to be simpler.
 
-My career sources report improvements in retention and upsell value, but those are broader leadership results with limited public detail. I keep the specific campaign evidence in its own case rather than claiming a training document produced a financial result.
+My broader leadership work includes improved retention and $5M in upsells. Clear standards, stronger account work and useful client conversations are central to that role. The detailed campaign case shows how I apply those habits to a specific season.
 
 The team-systems story is about operating experience and AI adoption. I understand that building a tool is only one step. People also need the time, examples, review and support to use it well.

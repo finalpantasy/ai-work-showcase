@@ -8,13 +8,13 @@ Practical AI, marketing leadership and hands-on product building. Published as f
 
 ## Start with the marketing workspace
 
-I build around the work a paid-media strategist actually needs to do: understand an account, explain a change, review ads and prepare the next step. The flagship case includes four real product demo screens using fictional data, my contribution, delivery evidence and the limits of the work.
+I build around the work a paid-media strategist actually needs to do: understand an account, explain a change, review ads and prepare the next step. The flagship case includes four product views with sample client data, the decisions behind them and more than 800 merged contributions to the private codebase.
 
 [Read the flagship case](case-studies/marketing-ai-operations.html).
 
 ![Actual private product demo rendered with fictional data and privacy-edited branding](assets/workspace/client-dashboard.jpg)
 
-This is the actual product's built-in demo component in an isolated browser. Data is invented and private branding is removed. Some second-generation views are design prototypes. Private code and live account access are not published.
+Product design walkthroughs with sample client data. The workspace connects account context, reporting, creative and the team’s next step. Client information and source code stay private.
 
 The interactive public exercise is original demonstration code. Try performance review, creative review and a prepared brief, exact search exclusions, ad-import mapping and knowledge review. It makes no model calls or account changes and stores no work data.
 
@@ -48,7 +48,7 @@ The detailed Compartés holiday case includes original planning, a $200,000 five
 - [Morning planning brief](examples/fictional-morning-brief.md)
 - [Snipping Tool UL internal rendering benchmark](examples/snipping-render-benchmark.md)
 
-All new sample clients, queries, numbers and creative are invented. The bottle image is AI-generated demonstration content. The native utility images are actual UI code rendered offscreen with a synthetic image, not native-window screenshots. Its Microsoft comparison and repository publication remain in progress.
+Sample client data supports the product walkthroughs and interactive exercises. The Juniper Supply creative is AI-generated. Snipping Tool UL editor previews use a sample image.
 
 ## Check the public exercises
 

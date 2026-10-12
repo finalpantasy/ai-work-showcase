@@ -1,6 +1,6 @@
 # Stop entering the same ad data twice
 
-Built private tool. Public demonstration rebuilt with fictional rows; original client files remain private.
+Ad-import automation built around real launch requirements. Try the public example with sample planner rows.
 
 Ad planning and ad launching can require the same information in different places. Someone prepares the copy and assets in a planner, then someone types or pastes them again into a launch tool. That repeated work creates opportunities for mistakes.
 
@@ -28,7 +28,7 @@ The public example contains two invented ads for Juniper Supply. One deliberatel
 
 [Try the fictional mapper](../workspace-demo.html#mapper).
 
-The sample is original public demonstration code, with a smaller field set than the private tool. It illustrates mapping, validation and CSV handling. It does not connect to a planner or launch ads.
+The interactive example demonstrates field mapping, validation and CSV export. It gives a reviewer a practical way to inspect the handoff from a planner to an import file.
 
 ## What I check before calling an import ready
 
@@ -39,7 +39,7 @@ The sample is original public demonstration code, with a smaller field set than 
 | Numbered fields filled without gaps | Importers can interpret missing options differently |
 | Assets belong to this ad | Shared folders can create unintended creative combinations |
 | Format and call to action supported | The receiving tool has its own allowed values |
-| Preview reviewed | A successful file export does not prove the final ad is correct |
+| Preview reviewed | Confirm the final creative, copy and destination together |
 
 The public version also quotes CSV values properly and treats spreadsheet-like formula text as text. That keeps an example download predictable when someone opens it in a spreadsheet.
 
@@ -53,4 +53,4 @@ This is an example of choosing a narrow, useful automation. It does not need an 
 
 The work shows that I can see friction in a business process, translate it into specific requirements and build a tool around the real handoff. It also shows attention to the details that make automation usable: field names, naming patterns, punctuation, links and asset ownership.
 
-I do not claim a measured time saving for this individual tool. The evidence is the built mapper and its documented behavior. The next evaluation would compare a set of real launches for preparation time and errors, with client information kept private.
+The mapper replaces repeated data entry with a consistent handoff. It preserves approved copy, organizes the expected fields and catches problems before the file reaches the launch tool.

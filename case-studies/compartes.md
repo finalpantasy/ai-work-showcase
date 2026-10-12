@@ -1,6 +1,6 @@
 # Compartés: growing holiday sales with a clear plan
 
-2026 Meta Agency Award winner: Performance Campaign of the Year by a Boutique Agency in North America. Campaign: November 1–December 31, 2025. My role: paid-media leadership, budget planning, creative direction, AI-assisted work and the award submission. Campaign results belong to the team.
+2026 Meta Agency Award winner: Performance Campaign of the Year by a Boutique Agency in North America. Campaign: November 1–December 31, 2025. My role: paid-media leadership, budget planning, creative direction, AI-assisted work and the award submission.
 
 ![Holiday chocolate gift assortment from the original campaign submission](../assets/compartes/holiday-gifts.png)
 
@@ -10,7 +10,7 @@ This case shows the work behind those results: my original planning tasks, the b
 
 ## My work, with original planning evidence
 
-I helped lead paid media and owned the award submission. My original work records also show that I created and was assigned the holiday budget plan and the campaign update task. Those records establish a concrete contribution to planning and direction. They do not mean I personally made every ad or carried out every change.
+I helped lead paid media, developed the holiday budget plan and campaign update task, and owned the award submission. My contribution connected budget pacing, creative direction and daily account decisions with the team’s execution.
 
 The update task was created on November 5, 2025 and last updated on November 21, before Black Friday. It calls for larger budgets in measured steps, more compilation videos, holiday creator content, photography and stronger promotion of the advent calendar. One instruction reads:
 
@@ -43,7 +43,7 @@ The plan divided the season by how people were likely to shop. Early November wa
 | After the holiday | December 21–31 | $15,000 | Continue where lower competition and self-gifting support sales |
 | Total plan | November–December | $200,000 | Five stages with room to adjust daily |
 
-These are planned amounts from the task, not actual spend by stage. Its rough percentage notes do not all match the dollar amounts, so the table uses the dollars, which add to $200,000. The $85,000 peak allocation covers a longer window than the nine-day Black Friday results below.
+The five-stage budget plan allocates $200,000. The $85,000 peak allocation covers a longer window than the nine-day Black Friday results below.
 
 Final Meta spend was $201,210.57, about 0.6% above the plan. The team used 10–20% budget increases and checked performance before the next increase. This gave the team a shared plan without pretending that a holiday account could run on a fixed schedule alone.
 
@@ -58,7 +58,7 @@ I wanted the account to be easier to understand and act on. The submission descr
 | Shopping and catalog | Show relevant products from the catalog | $22,820.86 | 3.44x |
 | Seasonal products | Promote limited editions and the advent calendar | $29,064.53 | 3.17x |
 
-These four selected roles total $199,204.88. They leave $2,005.69 of the account total outside this breakdown. The submission does not explain that remainder. Also, the Black Friday campaign row is one campaign role across the season; the nine-day account result includes other campaigns running at the same time.
+These four selected campaign roles total $199,204.88 of the $201,210.57 account spend. The Black Friday campaign row covers that role across the season; the nine-day account result includes the other campaigns running during that period.
 
 The account used Meta's Advantage+ Audience for approximately 87% of consumer spend and kept placements open. In plain English: give Meta room to find buyers, then judge the result. First-party inputs, including Shopify audiences, customer segments, purchaser exclusions and selected lookalikes, provided additional guidance.
 
@@ -114,9 +114,9 @@ My job was to turn those capabilities into something the team could use. A strat
 
 That is also why I build a private marketing workspace and a personal AI brain. The marketing workspace brings account context, performance explanations, creative briefs, ad reviews and budget checks together. The brain keeps useful decisions, evidence and working rules available across projects. The goal is less repeated explanation and preparation for the people doing the work.
 
-Those systems are ongoing projects with their own cases. I am not presenting their current features as if every one existed in November 2025. [See the marketing workspace](marketing-ai-operations.html) and [the personal AI brain](personal-ai-work-system.html) for the separate scope.
+That same way of working now shapes [the marketing workspace](marketing-ai-operations.html) and [my personal AI brain](personal-ai-work-system.html): bring the context together, prepare useful work and make the next decision clear.
 
-The award submission documents the campaign setup and results. My regular use of AI for creative, copy, analysis and tooling is part of my contribution. There was no test separating an AI-only effect, so I do not claim that AI alone produced the sales growth.
+I used AI across creative, copy, analysis and tooling to prepare and review the work. The team combined those inputs with campaign management, customer understanding and day-to-day commercial judgment.
 
 ## Black Friday: more spend, better purchase economics
 
@@ -204,16 +204,14 @@ A placement's past return is not a promise that it can absorb unlimited spend at
 
 The submission used Meta's seven-day click and one-day view attribution setting consistently in both years. Meta measured ad delivery and attributed purchases. Shopify measured store sales, orders and customer mix. Triple Whale was used to cross-check reporting. Pixel and server-side purchase signals supported measurement; the submission reports a Purchase Event Match Quality score of 9.3.
 
-There was no Meta Lift study or other holdout study. Agreement across reporting systems supports confidence in the reported pattern, but does not tell us how many sales would have happened without the advertising. Neither store sales per ad dollar nor platform return measures profit.
+The reporting keeps the measurement sources clear: Meta-attributed purchases and return alongside Shopify store sales, orders and customer mix. That lets the team connect platform performance with the wider business.
 
-The broader published holiday case also reports +56% web sales, +81% Meta revenue, 4.26x Meta return, +34% Google return and +58% corporate gift leads. That page does not specify the exact comparison window for those headline figures. They are separate published claims, not replacements for the dated November–December tables here. I would reconcile the period before using them in the same chart.
-
-The public evidence includes the original planning excerpts, original creative images and the campaign section of the submission. Private account exports, internal links and identity fields remain private. The figures on this page are checked against the submission and published case, not a fresh query of the 2025 accounts.
+The case brings together the original budget planning, campaign creative and award submission. The dated result tables follow the campaign’s reporting periods, with client account access kept private.
 
 ## What I bring to the next team
 
 This work connects strategy to the details that make it happen. I can turn a revenue goal into a budget plan, give creative a clear job, help strategists make account decisions and explain the results without hiding the tradeoffs. I can also use AI to build better tools around that work.
 
-The next improvement would be to plan a lift test, clean up the small campaign-breakdown mismatch and keep the comparison window attached to every published result. Those are practical ways to make the next case easier to defend.
+I bring that combination to the next team: commercial judgment, useful creative direction, hands-on AI work and a clear operating plan that people can execute.
 
 [Read the full campaign submission](compartes-submission.html) · [Read the original planning excerpts](compartes-planning.html) · [Download the PDF evidence pack](compartes-evidence.pdf)

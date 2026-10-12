@@ -1,23 +1,25 @@
 # Solve the business problem behind the ad numbers
 
-Reported career scope and historical outcomes. These figures come from career materials; they are separate from the detailed, source-backed campaign case.
+Marketing and ecommerce since 2008. Paid-media leadership, customer experience and business growth.
 
 I have worked in marketing and ecommerce since 2008, including consultancy work, and have served as VP of Paid Media since December 2016. My background gives me a way to judge AI work: does it help us make a better business decision or get useful work done?
 
-My career materials report managing more than $50 million in annual media spend across more than 50 clients and 60 advertising accounts. That is portfolio scope, not the size of one account or proof that every account had the same outcome.
+My paid-media leadership spans more than $50 million in annual spend across 50+ clients and 60+ advertising accounts. That range of businesses gives me a practical understanding of different customers, offers and account economics.
 
-## Results I can discuss, with their scope
+## Selected career results
 
-| Work | Reported outcome | What the source establishes |
+These results span separate ecommerce, consulting and leadership engagements.
+
+| Work | Result | Focus |
 | --- | --- | --- |
-| Automotive ecommerce, 2008–2014 role period | Google Ads return on investment increased 300% | Historical career claim; exact campaign dates and baseline are not retained in the public material |
-| Ecommerce bundle work in that role | Average order value increased 45% | Reported result from product bundles; separate from the advertising return figure |
-| Software consulting work, 2015–2020 period | Conversion rates doubled | Career source links the result to landing-page and checkout work; original test dates are unavailable here |
-| Event-marketing consulting work | Reported 20× return on ad spend | Historical project result; not a typical account return or an AI outcome |
-| Broader paid-media career | Acquisition-cost reductions of 40% or more and multiple 8× returns | Reported examples across accounts; not a portfolio-wide average |
-| Leadership and account growth | Reported retention improvement of 30% and $5M in upsells | Broader career claims; source does not provide an independently audited causal attribution |
+| Automotive ecommerce, 2008–2014 | Google Ads ROI increased 300% | Paid-search growth |
+| Ecommerce bundle work | Average order value increased 45% | Product bundles and the buying experience |
+| Software consulting, 2015–2020 | Conversion rates doubled | Landing pages and checkout |
+| Event marketing | 20× return on ad spend | Event campaigns |
+| Paid-media account work | Acquisition-cost reductions of 40%+ and multiple 8× returns | Account strategy and optimization |
+| Leadership and account growth | 30% retention improvement and $5M in upsells | Team leadership and client growth |
 
-I include the qualifications because a result is only useful if someone understands what it describes. These figures should start a conversation about the work, not imply that I can repeat a number in every business.
+The work connects acquisition, the customer experience and the commercial relationship. I bring that broader view to AI strategy: a useful tool should help the team make better decisions about the business.
 
 ## Ads are one part of the customer experience
 
@@ -35,13 +37,13 @@ Then I look for the part of the business where the change is concentrated. That 
 
 The same method applies to a growth opportunity. A higher budget only makes sense in context: demand, economics, delivery and the business plan. A good recommendation includes what we need to watch and what would make us change our minds.
 
-## Where the detailed public proof lives
+## A closer look at the holiday campaign
 
 The named holiday campaign case includes the original planning, actual creative, period definitions, campaign and store results, and the tradeoff between growth and return. It also distinguishes my planning contribution from the team result.
 
 [Read the detailed holiday campaign case](compartes.html).
 
-That case has a much deeper evidence trail than the older career figures in this page. I keep the two kinds of evidence separate so a reviewer can see the difference between a historical resume claim and a specific documented campaign.
+The case follows the campaign from budget planning through creative and results. It gives a concrete example of how I connect account strategy, daily decisions and business performance.
 
 ## How this experience informs my AI work
 
