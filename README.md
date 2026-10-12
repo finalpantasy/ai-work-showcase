@@ -1,48 +1,59 @@
 # AI Work Showcase
 
-I lead paid media and build tools that make the team's work easier. My focus is making AI useful in everyday marketing work.
+Practical AI, marketing leadership and hands-on product building. Published as finalpantasy.
 
-## Read the portfolio
+[Open the portfolio](https://finalpantasy.github.io/ai-work-showcase/) · [Try the fictional marketing workday](workspace-demo.html).
 
-[Open the website](https://finalpantasy.github.io/ai-work-showcase/).
+![Actual portfolio page in a browser](assets/portfolio.jpg)
 
-![The working AI Work Showcase homepage](assets/portfolio.jpg)
+## Start with the marketing workspace
 
-This is a real browser capture of this portfolio. Private product screens and client records are withheld.
+I build around the work a paid-media strategist actually needs to do: understand an account, explain a change, review ads and prepare the next step. The flagship case includes four real product demo screens using fictional data, my contribution, delivery evidence and the limits of the work.
 
-## Featured campaign, with original evidence
+[Read the flagship case](case-studies/marketing-ai-operations.html).
 
-[Read the full Compartés case on the website](case-studies/compartes.html).
+![Actual private product demo rendered with fictional data and privacy-edited branding](assets/workspace/client-dashboard.jpg)
 
-The case includes my original operating-task excerpts, a five-stage $200,000 budget plan, six creative images from the award submission, ad-level performance, the Black Friday and full-season tables, store/customer results and placement comparisons. The full-season return tradeoff is included alongside growth.
+This is the actual product's built-in demo component in an isolated browser. Data is invented and private branding is removed. Some second-generation views are design prototypes. Private code and live account access are not published.
 
-- [Original planning excerpts](case-studies/compartes-planning.md)
-- [Full campaign section of the submission, privacy edited](case-studies/compartes-submission.md)
-- [Download the case and evidence pack](case-studies/compartes-evidence.pdf)
+The interactive public exercise is original demonstration code. Try performance review, creative review and a prepared brief, exact search exclusions, ad-import mapping and knowledge review. It makes no model calls or account changes and stores no work data.
 
-Campaign outcomes are team results. Creative is shown as original stills, not a new mockup; video and GIF assets are not playable here. Private source IDs and identity fields stay private.
+## Explore the work
 
-## What I have worked on
+- [AI Marketing Workspace](case-studies/marketing-ai-operations.html) — Account context, performance investigations, creative briefs, ad review, search terms and a clearer next step.
+- [My personal AI brain](case-studies/personal-ai-work-system.html) — Keep useful decisions, evidence and working rules available across projects and conversations.
+- [Snipping Tool UL](projects/snipping-tool-ul.html) — A daily screenshot task, a thoughtful editor and measured internal rendering improvements.
+- [Compartés holiday campaign](case-studies/compartes.html) — Original budget planning, actual campaign creative, period-specific results and the full submission.
+- [Creative strategy and testing](case-studies/creative-work.html) — Customer problems, supported proof, useful briefs and a clear reason for the next ad.
+- [Team systems and AI training](case-studies/team-systems.html) — Hiring, onboarding, audits, launch checks and a practical learning path for busy strategists.
+- [Ad-launch mapper](projects/ad-launch-mapper.html) — Move planner rows into an import file without retyping approved copy or mixing up assets.
+- [Day-ahead planning](projects/daily-planning.html) — Turn near-term tasks into actual drafts, specific decisions and a phone-readable brief.
+- [Summoner](projects/summoner.html) — Keep projects, AI conversations, tasks, context and change review together.
+- [Claude Quest](projects/workflow-companion.html) — A small local companion for Claude Code, built around work activity without extra model calls.
+- [Growth work and results](case-studies/growth-results.html) — Ecommerce, software, events and leadership experience, with the scope behind each figure.
 
-- [AI for marketing teams](case-studies/marketing-ai-operations.md): Make common account tasks easier.
-- [My personal AI brain](case-studies/personal-ai-work-system.md): Keep useful knowledge and decisions within reach.
-- [Compartés holiday campaign](case-studies/compartes.md): Grow sales while keeping ad costs under control.
-- [Team systems and AI training](case-studies/team-systems.md): Make good work easier to repeat.
-- [Growth work and results](case-studies/growth-results.md): Solve the business problem behind the ad numbers.
-- [Creative strategy and testing](case-studies/creative-work.md): Give the team a clear reason for the next ad.
-- [Ad-launch mapper](projects/ad-launch-mapper.md): Stop entering the same ad data twice.
-- [Day-ahead planning skill](projects/daily-planning.md): Start the day with useful drafts ready to review.
-- [Summoner](projects/summoner.md): Keep AI project work together.
-- [Claude Quest](projects/workflow-companion.md): Make long Claude Code sessions more enjoyable.
+## Campaign evidence
 
-## A few results
+The detailed Compartés holiday case includes original planning, a $200,000 five-stage budget plan, six original creative images, campaign/store results and the full award submission. Outcomes are team results, and the full-season return tradeoff is included.
 
-Reported career experience includes $50M+ in annual media spend across 50+ clients and 60+ ad accounts, and 20+ hours saved per week through workflow tools and AI-assisted reporting and analysis.
+- [Original planning excerpts](case-studies/compartes-planning.html)
+- [Full campaign submission, privacy edited](case-studies/compartes-submission.html)
+- [23-page evidence pack](case-studies/compartes-evidence.pdf)
 
-The named holiday campaign and historical ecommerce, software and event examples have separate case studies. Each keeps the role, period, result and source limits clear.
+## Useful examples
 
-## What is public here
+- [Creative brief](examples/fictional-creative-brief.md)
+- [Reviewed knowledge record](examples/fictional-knowledge-record.md)
+- [Short AI reporting lesson](examples/ai-reporting-lesson.md)
+- [Morning planning brief](examples/fictional-morning-brief.md)
+- [Snipping Tool UL internal rendering benchmark](examples/snipping-render-benchmark.md)
 
-This repository contains the website, written cases and small fictional-data examples. Private development code, client records and internal documents stay private. Project stages are stated in the cases.
+All new sample clients, queries, numbers and creative are invented. The bottle image is AI-generated demonstration content. The native utility images are actual UI code rendered offscreen with a synthetic image, not native-window screenshots. Its Microsoft comparison and repository publication remain in progress.
 
-Published as finalpantasy. Summoner builds on CloudCLI; its case links to the upstream project and states the license.
+## Check the public exercises
+
+Use Node.js: `node --test tests/*.test.mjs`.
+
+The tests cover the financial comparison, field compaction, URL validation, CSV quoting, spreadsheet formula handling and invalidation of an altered preview, along with the earlier exercises. Browser review checks the visible flows and responsive layouts separately.
+
+Private source records, names, account IDs, credentials and client files remain private. A named campaign is included with explicit permission; other client and employer identities are excluded.

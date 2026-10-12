@@ -1,33 +1,64 @@
-# Summoner: one place to manage my AI work
+# Summoner: keep AI project work together
 
-My role: Product direction and AI-assisted development. Status: Private desktop prototype in development.
+Desktop workspace prototype in active development. Private source. Account connections, installers and broader native acceptance remain incomplete.
 
-## Why I am building it
+I use AI to build and run a lot of work. Once there are several projects, chats, tasks and changes in flight, the problem becomes keeping the work together. Summoner is the desktop workspace I have been developing around that problem.
 
-I work with AI across many projects. I want to keep the project context, conversations, tasks and changes together so I can see what is happening and decide what to do next.
+I want to see the project, its current context, the conversation and the result without constantly rebuilding that picture across separate tools. The aim is a place where I can direct the work and review what came back.
 
-Summoner is my work on a desktop home for that process. It gives me a place to organize AI work rather than relying on scattered chats.
+## The task I am designing for
 
-## The experience I am working toward
+A project has a goal, files, decisions, open tasks and changes that need review. A conversation is only one part of it. When the chat ends, the project should still have a clear state.
 
-Open a project. See its context and work. Choose the AI setup for the task. Review what changed. Keep track of the next step.
+The workspace work includes project navigation, chats, tasks, model choice and reviewing changes. The current implementation direction is a native desktop shell with a web interface inside it. It derives from an existing open-source workspace; I do not present the upstream foundation as my invention.
 
-I make product decisions about those steps and work through the implementation with AI. My focus includes clear task ownership, useful handoffs and review of the files that changed.
+The product work is in how the pieces fit the way I work: choosing a project, supplying context, deciding what an assistant should do and keeping the result reviewable.
 
-The user chooses the model. I want that choice to be understandable and under their control.
+## Keep a safe sample separate from real work
 
-## How I direct the build
+The development includes a sample workspace so interface work can be tested without signing into real AI accounts or reading private project content. That is a useful product decision: we can judge the workflow before giving it access to actual work.
 
-I break the work into bounded changes, set the expected behavior and check the result. I also review the interface because a passing code check does not show that a person can use it comfortably.
+The sample is not proof that live account connections work. Real authentication, pairing, relay behavior and broader installed-app acceptance still have their own gates. A working demo screen should not silently become a claim of a finished product.
 
-The project includes desktop and local-server work. Some development checks use fixtures or stand-ins. Those checks help with development; they do not establish a finished installed product.
+This public case is a description of my work. The private workspace, messages and development history remain private.
 
-## Current stage
+## Preserve the work when several changes happen at once
 
-The private prototype has tested development checkpoints. Installation, live account use and full product acceptance are still separate steps. I am presenting active product work, not a public release.
+The project has needed coordination across different areas. Separate changes can touch the desktop shell, the document view, the chat experience or the project state. I have worked on keeping those areas bounded and making integration a deliberate step.
 
-Summoner builds on the open-source [CloudCLI project](https://github.com/siteboon/claudecodeui). Its upstream license is AGPL-3.0. My work covers the product direction and changes built around that foundation.
+That includes knowing who owns a change, what the current checkpoint is and which result has actually been reviewed. A test result from an earlier checkpoint is useful history; it is not a fresh guarantee for the latest build.
 
-## What this shows
+These habits matter to the product as well. An AI workspace should make the state of work clearer, not make it easier to lose track of what has changed.
 
-I can direct software work from a practical need. I think through what the person sees, what they can control and how they review the result. AI helps me build and iterate on that product.
+## What I want a project handoff to contain
+
+Here is an original example of the handoff structure I am aiming for:
+
+| Item | What a new session should be able to understand |
+| --- | --- |
+| Goal | The user's intended result in ordinary language |
+| Current state | What exists now and what has been verified |
+| Decisions | Accepted choices and the reason for them |
+| Open work | The next bounded task and what blocks it |
+| Changes | The files or outputs that need review |
+| Limits | Anything tested only in sample mode or still awaiting real use |
+
+This table is illustrative. It shows the operating approach without exposing the project's actual private task queue.
+
+## My contribution
+
+I define the experience I want as an active user of AI project tools. I work through product and workflow choices, direct AI-assisted implementation, review the interface and push for clear state and usable results.
+
+I have also worked on the surrounding operating rules for models, context, handoffs and verification. Those rules are useful only if the workspace makes them understandable and easy to follow. The software and the method need to support each other.
+
+## What is complete and what is still open
+
+There is an active desktop prototype and sample-workspace development. Current project records describe integrated work and checks at specific checkpoints. I am not claiming a finished public release, reliable live account integration or a published private-code portfolio repository.
+
+The project also has an upstream license that needs to be preserved in any distribution. A private repository does not remove that obligation. Public showcase material should explain the contribution while keeping the underlying project and work records protected.
+
+## Why it belongs in this portfolio
+
+Summoner shows that my AI work extends beyond marketing prompts. I am thinking about the environment people need to do sustained work with AI: context, tasks, direction, review and continuity.
+
+The same idea appears in the [marketing platform](../case-studies/marketing-ai-operations.html) and [personal brain](../case-studies/personal-ai-work-system.html). A useful system helps someone pick up the work, understand it and make the next step.

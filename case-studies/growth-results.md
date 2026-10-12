@@ -1,39 +1,52 @@
-# Marketing results beyond the AI tools
+# Solve the business problem behind the ad numbers
 
-My role: Paid-media strategy, analysis, campaign work and growth planning. Client names are withheld. The figures here are reported in my career evidence; they are not new independent account audits.
+Reported career scope and historical outcomes. These figures come from career materials; they are separate from the detailed, source-backed campaign case.
 
-## Managing a large portfolio
+I have worked in marketing and ecommerce since 2008, including consultancy work, and have served as VP of Paid Media since December 2016. My background gives me a way to judge AI work: does it help us make a better business decision or get useful work done?
 
-My career record reports $50M+ in annual media spend across 50+ clients and 60+ ad accounts. The work spans ecommerce, software, business services and lead generation.
+My career materials report managing more than $50 million in annual media spend across more than 50 clients and 60 advertising accounts. That is portfolio scope, not the size of one account or proof that every account had the same outcome.
 
-At that scale, I work on campaign structure, creative testing, tracking, landing pages and where to put the budget. I also build the reporting and team systems needed to keep those accounts understandable.
+## Results I can discuss, with their scope
 
-## Automotive ecommerce, 2008–2014
+| Work | Reported outcome | What the source establishes |
+| --- | --- | --- |
+| Automotive ecommerce, 2008–2014 role period | Google Ads return on investment increased 300% | Historical career claim; exact campaign dates and baseline are not retained in the public material |
+| Ecommerce bundle work in that role | Average order value increased 45% | Reported result from product bundles; separate from the advertising return figure |
+| Software consulting work, 2015–2020 period | Conversion rates doubled | Career source links the result to landing-page and checkout work; original test dates are unavailable here |
+| Event-marketing consulting work | Reported 20× return on ad spend | Historical project result; not a typical account return or an AI outcome |
+| Broader paid-media career | Acquisition-cost reductions of 40% or more and multiple 8× returns | Reported examples across accounts; not a portfolio-wide average |
+| Leadership and account growth | Reported retention improvement of 30% and $5M in upsells | Broader career claims; source does not provide an independently audited causal attribution |
 
-I led ecommerce marketing and paid search for an automotive parts retailer. The work included tighter keyword targeting, competitor searches, Shopping campaign structure and product promotion.
+I include the qualifications because a result is only useful if someone understands what it describes. These figures should start a conversation about the work, not imply that I can repeat a number in every business.
 
-My resume evidence reports a 300% improvement in Google Ads return on investment. It also reports a 45% increase in average order value from bundles developed with the sales team.
+## Ads are one part of the customer experience
 
-These are historical role results. The source does not provide a narrower campaign date window, so I keep them attached to that role period.
+When an account is underperforming, the answer may involve the creative, the audience or the campaign. It may also involve the offer, product availability, page speed, checkout, feed or measurement.
 
-## Software conversion work, 2015–2020 consulting period
+My work has included looking across those parts. A stronger ad does not fix a broken checkout. More traffic does not help if an important product is unavailable. A high reported return can be misleading if we are looking at the wrong customer group or attribution source.
 
-I worked on landing-page redesigns, checkout flow, clearer calls to action and better alignment between ads and the page people reached.
+That broader view shapes the tools I build. The marketing platform needs customer and account context, not just platform metrics. A creative brief needs a buying reason and useful proof. A budget review needs the plan and the timing, not just a line showing spend.
 
-My resume evidence reports doubled conversion rates for this software work. It does not supply the original baseline, test duration or a controlled experiment. I present it as a reported project outcome.
+## What I look for before making a change
 
-## Event advertising, 2015–2020 consulting period
+I start by defining the question and the period. Are we discussing total revenue, new customers, repeat orders, leads or platform-attributed purchases? Are the periods comparable? Did the offer, stock, budget or tracking change?
 
-I worked on targeting, creative, keyword strategy, the customer path and budget allocation across Google and Meta.
+Then I look for the part of the business where the change is concentrated. That can be a channel, audience, product, campaign or stage of the customer journey. The next step should follow the evidence, rather than a general rule to reduce spend whenever return falls.
 
-My resume evidence reports 2,000% return on ad spend for event campaigns, equivalent to 20 times the spend. This is advertising return, not business profit.
+The same method applies to a growth opportunity. A higher budget only makes sense in context: demand, economics, delivery and the business plan. A good recommendation includes what we need to watch and what would make us change our minds.
 
-## Find the problem outside the ad account
+## Where the detailed public proof lives
 
-My work also covers slow pages, checkout friction, product feeds, unclear offers, inventory limits and unreliable tracking. Sometimes the best next move is to fix one of those problems before spending more.
+The named holiday campaign case includes the original planning, actual creative, period definitions, campaign and store results, and the tradeoff between growth and return. It also distinguishes my planning contribution from the team result.
 
-That experience shapes the AI tools I build today. I want them to help a person understand the whole business problem and choose a useful next step.
+[Read the detailed holiday campaign case](compartes.html).
 
-## Keep the claims in their proper scope
+That case has a much deeper evidence trail than the older career figures in this page. I keep the two kinds of evidence separate so a reviewer can see the difference between a historical resume claim and a specific documented campaign.
 
-These are separate examples from different periods. They are not results from one account, and the older outcomes are not claims about AI impact. The named holiday campaign has its own case study with published, period-specific figures.
+## How this experience informs my AI work
+
+AI can help with research, analysis, drafting, tooling and preparation. The business knowledge is still needed to ask the right question and judge the answer. I bring that judgment from years of account and team work.
+
+I am especially interested in making that knowledge easier for others to use. Instead of asking every strategist to remember the full investigation process, I can build a view that presents the evidence, explains the issue and helps prepare the next step.
+
+The result I want is a team that can spend more time on customer and business decisions and less time searching for context or moving information between tools. That is the connection between my marketing background and my current AI strategy and product work.

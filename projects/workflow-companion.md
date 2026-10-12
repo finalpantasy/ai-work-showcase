@@ -1,31 +1,49 @@
-# Claude Quest: a companion inside Claude Code
+# Claude Quest: make long work sessions more enjoyable
 
-My role: Product direction, progression design and AI-assisted development. Status: Early-access extension, with more work in development.
+Public early-access Claude Code extension, version 0.1.0 at the reviewed checkpoint. Ongoing development.
 
-## The idea
+Claude Quest adds a small character to a Claude Code session. Work activity fuels its progress, while background camp activities continue locally. It is a playful project, but the product questions are serious: how can an extension be enjoyable without getting in the way or adding unnecessary cost?
 
-I wanted a small character that progresses while I work in Claude Code. It responds to activity in the session and gives long work sessions a sense of continuity.
+[Open the public repository](https://github.com/finalpantasy/claude-quest).
 
-The experience is meant to stay in the background. It uses local rules and authored content to advance the character.
+## Build around work that is already happening
 
-## What I have worked on
+The extension reacts to local session activity, such as reading, editing, using agents and committing. It turns those events into progress. The companion does not need to call a model to invent the next move.
 
-The project includes a progression engine, local save handling, a visual scene and a terminal presentation. I direct how those pieces should behave and use AI to work through the implementation.
+The reviewed version includes character progression, classes, equipment, a map and camp activities. Its presentation uses CSS and SVG animation. The design keeps the game beside the work rather than requiring a second conversation to maintain it.
 
-One important detail is multiple sessions. Opening another chat should not count the same activity twice. The source includes coordination and a test for repeated activity counts.
+That is the useful distinction behind the project's “zero tokens” wording: the companion's progression adds no model calls. It is not a claim that developing the extension used no AI or that the work session itself uses no tokens.
 
-Other product concerns include time away, older saves and a quieter display. I want the extension to be enjoyable without getting in the way of the work.
+## Make it quiet enough to live with
 
-## Keep the runtime small
+An extension above a prompt can become annoying quickly. It takes space from the task and can redraw more often than it needs to. The implementation aims to redraw at appropriate task events and keep the local state small.
 
-The progression runs from rules, activity counts and time. It makes no extra model calls for the character. The project keeps its save and activity state local.
+The product judgment is deciding which part of the experience earns its space. Progress should be visible, the character should be pleasant and the work should stay readable. More animation is not automatically a better extension.
 
-That design matches the job: a predictable companion that can run alongside AI work without needing another AI service to invent its next move.
+## Handle repeated events and multiple sessions
 
-## Current stage and source
+Local activity can arrive more than once or from several sessions. If every copy of an event earns another reward, the extension's progress stops reflecting the work. Multiple sessions can also compete to update the same save.
 
-The public early-access source is available in the [Claude Quest repository](https://github.com/finalpantasy/claude-quest). Further local work is in progress. This portfolio review inspected source; it did not run a fresh long-term play test or operate on a live save.
+The reviewed design uses a leader-and-follower approach for sessions and local save handling. That is ordinary software reliability applied to a small experience. It matters because someone should be able to open another session without breaking their progress.
 
-## Why I include it
+The save is local. The reviewed documentation describes a small state file and no external progression service. Privacy and clear ownership of local state are part of keeping the extension lightweight.
 
-This is a smaller example of my product judgment. I can take an idea, define how it should feel, work through edge cases and direct AI-assisted development toward a usable experience.
+## A playful surface still needs real product decisions
+
+I have worked on the feel of the companion, the progression and the implementation around it. A good experience needs more than an attractive character. It needs sensible behavior when a session ends, a save is restored or several sessions are open.
+
+The questions include when to award progress, how to avoid duplicate work, what to preserve in a save and how much activity to show. Those decisions are small enough to inspect and important enough to affect whether someone keeps using it.
+
+## My contribution
+
+I supply the product direction and work hands-on with AI on the design and build. I review whether the behavior is clear, enjoyable and appropriate for the work environment. I also care about the overhead and reliability of the extension, not just the visual idea.
+
+This project is not a marketing result. It is an example of interaction design, local automation, state handling and AI-assisted product building. It belongs here as a specific extension I have been working on, rather than a roundup of unrelated game repositories.
+
+## Evidence and limits
+
+The repository is public, so a reviewer can inspect the README and source. The reviewed public snapshot is early access. Compatibility with changing Claude Code extension hooks is a continuing risk, and I do not claim that every later local feature is already published.
+
+The public repository uses a pseudonymous author. Development work and personal project context remain separate. I have not included private chats or local save files in this showcase.
+
+The project shows how I use AI to move from an idea to a concrete tool while paying attention to the person using it. For the business version of that approach, see [the marketing workspace](../case-studies/marketing-ai-operations.html) and [the ad-launch mapper](ad-launch-mapper.html).
