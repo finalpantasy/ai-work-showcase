@@ -549,3 +549,19 @@ body[data-accent="acid"] .accent-swatch { background: var(--acid); }
 .hero-award img { width:88px; height:106px; object-fit:contain; flex-shrink:0; }
 .campaign-award { width:68px; height:82px; object-fit:contain; flex-shrink:0; }
 .case-footnote a { font-size:0.875rem; }
+
+.film-section { padding-top:clamp(3rem,6vw,6rem); }
+.film-heading { display:flex; align-items:baseline; justify-content:space-between; gap:1rem; padding-bottom:1.2rem; }
+.film-heading h2 { margin:0; font:700 clamp(1.45rem,2.6vw,2.5rem)/1.15 var(--body); letter-spacing:-0.035em; }
+.film-heading > span { flex-shrink:0; font-size:0.875rem; color:var(--muted); }
+.portfolio-film { margin:0; }
+.portfolio-film video { display:block; width:100%; aspect-ratio:16/9; height:auto; background:var(--ink); border:1px solid var(--rule); }
+.portfolio-film figcaption { display:flex; align-items:center; justify-content:space-between; gap:1rem; padding:1.15rem 0; border-bottom:1px solid var(--rule); }
+.film-actions { display:flex; align-items:center; gap:1rem; flex-wrap:wrap; }
+.film-actions > span { color:var(--muted); font-size:0.875rem; }
+.portfolio-film figcaption > a { font-size:0.875rem; white-space:nowrap; }
+.film-transcript { padding:1rem 0; color:var(--muted); font-size:0.875rem; }
+.film-transcript summary { cursor:pointer; width:fit-content; }
+.film-transcript summary:focus-visible, .portfolio-film video:focus-visible { outline:3px solid var(--cobalt); outline-offset:4px; }
+.film-transcript > div { max-width:75ch; padding-top:0.4rem; font-size:1rem; }
+@media (max-width:650px) { .film-heading, .portfolio-film figcaption { align-items:flex-start; flex-direction:column; } .film-heading { gap:0.5rem; } }
