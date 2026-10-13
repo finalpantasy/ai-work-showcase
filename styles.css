@@ -546,5 +546,6 @@ body[data-accent="acid"] .accent-swatch { background: var(--acid); }
 .award-copy { display:grid; gap:0.1rem; }
 .award-copy strong { font-size:1rem; }
 .award-copy > span { font-size:0.875rem; }
-.hero-award img { width:76px; height:76px; object-fit:contain; }
+.hero-award img { width:88px; height:106px; object-fit:contain; flex-shrink:0; }
+.campaign-award { width:68px; height:82px; object-fit:contain; flex-shrink:0; }
 .case-footnote a { font-size:0.875rem; }
