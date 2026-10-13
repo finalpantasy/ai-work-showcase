@@ -1,5 +1,4 @@
 (() => {
-  const demo = document.querySelector("#workflow-demo");
   const menuToggle = document.querySelector(".menu-toggle");
   const primaryNavigation = document.querySelector("#primary-navigation");
   const accentToggle = document.querySelector("[data-accent-toggle]");
@@ -39,52 +38,4 @@
     });
   }
 
-  if (!demo) return;
-
-  const choices = [...demo.querySelectorAll('[data-scenario-select]')];
-  const panels = [...demo.querySelectorAll('[data-scenario-panel]')];
-  const status = demo.querySelector('#workflow-status');
-
-  const selectScenario = (scenario, { focus = false, announce = true } = {}) => {
-    const selectedChoice = choices.find((choice) => choice.dataset.scenarioSelect === scenario);
-    if (!selectedChoice) return;
-
-    choices.forEach((choice) => {
-      const selected = choice === selectedChoice;
-      choice.classList.toggle('is-selected', selected);
-      choice.setAttribute('aria-pressed', String(selected));
-    });
-
-    panels.forEach((panel) => {
-      const selected = panel.dataset.scenarioPanel === scenario;
-      panel.hidden = !selected;
-      panel.classList.toggle('is-visible', selected);
-    });
-
-    if (focus) selectedChoice.focus();
-    if (announce && status) {
-      const label = selectedChoice.querySelector('.scenario-choice-copy strong')?.textContent?.trim() || 'Scenario';
-      status.textContent = `${label} selected. The shared 0.8× seven-day reported ROAS calls for a different next question in this context.`;
-    }
-  };
-
-  choices.forEach((choice) => {
-    choice.addEventListener('click', () => selectScenario(choice.dataset.scenarioSelect));
-    choice.addEventListener('keydown', (event) => {
-      const currentIndex = choices.indexOf(choice);
-      let destination = currentIndex;
-      if (event.key === 'ArrowRight' || event.key === 'ArrowDown') destination = (currentIndex + 1) % choices.length;
-      else if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') destination = (currentIndex - 1 + choices.length) % choices.length;
-      else if (event.key === 'Home') destination = 0;
-      else if (event.key === 'End') destination = choices.length - 1;
-      else return;
-
-      event.preventDefault();
-      const nextChoice = choices[destination];
-      if (nextChoice) selectScenario(nextChoice.dataset.scenarioSelect, { focus: true });
-    });
-  });
-
-  const initialScenario = choices.find((choice) => choice.getAttribute('aria-pressed') === 'true')?.dataset.scenarioSelect || choices[0]?.dataset.scenarioSelect;
-  if (initialScenario) selectScenario(initialScenario, { announce: false });
 })();

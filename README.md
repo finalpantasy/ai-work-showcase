@@ -10,12 +10,12 @@ James Dupre is a paid-media executive and the creator of AdNexus, elk Marketing'
 
 ![AdNexus command center rendered from working product components with fictional account data](assets/command-center.jpg)
 
-This is an actual product component capture with fictional account data. The portfolio's contextual reasoning examples are illustrative scenarios, not a connection to advertising accounts.
+This is an actual product component capture with fictional account data. The campaign-decision section explains how customer value, repeat purchases, test timing and client instructions shape the work.
 
 ## Explore
 
 - [AdNexus and platform capabilities](https://finalpantasy.github.io/ai-work-showcase/#adnexus)
-- [Contextual strategy example](https://finalpantasy.github.io/ai-work-showcase/#workflow-demo)
+- [How I make campaign decisions](https://finalpantasy.github.io/ai-work-showcase/#workflow-demo)
 - [Summoner](https://finalpantasy.github.io/ai-work-showcase/#summoner)
 - [Resume PDF](downloads/James_Dupre_AI_Strategy_Operations_Master.pdf)
 - [Resume Word document](downloads/James_Dupre_AI_Strategy_Operations_Master.docx)
