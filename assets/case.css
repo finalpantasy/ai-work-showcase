@@ -25,8 +25,8 @@ body.case-page { background: var(--paper); color: var(--ink); font-family: var(-
 .case-content h1 + p { padding-bottom: 1.4rem; margin-bottom: 1.8rem; border-bottom: 1px solid var(--rule-strong); color: var(--muted); font-size: 0.95rem; }
 .case-content h2 { margin: 3rem 0 1rem; padding-top: 1.4rem; border-top: 1px solid var(--rule-strong); font-family: var(--display); font-size: clamp(1.7rem, 2.6vw, 2.3rem); font-weight: 500; line-height: 1.15; letter-spacing: -0.02em; scroll-margin-top: 1.5rem; }
 .case-content h3 { margin: 2rem 0 0.6rem; font-size: 1.15rem; font-weight: 700; }
-.case-content p { max-width: 68ch; margin: 0 0 1.1rem; }
-.case-content ul, .case-content ol { max-width: 66ch; margin: 0 0 1.3rem; padding-left: 1.3rem; }
+.case-content p { max-width: 60ch; margin: 0 0 1.1rem; }
+.case-content ul, .case-content ol { max-width: 58ch; margin: 0 0 1.3rem; padding-left: 1.3rem; }
 .case-content li { margin: 0.45rem 0; }
 .case-content a { color: var(--accent); }
 .case-content strong { font-weight: 700; }

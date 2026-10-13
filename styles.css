@@ -531,3 +531,17 @@ body[data-accent="acid"] .accent-swatch { background: var(--acid); }
 .platform-deep li:last-child { border-bottom: 0; }
 @media (max-width: 1000px) { .platform-deep { grid-template-columns: 1fr; } }
 @media (max-width: 700px) { .platform-deep-cols { grid-template-columns: 1fr; } }
+
+/* Legibility pass: no functional text under 12px, AA contrast on the blue section */
+body :is(.section-index, .section-index > span, .story-label, .adnexus-value span, .case-topline > span,
+  .education-line > span, .hero-capture figcaption, .system-name > span, .system-status, .system-status > a,
+  .campaign-results span, .timeline-date, .timeline-note, .hero-bottomline > span, .hero-bottomline > a,
+  .down-link > span, .leadership-statement p strong, .principle-list strong, .accent-control > span,
+  .accent-toggle-label, .footer-main > p, .footer-bottom > span, .capture figcaption span) { font-size: 0.75rem; }
+body :is(.site-nav > a, .brand-name > span, .closing-links > a, .footer-contact > a) { font-size: 0.8125rem; }
+body .adnexus-section :is(.section-lede, .section-index, .story-label, .story-copy p, .story-side-note p,
+  .adnexus-value span, .capture-heading p, .capture figcaption span) { color: rgba(255, 255, 255, 0.9); }
+body .statement-number { font-size: clamp(3.5rem, 5.5vw, 5.75rem); white-space: nowrap; }
+body .adnexus-section .capture figcaption span:last-child { color: rgba(255, 255, 255, 0.9); }
+body .adnexus-intro .section-lede { max-width: 68ch; }
+body .closing .closing-links a:not(.button) { font-size: 0.8125rem; }
