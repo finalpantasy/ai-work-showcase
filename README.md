@@ -1,4 +1,6 @@
-# AI & Marketing Work
+# James Dupre | AI Strategy & Marketing
+
+[Email](mailto:jamesdupre.mkt@gmail.com) · [LinkedIn](https://www.linkedin.com/in/jamesmkt/)
 
 I lead paid media and build AI tools that make the work easier for my team. Published as finalpantasy.
 
