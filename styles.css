@@ -518,3 +518,16 @@ body[data-accent="acid"] .accent-swatch { background: var(--acid); }
 .hero h1, .hero h1 span { text-wrap: balance; }
 @media (min-width: 1001px) { .hero h1 { font-size: clamp(3rem, 4.6vw, 5.2rem); } }
 @media (min-width: 1680px) { .hero h1 { font-size: 5.8rem; } }
+/* Meta in-depth panel inside the AdNexus section */
+.platform-deep { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); gap: clamp(1.5rem, 4vw, 3.5rem); margin-top: 1.5rem; padding: clamp(1.4rem, 3vw, 2.4rem); background: var(--paper-light); color: var(--ink); }
+.platform-deep-label { margin: 0 0 0.8rem; color: var(--cobalt); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; }
+.platform-deep h4 { margin: 0 0 1rem; font-size: clamp(1.4rem, 2vw, 1.9rem); line-height: 1.15; letter-spacing: -0.02em; }
+.platform-deep-intro p:last-child { margin: 0; font-size: 1rem; line-height: 1.6; }
+.platform-deep-cols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(1.2rem, 3vw, 2.5rem); }
+.platform-deep h5 { margin: 0 0 0.6rem; padding-bottom: 0.5rem; border-bottom: 2px solid var(--ink); font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; }
+.platform-deep-cols > div:last-child h5 { border-bottom-style: dashed; color: var(--muted); }
+.platform-deep ul { margin: 0; padding: 0; list-style: none; }
+.platform-deep li { padding: 0.75rem 0; border-bottom: 1px solid var(--rule); font-size: 0.95rem; line-height: 1.55; }
+.platform-deep li:last-child { border-bottom: 0; }
+@media (max-width: 1000px) { .platform-deep { grid-template-columns: 1fr; } }
+@media (max-width: 700px) { .platform-deep-cols { grid-template-columns: 1fr; } }
