@@ -41,6 +41,6 @@ Most team problems are ownership problems. Who writes the brief, who reviews it,
 
 ## Where AdNexus comes in
 
-A written standard only works if people follow it on a busy Tuesday. In 2026 I started building it into software. AdNexus now runs the guide's checks on every account, prepares the evidence for each decision, and puts every account change through approval and verification before it counts. The training teaches the judgment. The software makes the routine parts hard to skip.
+A written standard only works if people follow it on a busy Tuesday. In 2026 I started building it into software. AdNexus now runs the guide's checks on every account and prepares the evidence for each decision, and nothing changes in a client account without a strategist's approval. The training teaches the judgment. The software makes the routine parts hard to skip.
 
 [How AdNexus works](marketing-ai-operations.html) · [The Compartés case](compartes.html)

@@ -12,22 +12,24 @@ The facts a strategist needs are spread across a dozen tools: campaign numbers, 
 
 So AdNexus starts from the task instead of the prompt. A strategist opens an account and sees what needs a decision, with the context already loaded and the standard's checks already run.
 
-## What I built, and how
+## What changed for the team
 
-AdNexus connects Google Ads, Meta, TikTok, Microsoft Advertising, GA4, Triple Whale, Slack, Asana and meeting transcripts. A strategist asks a question in plain English and gets a sourced answer, a dashboard or a change ready for approval.
+It is built for the whole agency, with dashboards for strategists, account executives, project managers, creative teams and leadership. By my own estimate, it gives each strategist back 20 or more hours a week that used to go to collecting facts and retyping them. A full audit and optimization of an unfamiliar account now takes about 30 minutes.
 
-I built it with Claude Code and Codex on Next.js, TypeScript and Postgres. Between July 15 and October 12, 2026, 860 of my pull requests were merged, each through CI on a protected main branch. The same tools are available to AI assistants through a 165-tool MCP server, and the system holds 34 client workspaces.
+## What I built
 
-| Part | What it does |
+AdNexus brings Google Ads, Meta, TikTok, Microsoft Advertising, GA4, Triple Whale, Slack, Asana and meeting notes into one place. A strategist asks a question in plain English and gets a sourced answer, a dashboard or a change ready for approval.
+
+I built it myself with Claude Code and Codex: 860 code changes merged between July 15 and October 12, 2026. It holds 34 client workspaces, and its 165 tools also work inside AI assistants such as Claude, so the team can question live account data from a chat.
+
+| What the team gets | Why it matters |
 | --- | --- |
-| Daily decision desk | Numbers first, at most five work items, a plain-English next step |
-| Smart Reviews | Search terms, ad copy, landing pages, budgets, pacing and creative, run when the strategist asks |
-| 18 scheduled monitors | Quiet while an account is healthy; a finding, evidence and a prepared fix when it is not |
-| Creative Confidence | Statistical scoring of every Meta ad, so a new ad is not judged on one day of spend |
-| What Changed | Compares two periods and says where a change is concentrated and what to check next |
+| A morning list of what needs a decision | Numbers first, at most five items, each with a plain-English next step |
+| Account reviews on demand | Search terms, ad copy, landing pages, budgets and creative, checked in minutes |
+| Eighteen automated checks | Silent while an account is healthy, specific when something breaks |
+| Fair creative scoring | A new ad is not written off after one day of spend |
+| Explanations when results move | Where the change is, and what to check next |
 | Approval on every change | Nothing changes in a client account until a strategist approves it |
-
-It is built for the whole agency, with dashboards for strategists, account executives, project managers, creative teams and leadership. By my own estimate, it gives each strategist back 20 or more hours a week that used to go to collecting facts and retyping them, and a full audit and optimization of an unfamiliar account now takes about 30 minutes.
 
 ## Start with the account
 
@@ -39,11 +41,9 @@ It shows urgency and readiness separately. A broken tracking tag is urgent even 
 
 ## Explain what changed
 
-When results move, What Changed compares two matching periods, finds where the change is concentrated, and writes a short explanation with the evidence attached. It separates what the numbers show from possible causes, and pulls in notes, tasks and recent account changes so the strategist knows what to check.
+When results move, AdNexus compares two matching periods, finds where the change is concentrated, and writes a short explanation with the evidence attached. It separates what the numbers show from possible causes, and pulls in notes, tasks and recent account changes so the strategist knows what to check.
 
 In the [public demo](../workspace-demo.html), Meta return falls from 3.2x to 2.4x week over week. Prospecting accounts for the whole drop while retargeting holds. A vague "Meta is down" becomes one specific question about prospecting.
-
-Saved investigations keep their original evidence, so a later data refresh cannot quietly rewrite last week's explanation.
 
 ## Review creative as ads, not rows
 
@@ -55,14 +55,12 @@ The review then feeds the next brief: audience, buying moment, objection, promis
 
 ## Make search-term review manageable
 
-Search-term review can mean hundreds of rows. AdNexus groups them into queues and keeps every decision visible before anything is applied. A clearly wrong search, like "coffee table" for a coffee brand, is handled differently from a relevant search with too little data to judge.
+Search-term review can mean hundreds of rows. AdNexus turns them into a short list of decisions. A clearly wrong search, like "coffee table" for a coffee brand, is handled differently from a relevant search with too little data to judge.
 
 ![AdNexus search-term review grouping fictional queries into queues](../assets/workspace/search-review.jpg)
 
 ## A person approves every change
 
-Nothing changes in a client account until a strategist approves it, and every change is logged with a way to undo it. Launch Guard flags any ad that lands in the wrong client's account.
-
-This is the "prove the change landed" rule from the team standard, written into code.
+Nothing changes in a client account until a strategist approves it, and AdNexus flags any ad that lands in the wrong client's account. It is the team standard's "prove the change landed" rule, applied to every account automatically.
 
 [Try the demos](../workspace-demo.html) · [How I train the team](team-systems.html) · [The Compartés case](compartes.html)

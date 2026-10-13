@@ -52,7 +52,7 @@ Each campaign had one commercial job, so a result always pointed at a decision.
 | Shopping and catalog | Show the right products from the catalog | $22,820.86 | 3.44x |
 | Seasonal products | Launch limited editions and the advent calendar | $29,064.53 | 3.17x |
 
-These four account for $199,204.88 of the $201,210.57 total. About 87% of consumer spend used Meta's Advantage+ Audience with open placements, guided by Shopify audiences, customer segments, purchaser exclusions and selected lookalikes. Separate tests challenged that default: a household-income and online-shopping test returned 7.12x.
+About 87% of consumer spend used Meta's Advantage+ Audience with open placements, guided by Shopify audiences, customer segments, purchaser exclusions and selected lookalikes. Separate tests challenged that default: a household-income and online-shopping test returned 7.12x.
 
 ## The ads
 

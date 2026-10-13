@@ -12,13 +12,13 @@ I build AdNexus and my side projects with several AI agents at once: Claude for 
 
 - **I choose the AI.** I pick the agent and account for each job. Summoner can suggest one, and I confirm.
 - **It arrives ready.** An agent starts inside the project with its tools, the project context and its memory, so I do not explain the work again.
-- **Several at once.** More than one agent can work in parallel, each on its own Git branch, side by side.
+- **Several at once.** More than one agent can work in parallel without getting in each other's way.
 - **Second opinions.** A different model reviews another agent's work before I accept it.
 - **Nothing final without approval.** Merges, account changes and other consequential actions wait for me.
 
 ![Summoner review screen showing a sample checkpoint and its file changes](../assets/summoner/desktop-review-changes.png)
 
-Every agent turn is a checkpoint with its own set of changes, which I can inspect or roll back. That is the same rule as AdNexus: preview the change, approve it, and keep a way back.
+Every change an agent makes can be inspected or rolled back before I keep it, the same rule I hold AdNexus to.
 
 ## Where it stands
 

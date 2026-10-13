@@ -10,11 +10,11 @@ I do most of my work with AI, and I got tired of explaining the same background 
 
 An assistant can give a confident answer while missing the one fact that matters. It may not know we already rejected an approach, that a goal changed, or that a number came from an incomplete source.
 
-The brain gives that knowledge a structure. Work history, projects, evidence, feedback and decisions each have a home, and a guide tells the assistant where to look. The assistant searches for a record, then reads the record itself before using it. A search snippet can drop the date or the caveat that changes what a fact means.
+The brain gives that knowledge a structure, so an assistant starts with the history, the decisions and their sources instead of guessing.
 
 ## Nothing becomes a fact without a check
 
-New information arrives as a candidate, linked to its source. Before it joins the trusted records, it gets a review: Is it supported? Does it repeat something we have? Does it conflict with a later decision? Should it stay private? Is it a fact, a goal or an opinion?
+New information is checked before an assistant can rely on it: is it supported, does it conflict with a later decision, and should it stay private?
 
 It is the same rule my team works by on client accounts: prove it before you rely on it.
 
@@ -34,7 +34,7 @@ That record shapes the next report, template or briefing. Current account number
 
 ## Working rules, not just notes
 
-The brain also holds how I want recurring work done: find the right context, use the right tool, write plainly, show gaps, prepare the exact change, get approval, then check what happened. For a report that means the answer first, then revenue or customer context, risks and a next step. For an account change it means separating a recommendation from an approved change, and checking the result afterwards.
+The brain also holds how I want recurring work done, such as reports that lead with the answer, so every assistant works to the same standard without being told again.
 
 ## My part
 
