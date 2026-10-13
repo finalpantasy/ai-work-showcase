@@ -8,7 +8,7 @@ Compartés needed to sell more chocolate during its busiest season. The job was 
 
 This case shows the work behind those results: my original planning tasks, the budget, the ads, the account decisions and the full results. [Read the full campaign submission](compartes-submission.html), [inspect the planning excerpts](compartes-planning.html) or [download the case and evidence as a PDF](compartes-evidence.pdf).
 
-## My work, with original planning evidence
+## What I worked on
 
 I helped lead paid media, developed the holiday budget plan and campaign update task, and owned the award submission. My contribution connected budget pacing, creative direction and daily account decisions with the team’s execution.
 
@@ -200,7 +200,7 @@ Open placements also gave the team more ways to reach buyers. Instagram Stories 
 
 A placement's past return is not a promise that it can absorb unlimited spend at that return. The comparison helped the team understand the mix; it did not justify putting the whole account into the smallest high-return placement.
 
-## How I read and explain the results
+## How I checked the results
 
 The submission used Meta's seven-day click and one-day view attribution setting consistently in both years. Meta measured ad delivery and attributed purchases. Shopify measured store sales, orders and customer mix. Triple Whale was used to cross-check reporting. Pixel and server-side purchase signals supported measurement; the submission reports a Purchase Event Match Quality score of 9.3.
 
@@ -210,8 +210,8 @@ The case brings together the original budget planning, campaign creative and awa
 
 ## What I bring to the next team
 
-This work connects strategy to the details that make it happen. I can turn a revenue goal into a budget plan, give creative a clear job, help strategists make account decisions and explain the results without hiding the tradeoffs. I can also use AI to build better tools around that work.
+I work through the budget, the creative and the account decisions together. The team needs to know what we are trying to sell, when to spend more and what the results are telling us. I use AI to help with the research, copy, analysis and tools around that work.
 
-I bring that combination to the next team: commercial judgment, useful creative direction, hands-on AI work and a clear operating plan that people can execute.
+That is what I bring to a team: years of marketing experience, hands-on AI work and a clear plan people can use.
 
 [Read the full campaign submission](compartes-submission.html) · [Read the original planning excerpts](compartes-planning.html) · [Download the PDF evidence pack](compartes-evidence.pdf)

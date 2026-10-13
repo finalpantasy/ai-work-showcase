@@ -1,12 +1,12 @@
-# Snipping Tool UL: a small tool for a daily task
+# Snipping Tool UL: capture, mark up and paste
 
-Native Windows screenshot app built with Rust. Product design, AI-assisted development and performance optimization.
+A lightweight Windows screenshot app I am building with AI, using Rust.
 
 I wanted a screenshot tool that feels light and gets out of the way. The task is common: select an area, paste it into a chat, add a mark when needed and get back to work. Waiting on a heavy interface makes that small task feel bigger than it should.
 
 I built Snipping Tool UL on the MIT-licensed [HydroShot foundation](https://github.com/Real-Fruit-Snacks/HydroShot), extending the workflow, editor and Windows integration around the way I use screenshots at work.
 
-## Keep the useful features
+## Capture, edit and share screenshots
 
 The app includes region, window and full-screen capture, configurable hotkeys and three-, five- and ten-second delays. The capture workflow pairs clipboard copy with an annotation preview, keeping the common next steps together.
 
@@ -18,7 +18,7 @@ The 0.3.6 build adds an explicit “Upload publicly” confirmation showing the 
 
 Saving also has practical safeguards. Auto-save creates a chosen missing folder and preserves files when timestamps collide. Manual Save asks for a destination before flattening or encoding the image, so cancelling avoids that work. Encoding runs on a worker after selection. This keeps expensive image processing off the main interface and avoids unnecessary work when a person cancels.
 
-## Make lightness a design choice
+## Keep the app light
 
 The app uses no webview or permanent rendering loop. Its event loop can sleep when no work needs drawing. Icon assets are prepared ahead of time rather than parsed on every interaction.
 
@@ -52,8 +52,8 @@ The comparison measures editor rendering and retained image buffers. Caching the
 
 ## My contribution
 
-I define the workflow and the visual direction, work with AI on the build and insist that performance and usability stay connected. That includes clear controls, live annotation editing, clipboard ordering, accurate exports, installation behavior and privacy checks.
+I decide how the app should work and look, build with AI and keep checking the details. That includes clear controls, live annotation editing, clipboard ordering, accurate exports, installation behavior and privacy checks.
 
-The app demonstrates a practical kind of AI-assisted building: start with a daily frustration, use an appropriate foundation, preserve its license, make the experience better and check the result. The native executable, event-driven interface and cached preview all serve the same goal: keep a frequent task simple and lightweight.
+I started with something I use all the time and wanted to make it better. I used an existing open-source foundation, kept its license and worked on the capture flow, editor and Windows behavior.
 
-The work brings together product judgment, interaction design, AI-assisted implementation and performance tuning. I can move from a daily frustration to a concrete tool, then improve the details that make it useful.
+I like this project because the goal is easy to explain: take the screenshot, add what you need, paste it and get back to work.

@@ -1,8 +1,8 @@
 # My personal AI brain
 
-A private knowledge system and operating method for sustained AI work. Sample records illustrate the approach.
+My private AI brain keeps project history, decisions and working rules in one place.
 
-I work across marketing, software projects, research and team decisions. Starting a new AI conversation should not mean starting from zero. I built a private brain to keep useful knowledge within reach and a set of operating rules to make that knowledge useful in actual work.
+I do a lot of work with AI, and I got tired of explaining the same things every time I started a new chat. I built a private brain so an assistant can find the project history, decisions and rules before getting to work.
 
 It is more than a folder of prompts. It holds the background behind my work: what a project is trying to do, which decisions were made, what evidence supports a claim, what is still uncertain and how I want the work handled.
 
@@ -10,11 +10,11 @@ It is more than a folder of prompts. It holds the background behind my work: wha
 
 An AI assistant can give a confident answer while missing the most important part of the situation. It may not know that we already rejected an approach, that an old goal changed, or that a number came from an incomplete source. I also should not have to find and explain the same document every time.
 
-The brain helps address that by giving knowledge a structure. Work history, skills, projects, evidence, feedback and decisions have their own homes. A routing guide tells the assistant where to look for a particular task. Search helps find the relevant record; the full record provides the support for the answer.
+The brain helps address that by giving knowledge a structure. Work history, skills, projects, evidence, feedback and decisions have their own homes. A guide tells the assistant where to look. It searches for the right record, then reads that record before using it.
 
 That last distinction matters. A search result is a clue. Before relying on it, the assistant needs the record behind it. A short result can leave out the date, qualification or reason that changes what the information means.
 
-## How a useful piece of knowledge gets into the system
+## Check a note before saving it as a fact
 
 I do not want every message or meeting sentence to become a permanent fact. New information can arrive as a candidate. It keeps a connection to its source and remains available for review before becoming part of the trusted knowledge.
 
@@ -38,7 +38,7 @@ Here is an invented example of the kind of record the system can keep:
 
 That record guides the next report, a new template or a briefing for an assistant. The system combines the reviewed format with current account reporting, so the output has both continuity and fresh information.
 
-[Try the fictional knowledge-review exercise](../workspace-demo.html#brain) or read the [sample reviewed record](../examples/fictional-knowledge-record.md).
+[Try reviewing a saved note](../workspace-demo.html#brain) or read the [sample reviewed record](../examples/fictional-knowledge-record.md).
 
 ## The operating system behind how I work
 
@@ -56,13 +56,13 @@ It also helps connect work across tools. A meeting can contain a decision. A pro
 
 ## My contribution
 
-I decided what the system needed to remember, how the records should be organized and which rules should govern their use. I have worked with AI on retrieval, ingestion, consolidation and review. I keep revising the rules when I see an answer use the wrong source, miss a constraint or overstate a claim.
+I decided what the system needed to remember, how the records should be organized and which rules should govern their use. I have worked with AI on finding records, bringing in new information, combining repeated notes and reviewing changes. I keep revising the rules when I see an answer use the wrong source, miss a constraint or overstate a claim.
 
 This is product work as much as knowledge work. The questions are about behavior: what should happen when two records disagree, when a source is old or when new information contains private details? A system that remembers everything but cannot handle those cases is not reliable enough for work.
 
-## What this demonstrates
+## Why I keep building it
 
-The brain demonstrates that I can build a repeatable way of working with AI, beyond asking individual questions. It combines knowledge organization, task design, privacy choices and quality review.
+I want AI to remember the work well enough to be useful. That means keeping good records, checking new information and giving the assistant clear rules to follow.
 
 The system gives assistants better context and gives me a clear way to review their work. I can follow an answer back to its source, carry decisions between sessions and improve the working rules as my needs change.
 

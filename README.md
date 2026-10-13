@@ -1,48 +1,48 @@
-# AI Work Showcase
+# AI & Marketing Work
 
-Practical AI, marketing leadership and hands-on product building. Published as finalpantasy.
+I lead paid media and build AI tools that make the work easier for my team. Published as finalpantasy.
 
-Frosted light and dark themes with teal accents. Use the toggle at the top; your appearance choice carries across pages. Only that preference is stored.
+Frosted gray dark mode and a light mode, with teal accents. Use the toggle at the top; your appearance choice carries across pages. Only that preference is stored.
 
-[Open the portfolio](https://finalpantasy.github.io/ai-work-showcase/) · [Try the fictional marketing workday](workspace-demo.html).
+[Open the portfolio](https://finalpantasy.github.io/ai-work-showcase/) · [Explore the marketing tools](workspace-demo.html).
 
 ![Actual portfolio page in a browser](assets/portfolio.jpg)
 
-## Start with the marketing workspace
+## Start with the marketing tools
 
-I build around the work a paid-media strategist actually needs to do: understand an account, explain a change, review ads and prepare the next step. The flagship case includes four product views with sample client data, the decisions behind them and more than 800 merged contributions to the private codebase.
+I build around the work a paid-media strategist actually needs to do: understand an account, explain a change, review ads and prepare the next step. See four product screens, the decisions behind them and more than 800 sets of reviewed code changes to the private project.
 
-[Read the flagship case](case-studies/marketing-ai-operations.html).
+[See what I built for my team](case-studies/marketing-ai-operations.html).
 
 ![Actual private product demo rendered with fictional data and privacy-edited branding](assets/workspace/client-dashboard.jpg)
 
 Product design walkthroughs with sample client data. The workspace connects account context, reporting, creative and the team’s next step. Client information and source code stay private.
 
-The interactive public exercise is original demonstration code. Try performance review, creative review and a prepared brief, exact search exclusions, ad-import mapping and knowledge review. It makes no model calls or account changes and stores no work data.
+You can try a few tasks too: explain a sales change, review two ads, open a brief, check search terms, make an ad-import file and review a saved AI note. The examples use made-up information and do not connect to client accounts.
 
-## Explore the work
+## My projects
 
-- [AI Marketing Workspace](case-studies/marketing-ai-operations.html) — Account context, performance investigations, creative briefs, ad review, search terms and a clearer next step.
-- [My personal AI brain](case-studies/personal-ai-work-system.html) — Keep useful decisions, evidence and working rules available across projects and conversations.
-- [Snipping Tool UL](projects/snipping-tool-ul.html) — A daily screenshot task, a thoughtful editor and measured internal rendering improvements.
-- [Compartés holiday campaign](case-studies/compartes.html) — Original budget planning, actual campaign creative, period-specific results and the full submission.
-- [Creative strategy and testing](case-studies/creative-work.html) — Customer problems, supported proof, useful briefs and a clear reason for the next ad.
-- [Team systems and AI training](case-studies/team-systems.html) — Hiring, onboarding, audits, launch checks and a practical learning path for busy strategists.
-- [Ad-launch mapper](projects/ad-launch-mapper.html) — Move planner rows into an import file without retyping approved copy or mixing up assets.
-- [Day-ahead planning](projects/daily-planning.html) — Turn near-term tasks into actual drafts, specific decisions and a phone-readable brief.
-- [Summoner](projects/summoner.html) — Keep projects, AI conversations, tasks, context and change review together.
-- [Claude Quest](projects/workflow-companion.html) — A small local companion for Claude Code, built around work activity without extra model calls.
-- [Growth work and results](case-studies/growth-results.html) — Ecommerce, software, events and leadership experience, with the scope behind each figure.
+- [AI Marketing Workspace](case-studies/marketing-ai-operations.html) — See which accounts need attention, explain changes in sales, review ads and prepare the next brief.
+- [My personal AI brain](case-studies/personal-ai-work-system.html) — Help AI remember the project, past decisions and how I want the work done.
+- [Snipping Tool UL](projects/snipping-tool-ul.html) — Capture a screenshot, add a mark and paste it. Keep the app light and the image sharp.
+- [Compartés holiday campaign](case-studies/compartes.html) — See the budget plan, the ads and the results behind our award-winning holiday campaign.
+- [Creative strategy and testing](case-studies/creative-work.html) — Give the designer a clear message, the right product information and a useful idea to test.
+- [Team systems and AI training](case-studies/team-systems.html) — Clear expectations, useful training and help with the account work people do every day.
+- [Ad-launch mapper](projects/ad-launch-mapper.html) — Turn an ad planner into an import file while keeping the copy, links and images together.
+- [Day-ahead planning](projects/daily-planning.html) — Have drafts and research ready before I start work, with a short brief I can read on my phone.
+- [Summoner](projects/summoner.html) — Keep my projects, AI chats, tasks and code changes in one place.
+- [Claude Quest](projects/workflow-companion.html) — A small character that progresses as I work in Claude Code. It runs locally without extra AI calls.
+- [Growth work and results](case-studies/growth-results.html) — Marketing results from ecommerce, software, events and team leadership.
 
-## Campaign evidence
+## Campaign plan, ads and results
 
-The detailed Compartés holiday case includes original planning, a $200,000 five-stage budget plan, six original creative images, campaign/store results and the full award submission. Outcomes are team results, and the full-season return tradeoff is included.
+The Compartés holiday case includes my planning work, the $200,000 budget plan, six original creative images, the results and the award submission. It shows how the team grew sales and what happened to the return on ad spend.
 
 - [Original planning excerpts](case-studies/compartes-planning.html)
 - [Full campaign submission, privacy edited](case-studies/compartes-submission.html)
 - [23-page evidence pack](case-studies/compartes-evidence.pdf)
 
-## Useful examples
+## Briefs and templates
 
 - [Creative brief](examples/fictional-creative-brief.md)
 - [Reviewed knowledge record](examples/fictional-knowledge-record.md)

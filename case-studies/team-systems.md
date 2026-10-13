@@ -1,6 +1,6 @@
-# Make good team work easier to repeat
+# Help the team do good work consistently
 
-Paid-media leadership, team operations and practical AI training.
+Hiring, onboarding, training and clear standards for a paid-media team.
 
 I have led paid-media strategists and worked on the systems around their work: hiring, onboarding, audits, launch checks, reporting, seasonal planning and learning. I have led five or more strategists across a large, varied client portfolio.
 
@@ -36,9 +36,9 @@ An example lesson is: take a weekly account question, provide the actual date ra
 
 Team problems often come from unclear ownership. Who is preparing the creative brief? Who reviews it? Who launches the ads? Who checks whether the test taught us anything? When those questions are unresolved, the task can look active while nothing moves.
 
-I have worked on systems that make the stages and handoffs clearer. The newer creative operating-system work maps preparation, production, review, launch and learning. The process design makes preparation, production, review and learning visible as separate responsibilities.
+I have worked on systems that make the stages and handoffs clearer. I have also been building a clearer process for creative work: prepare the brief, make the ads, review them, launch them and look at the results. Each part needs someone responsible for it.
 
-The useful part is the thinking behind it: distinguish the tool that holds the account evidence from the place that holds the team's work. Give the task a clear deliverable, owner and review step. Make it possible to see why it is waiting.
+The team needs to know what to make, who is making it, who reviews it and what is holding it up. The tools should make those answers easy to find.
 
 ## An example of the standard I want
 
@@ -60,4 +60,4 @@ I can translate a broad expectation into work someone can actually do. I connect
 
 My broader leadership work includes improved retention and $5M in upsells. Clear standards, stronger account work and useful client conversations are central to that role. The detailed campaign case shows how I apply those habits to a specific season.
 
-The team-systems story is about operating experience and AI adoption. I understand that building a tool is only one step. People also need the time, examples, review and support to use it well.
+Building the tool is one part of my job. Helping people use it is another. They need useful examples, time to practice and someone to check the work with them.

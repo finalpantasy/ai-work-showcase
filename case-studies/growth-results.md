@@ -1,10 +1,10 @@
-# Solve the business problem behind the ad numbers
+# Marketing experience behind the tools I build
 
-Marketing and ecommerce since 2008. Paid-media leadership, customer experience and business growth.
+Marketing consultancy and ecommerce since 2008. VP of Paid Media since December 2016.
 
 I have worked in marketing and ecommerce since 2008, including consultancy work, and have served as VP of Paid Media since December 2016. My background gives me a way to judge AI work: does it help us make a better business decision or get useful work done?
 
-My paid-media leadership spans more than $50 million in annual spend across 50+ clients and 60+ advertising accounts. That range of businesses gives me a practical understanding of different customers, offers and account economics.
+My paid-media leadership spans more than $50 million in annual spend across 50+ clients and 60+ advertising accounts. I have worked with different kinds of customers, offers, budgets and business models.
 
 ## Selected career results
 
@@ -45,10 +45,10 @@ The named holiday campaign case includes the original planning, actual creative,
 
 The case follows the campaign from budget planning through creative and results. It gives a concrete example of how I connect account strategy, daily decisions and business performance.
 
-## How this experience informs my AI work
+## Why this matters when I build with AI
 
 AI can help with research, analysis, drafting, tooling and preparation. The business knowledge is still needed to ask the right question and judge the answer. I bring that judgment from years of account and team work.
 
 I am especially interested in making that knowledge easier for others to use. Instead of asking every strategist to remember the full investigation process, I can build a view that presents the evidence, explains the issue and helps prepare the next step.
 
-The result I want is a team that can spend more time on customer and business decisions and less time searching for context or moving information between tools. That is the connection between my marketing background and my current AI strategy and product work.
+I want the team spending more time on customers and decisions, and less time hunting for information or copying it between tools. That is why I am building this stuff.

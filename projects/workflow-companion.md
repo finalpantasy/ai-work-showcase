@@ -1,6 +1,6 @@
 # Claude Quest: make long work sessions more enjoyable
 
-Public early-access Claude Code extension, version 0.1.0 at the reviewed checkpoint. Ongoing development.
+An early-access companion for Claude Code. The public version reviewed here is 0.1.0.
 
 Claude Quest adds a small character to a Claude Code session. Work activity fuels its progress, while background camp activities continue locally. It is a playful project, but the product questions are serious: how can an extension be enjoyable without getting in the way or adding unnecessary cost?
 
@@ -28,7 +28,7 @@ The reviewed design uses a leader-and-follower approach for sessions and local s
 
 The save is local. The reviewed documentation describes a small state file and no external progression service. Privacy and clear ownership of local state are part of keeping the extension lightweight.
 
-## A playful surface still needs real product decisions
+## Make it enjoyable without interrupting the work
 
 I have worked on the feel of the companion, the progression and the implementation around it. A good experience needs more than an attractive character. It needs sensible behavior when a session ends, a save is restored or several sessions are open.
 
@@ -38,7 +38,7 @@ The questions include when to award progress, how to avoid duplicate work, what 
 
 I supply the product direction and work hands-on with AI on the design and build. I review whether the behavior is clear, enjoyable and appropriate for the work environment. I also care about the overhead and reliability of the extension, not just the visual idea.
 
-The project brings together interaction design, local automation, state handling and AI-assisted product building. It shows how I turn an idea into a small tool with a clear place in an existing workflow.
+I want the character to be fun to have around, without adding another thing to manage during a work session.
 
 ## Explore the project
 
@@ -46,4 +46,4 @@ The public early-access repository includes the README and source. A reviewer ca
 
 The companion keeps progression local, with a small save file and no external progression service.
 
-The project shows how I use AI to move from an idea to a concrete tool while paying attention to the person using it. For the business version of that approach, see [the marketing workspace](../case-studies/marketing-ai-operations.html) and [the ad-launch mapper](ad-launch-mapper.html).
+I use AI to build the idea, then keep working on whether it feels good to use. For the business version of that approach, see [the marketing workspace](../case-studies/marketing-ai-operations.html) and [the ad-launch mapper](ad-launch-mapper.html).

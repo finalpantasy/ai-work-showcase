@@ -1,8 +1,8 @@
-# Summoner: keep AI project work together
+# Summoner: my projects, chats and tasks in one place
 
-Desktop workspace in development. Product direction, AI orchestration and continuity across projects.
+A desktop app I am building to keep AI project work organized.
 
-I use AI to build and run a lot of work. Once there are several projects, chats, tasks and changes in flight, the problem becomes keeping the work together. Summoner is the desktop workspace I have been developing around that problem.
+I use AI across a lot of projects. Keeping track of the chats, tasks, files and changes gets messy fast. I am building Summoner so I can see the work in one place.
 
 I want to see the project, its current context, the conversation and the result without constantly rebuilding that picture across separate tools. The aim is a place where I can direct the work and review what came back.
 
@@ -12,9 +12,9 @@ A project has a goal, files, decisions, open tasks and changes that need review.
 
 The workspace work includes project navigation, chats, tasks, model choice and reviewing changes. The current implementation direction is a native desktop shell with a web interface inside it. It builds on an open-source workspace foundation, with the product direction focused on project continuity and review.
 
-The product work is in how the pieces fit the way I work: choosing a project, supplying context, deciding what an assistant should do and keeping the result reviewable.
+I want to choose a project, give the assistant the information it needs, set a clear task and review what it changed.
 
-## Make the workflow easy to explore
+## Try the layout without opening private projects
 
 The development includes a sample workspace so interface work can be tested without signing into real AI accounts or reading private project content. That is a useful product decision: we can judge the workflow before giving it access to actual work.
 
@@ -26,7 +26,7 @@ Project context and work records stay within the private workspace.
 
 The project has needed coordination across different areas. Separate changes can touch the desktop shell, the document view, the chat experience or the project state. I have worked on keeping those areas bounded and making integration a deliberate step.
 
-That includes clear ownership, a current checkpoint and a record of reviewed changes. Each workstream has a defined responsibility, making integration easier to reason about.
+That includes clear ownership, a current checkpoint and a record of reviewed changes. Each part of the work has a clear owner, so we can check the changes before combining them.
 
 These habits matter to the product as well. An AI workspace should make the state of work clearer, not make it easier to lose track of what has changed.
 
@@ -39,7 +39,7 @@ Here is an original example of the handoff structure I am aiming for:
 | Goal | The user's intended result in ordinary language |
 | Current state | What exists now and what has been verified |
 | Decisions | Accepted choices and the reason for them |
-| Open work | The next bounded task and what blocks it |
+| Open work | The next task and anything holding it up |
 | Changes | The files or outputs that need review |
 | Review | The next check and the decision needed to move forward |
 
@@ -57,8 +57,8 @@ The desktop prototype lets me work through the interface alongside the underlyin
 
 The work builds on an open-source foundation while preserving its license and separating private project information from the workspace software.
 
-## Why it belongs in this portfolio
+## Why I am building it
 
-Summoner shows that my AI work extends beyond marketing prompts. I am thinking about the environment people need to do sustained work with AI: context, tasks, direction, review and continuity.
+I want to get more work done without losing track of the project. Summoner brings the chats, tasks, project information and change review together.
 
-The same idea appears in the [marketing platform](../case-studies/marketing-ai-operations.html) and [personal brain](../case-studies/personal-ai-work-system.html). A useful system helps someone pick up the work, understand it and make the next step.
+The same idea appears in the [marketing platform](../case-studies/marketing-ai-operations.html) and [personal brain](../case-studies/personal-ai-work-system.html). People should be able to pick up the work and understand what to do next.

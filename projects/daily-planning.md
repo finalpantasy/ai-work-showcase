@@ -1,6 +1,6 @@
 # Start the day with useful drafts ready
 
-AI-assisted planning workflow. A short morning brief with ready-to-review drafts, decisions and clear ownership.
+AI prepares drafts and research, then puts what needs me into a short morning brief.
 
 I want AI to help with the work before I sit down to do it. A list of tasks is a start, but it still leaves me asking where to begin. The day-ahead planning work prepares the actual draft, the needed research or the decision I have to make.
 
@@ -8,7 +8,7 @@ The output is one short brief I can read on my phone. It tells me what is ready,
 
 ## Keep the brief about the near-term work
 
-The design uses a bounded task window: today, tomorrow and one or two business days overdue. Older and undated backlog items are outside the routine. That choice is deliberate. An old task can remain important without needing to bury every morning's brief.
+It looks at tasks due today, tomorrow or one or two business days ago. Older and undated backlog items are outside the routine. That choice is deliberate. An old task can remain important without needing to bury every morning's brief.
 
 Business days matter too. On a Monday, a Friday task should not disappear just because a weekend passed. The rule needs to match the way people work, not the simplest date calculation.
 
@@ -16,7 +16,7 @@ Business days matter too. On a Monday, a Friday task should not disappear just b
 
 The planning process checks whether another routine already owns the deliverable, then whether it is blocked, then whether a useful draft can be prepared or a decision is needed.
 
-| Lane | What the brief gives me |
+| Task group | What the brief gives me |
 | --- | --- |
 | Ready to review | The actual draft, a numbered item and what approval would do |
 | Needs me | One specific question and a recommendation |
@@ -51,6 +51,6 @@ The workflow prepares the work and keeps approval specific. It supports both con
 
 ## My contribution
 
-I defined the scope, the task window, the four lanes and the approval behavior. I designed around how I actually use overdue tasks and how I read a morning brief. I worked with AI on the research and drafting process and the artifacts that support it.
+I defined the scope, the task window, the four task groups and the approval behavior. I designed around how I actually use overdue tasks and how I read a morning brief. I worked with AI on the research and drafting process and the templates and tools that support it.
 
-This work combines workflow design, prioritization and practical AI assistance. It turns a scattered queue into something I can act on: a draft to review, a decision to make or a clear handoff to another owner.
+I want to open the brief and have something useful ready: a draft to review, a decision to make or a clear reason a task is waiting.

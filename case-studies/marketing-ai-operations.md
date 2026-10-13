@@ -1,12 +1,12 @@
-# AI that helps a marketing team get its work done
+# AI tools my marketing team can actually use
 
-AI strategy, product direction and hands-on delivery for a paid-media team. Product walkthroughs use sample client data.
+I build tools that help paid-media strategists understand accounts, review ads and get work done. The pictures below use sample client information.
 
-I lead paid media, and I have a very practical reason for building this platform: I want the team's work to be easier. A strategist should be able to open an account, understand what matters and prepare the next step without becoming an AI expert.
+I built this because I want AI to make my team's job easier. Some strategists use AI all the time. Others barely touch it. I want both to be able to open an account, understand what needs attention and get useful work done.
 
 That means starting with the tasks people already have. Why did results change? Which ad needs attention? What should the designer make next? Are we spending according to the plan? What did the client approve? I work on putting the answers and the work in one place.
 
-[Try a sample workday](../workspace-demo.html). Inspect a performance change, review ads, prepare a brief and stage a search-term decision in a self-contained portfolio exercise.
+[Explore the marketing tools](../workspace-demo.html). You can look into a drop in sales, review two ads, open a creative brief and prepare an ad-import file. The examples use made-up client information.
 
 ![Actual command-center demo showing priorities, opportunities and account health with fictional clients](../assets/workspace/command-center.jpg)
 
@@ -34,11 +34,11 @@ My role combines paid-media leadership, product direction, AI-assisted delivery 
 
 The account view brings together its goals, budget, performance, work and constraints. A person can see what is happening before opening a tool. The product also keeps useful client context, such as the products that matter, the target customer, approved copy constraints and upcoming events.
 
-The demo makes a useful distinction between urgency and preparation. A tracking failure can be urgent even when there is not enough data to diagnose it. An ad review can be ready for a decision even when it is less urgent. Putting both facts on the page helps people choose the right next step.
+The account view separates how urgent a task is from whether we have enough information to act. A tracking failure can be urgent even when there is not enough data to diagnose it. An ad review can be ready for a decision even when it is less urgent. Putting both facts on the page helps people choose the right next step.
 
-![Actual client-dashboard demo with a recommended review, account checks and source freshness](../assets/workspace/client-dashboard.jpg)
+![Actual client-dashboard demo with a recommended review, account checks and when the information was last updated](../assets/workspace/client-dashboard.jpg)
 
-The account view puts a recommended review beside the business goals, performance and source freshness. That gives the strategist a useful starting point before digging into individual campaigns.
+The account view puts a recommended review beside the business goals, performance and when the information was last updated. That gives the strategist a useful starting point before digging into individual campaigns.
 
 ## Explain a performance change in words people understand
 
@@ -82,22 +82,22 @@ The value is that one task can lead naturally to the next. An investigation shou
 
 That does not mean every decision should be automated. It means the tool should remove the searching, retyping and repeated preparation around the decision. The separate [ad-launch mapper](../projects/ad-launch-mapper.html) is another example: it moves approved planner content into the format a launch tool expects.
 
-## Sustained delivery and reliability
+## New features and fixes: 860 merged changes
 
-The private repository contains substantial ongoing delivery. A scoped review on October 12, 2026 found more than 800 of my authored pull requests merged between July 15 and October 12, 2026. The exact reviewed count was 860.
+I keep building and improving this. Between July 15 and October 12, 2026, 860 of my pull requests were merged into the private project. A pull request is a set of code changes submitted for review.
 
-That sustained delivery covers new features, reliability improvements and maintenance. I stay involved after the first build, working through the details that make the tools dependable for everyday use.
+Those changes include new features, bug fixes and maintenance. I do not stop at the first version. I keep working on the details that make a tool easier to use and more dependable.
 
-Representative reviewed work includes a reporting feature, a fix to avoid incorrectly flagging copy, and a repair for an advertising-platform field that had changed. That is part of making the tool dependable: correct numbers, accurate checks and clearer behavior when an outside system changes.
+Examples include a reporting feature, a fix for incorrectly flagged copy and an update for a field that an advertising platform had changed. That is part of making the tool dependable: correct numbers, accurate checks and clearer behavior when an outside system changes.
 
 I can walk through the product decisions, feature development and review process in an interview. The portfolio makes that work visible through product views and hands-on examples while protecting client information.
 
-## What this work delivers
+## Less time spent on the same manual work
 
-Across my broader workflow automation, reporting and AI-assisted analysis work, weekly time savings exceed 20 hours. The marketing workspace brings that practical approach into the strategist’s daily tasks.
+Across my work on automation, reporting and AI-assisted analysis, the weekly time savings exceed 20 hours. This platform is another way to remove the searching, copying and repeated preparation around a strategist's job.
 
-I bring account context, reporting, creative preparation and review into one workflow. The next-generation product design follows the same adoption principle: begin with a task the team recognizes and make its next step easier.
+I want someone to find the account information, review the results and prepare the next piece of work in the same place. If AI takes more effort to use than the task itself, people will not stick with it.
 
-The work shows that I can identify a business problem, translate it into a usable task, direct AI-assisted development and stay involved through review and repair. It also shows how I think about AI adoption: make the work simpler, make the answer understandable and give people a reason to come back.
+That is what I keep coming back to: make the task simpler, explain the answer clearly and build something people have a reason to use.
 
-[Try the sample workday](../workspace-demo.html), explore [my personal AI brain](personal-ai-work-system.html), or read the separate [marketing results](growth-results.html).
+[Review ads and account results](../workspace-demo.html), explore [my personal AI brain](personal-ai-work-system.html), or read the separate [marketing results](growth-results.html).

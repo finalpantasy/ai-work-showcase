@@ -1,6 +1,6 @@
 # Stop entering the same ad data twice
 
-Ad-import automation built around real launch requirements. Try the public example with sample planner rows.
+A tool that turns an ad planner into a file ready for the launch tool.
 
 Ad planning and ad launching can require the same information in different places. Someone prepares the copy and assets in a planner, then someone types or pastes them again into a launch tool. That repeated work creates opportunities for mistakes.
 
@@ -22,11 +22,11 @@ Assets have their own traps. Using one shared folder for several ads can make th
 
 I want those limits surfaced before launch, not discovered after the wrong creative has been attached.
 
-## A sample you can use
+## Try converting two sample ads
 
 The public example contains two invented ads for Juniper Supply. One deliberately skips a numbered headline field. The mapper compacts the fields and lets you download the CSV. You can also break a destination URL and see the validation stop the export.
 
-[Try the fictional mapper](../workspace-demo.html#mapper).
+[Make an ad-import file](../workspace-demo.html#mapper).
 
 The interactive example demonstrates field mapping, validation and CSV export. It gives a reviewer a practical way to inspect the handoff from a planner to an import file.
 
@@ -49,8 +49,8 @@ I identified the repeated work, inspected the actual launch requirements and dir
 
 This is an example of choosing a narrow, useful automation. It does not need an elaborate AI experience to help someone. The user wants a file that imports correctly and a warning when something needs fixing.
 
-## What this demonstrates
+## Why I built it
 
-The work shows that I can see friction in a business process, translate it into specific requirements and build a tool around the real handoff. It also shows attention to the details that make automation usable: field names, naming patterns, punctuation, links and asset ownership.
+I built around the actual import fields, including the names, copy, links and assets. The details matter because a file that looks right can still launch the wrong ad.
 
 The mapper replaces repeated data entry with a consistent handoff. It preserves approved copy, organizes the expected fields and catches problems before the file reaches the launch tool.
