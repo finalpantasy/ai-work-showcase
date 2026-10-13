@@ -1,63 +1,46 @@
-# Help the team do good work consistently
+# How I train the team
 
-Hiring, onboarding, training and clear standards for a paid-media team.
+I joined elk Marketing in 2017, ran paid media as Director from 2020 and became VP of Paid Media in April 2026. Six strategists report to me. This page covers the standard they work from and how they learn it.
 
-I have led paid-media strategists and worked on the systems around their work: hiring, onboarding, audits, launch checks, reporting, seasonal planning and learning. I have led five or more strategists across a large, varied client portfolio.
+A strong strategist can do good work on their own. A department needs good work to happen when people are busy, new, or covering an account they did not build. That takes a written standard, practice on real work, and regular review.
 
-The recurring problem is simple. A strong strategist can produce good work, but the team also needs a way for that work to happen consistently when people are busy, new or working on different accounts.
+## The standard, in four rules
 
-## Start by making the expected work clear
+1. **Know the business before the account.** What the client sells, how it makes money, what a customer is worth and what the client has agreed to.
+2. **Change one thing on purpose.** Every change has a reason, a scope and a date, so the result can be read.
+3. **Prove the change landed.** Screenshot proof at launch, a same-day check after, and a readout when the test is done.
+4. **Say why, not just what.** Reports lead with the answer, give two supporting facts, then the next action.
 
-A checklist is useful when it helps someone see a missing step. It is less useful when it becomes a list of boxes to tick without understanding the account. I have worked on audit and quality guides that connect a check to the question it answers.
+The detail lives in a 200-page audit and optimization guide I wrote, and in the Ad Training Library of playbooks, checklists and exercises. Every check in the guide is tied to the question it answers. Checking purchase tracking answers whether we can trust the numbers. Checking the landing page answers what a customer sees after the click. Checking the offer answers whether the ad's promise matches the product, the price and the stock.
 
-For example, checking purchase tracking should answer whether the team can trust the performance picture. Checking a landing page should help explain what a customer sees after clicking. Checking an offer should connect the ad's promise to the product, price and availability.
+## Hiring and onboarding
 
-The goal is a repeatable standard that still leaves room for judgment. The team should understand why a check matters and what to do when it fails.
+I hire through panel interviews, a test project and a written scorecard, and brought on two strategists in 2026. Onboarding is built around work with a visible output: an account summary, a short performance explanation, a launch review, a creative brief. The reviewer sees how the new person thinks and where they need help, which a reading list never shows.
 
-## Onboarding should help someone do the work
+After that, the rhythm is biweekly 1:1s, a monthly audit of each account and a weekly paid-media roundtable where the team works through real problems together.
 
-I have worked on onboarding materials and training that help people understand the account, the tools, the reporting standard and the ownership of the work. That is a different task from giving someone a long document and hoping they read it.
+## Teaching AI the same way
 
-A useful onboarding exercise has a recognizable output: an account summary, a short performance explanation, a launch review or a creative brief. The reviewer can see how the person thinks and where they need help.
+The team's AI rule is "AI is a process, not a prompt": plan the work, get a person's approval, check the result against real account numbers, then iterate. I wrote a training path that runs from a short beginner track through a deeper middle track to advanced practice, using exercises drawn from the team's own accounts.
 
-I use the same principle when bringing AI into the team. People do not need to learn every model feature before they can get value. They need a small task, good context, a check they can perform and a reason to trust the result.
+<!-- block:team-learning -->
 
-## The AI learning path I have been developing
+A typical lesson: take a real weekly account question, give the AI the exact date range and source, ask for a short explanation, then check every number and mark anything uncertain. It teaches the tool and the judgment in the same exercise. [Read a sample lesson](../examples/ai-reporting-lesson.md), with invented numbers, a review checklist and a model answer.
 
-I have been working on an AI training program that moves from basic use to more involved workflows. The underlying material distinguishes a short beginner path, a deeper middle path and advanced practice. It combines reviewed teaching resources with practical exercises drawn from the team’s work.
+## Every piece of work has an owner
 
-I design each lesson around something a strategist can use on an account: a better report, a clearer brief or a more focused investigation. That makes the learning path relevant to the work people already need to do.
+Most team problems are ownership problems. Who writes the brief, who reviews it, who launches the ads, who reads the result? When nobody knows, a task looks busy and nothing moves. This is the creative handoff the team uses:
 
-An example lesson is: take a weekly account question, provide the actual date range and source, ask for a short explanation, check the numbers and mark anything that is uncertain. That exercise teaches both usefulness and judgment.
-
-[Read an original sample AI lesson](../examples/ai-reporting-lesson.md). It uses invented numbers and includes a review checklist and an answer example.
-
-## Give work an owner and a next step
-
-Team problems often come from unclear ownership. Who is preparing the creative brief? Who reviews it? Who launches the ads? Who checks whether the test taught us anything? When those questions are unresolved, the task can look active while nothing moves.
-
-I have worked on systems that make the stages and handoffs clearer. I have also been building a clearer process for creative work: prepare the brief, make the ads, review them, launch them and look at the results. Each part needs someone responsible for it.
-
-The team needs to know what to make, who is making it, who reviews it and what is holding it up. The tools should make those answers easy to find.
-
-## An example of the standard I want
-
-Here is an illustrative creative handoff:
-
-| Stage | What must be clear | What the reviewer checks |
+| Stage | What must be settled | What the reviewer checks |
 | --- | --- | --- |
-| Prepare | Audience, buying moment, offer and one test question | Are the claims supported and is the question useful? |
-| Produce | Two concepts with one planned message difference | Do the ads match the brief? |
+| Brief | Audience, buying moment, offer and one test question | Are the claims supported? Is the question worth answering? |
+| Produce | Two concepts that differ in one planned way | Do the ads match the brief? |
 | Review | Copy, links, product claims, formats and assets | Is anything missing or inconsistent? |
-| Launch | Approved content and the exact intended setup | Does the preview match the approval? |
-| Learn | Dates, spend, delivery and the result | What did this test support, and what is still uncertain? |
+| Launch | Approved content and the exact intended setup | Does the live preview match what was approved? |
+| Learn | Dates, spend, delivery and the result | What did the test show, and what is still unknown? |
 
-This sample handoff shows how I connect the brief, production, approval and learning into one clear process.
+## Where AdNexus comes in
 
-## What I am good at here
+A written standard only works if people follow it on a busy Tuesday. In 2026 I started building it into software. AdNexus now runs the guide's checks on every account, prepares the evidence for each decision, and puts every account change through approval and verification before it counts. The training teaches the judgment. The software makes the routine parts hard to skip.
 
-I can translate a broad expectation into work someone can actually do. I connect marketing judgment to a concrete template, review or tool. I also notice where a system creates too much friction and needs to be simpler.
-
-My broader leadership work includes improved retention and $5M in upsells. Clear standards, stronger account work and useful client conversations are central to that role. The detailed campaign case shows how I apply those habits to a specific season.
-
-Building the tool is one part of my job. Helping people use it is another. They need useful examples, time to practice and someone to check the work with them.
+[How AdNexus works](marketing-ai-operations.html) · [The Compartés case](compartes.html)

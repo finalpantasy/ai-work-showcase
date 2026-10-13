@@ -1,56 +1,35 @@
-# Stop entering the same ad data twice
+# Ad-launch mapper: stop typing the same ad twice
 
-A tool that turns an ad planner into a file ready for the launch tool.
+A small tool that turns an ad planner into the import file the launch tool expects. The copy, links and assets are prepared once in the planner, and nobody retypes them into the launch tool.
 
-Ad planning and ad launching can require the same information in different places. Someone prepares the copy and assets in a planner, then someone types or pastes them again into a launch tool. That repeated work creates opportunities for mistakes.
+Retyping is where mistakes come from: a wrong link, an edited headline, an image attached to the wrong ad. The mapper removes the retyping and catches the problems before import.
 
-I worked on a mapper that reads planner data and produces the import file the launch tool expects. It is a small tool with a specific purpose: make a repeated handoff faster and more consistent.
+<!-- block:ad-mapper -->
 
-## Build for the actual import format
+## Built against the real import format
 
-The tool was built against the fields in the import interface, not a guessed generic spreadsheet. It supports client configuration, naming rules and the expected copy, link and asset fields.
+The mapper was built against the launch tool's actual import fields, not a generic spreadsheet. It handles client settings, naming rules, multiple primary-text options, headlines, descriptions, assets, destination and display links, tracking parameters and calls to action.
 
-The source can contain multiple primary-text options, headlines, descriptions and assets. The output puts those values into numbered columns. Destination links, display links, tracking parameters and calls to action are mapped too.
+A file can be valid and still fail if a column name, an allowed value or an asset link does not match what the receiving tool expects. That is the part this tool is careful about.
 
-This is the part of automation that often gets missed. A CSV can be perfectly valid and still fail the job if its column names, allowed values or asset links do not match the receiving tool.
+## The messy rows
 
-## Handle the messy rows
+Planners are not tidy. Someone fills primary-text options one and three and leaves two empty. The mapper closes the gap so the import has no hole, and keeps the approved copy exactly as written, punctuation and emoji included.
 
-Planner rows are not always tidy. A person may fill primary-text option one and three while leaving option two empty. The mapper compacts those numbered fields so the output does not contain an unnecessary gap. It preserves the content, including punctuation and emoji, rather than silently rewriting approved copy.
+Assets have their own traps. One shared folder for several ads can attach the same images to all of them, so the mapper expects a link per file or a folder per ad. GIFs are flagged for a person to check, because the launch tool may need a different format.
 
-Assets have their own traps. Using one shared folder for several ads can make the import tool attach the same contents to all of them. Per-file links or one folder per ad are clearer. The tool's documentation also records a GIF-format limitation: a mapped image format may need manual review and a different launch format.
-
-I want those limits surfaced before launch, not discovered after the wrong creative has been attached.
-
-## Try converting two sample ads
-
-The public example contains two invented ads for Juniper Supply. One deliberately skips a numbered headline field. The mapper compacts the fields and lets you download the CSV. You can also break a destination URL and see the validation stop the export.
-
-[Make an ad-import file](../workspace-demo.html#mapper).
-
-The interactive example demonstrates field mapping, validation and CSV export. It gives a reviewer a practical way to inspect the handoff from a planner to an import file.
-
-## What I check before calling an import ready
-
-| Check | Why it matters |
+| Check before import | Why |
 | --- | --- |
-| Correct destination | A good ad still fails if it sends someone to the wrong page |
-| Copy kept intact | An approved message should not change while moving between tools |
-| Numbered fields filled without gaps | Importers can interpret missing options differently |
-| Assets belong to this ad | Shared folders can create unintended creative combinations |
-| Format and call to action supported | The receiving tool has its own allowed values |
-| Preview reviewed | Confirm the final creative, copy and destination together |
+| Correct destination | A good ad still fails if it sends people to the wrong page |
+| Copy unchanged | Approved wording should not change between tools |
+| Numbered fields without gaps | Importers read missing options differently |
+| Assets belong to this ad | Shared folders create unintended combinations |
+| Format and call to action allowed | The receiving tool has its own list of values |
 
-The public version also quotes CSV values properly and treats spreadsheet-like formula text as text. That keeps an example download predictable when someone opens it in a spreadsheet.
+## Try it
 
-## My contribution
+The [demo](../workspace-demo.html#mapper) converts two invented ads for Juniper Supply. One skips a headline field on purpose. Break a destination link and the export stops.
 
-I identified the repeated work, inspected the actual launch requirements and directed the mapping behavior. I worked with AI on the implementation, then checked the field layout and documented the cases that still need a person.
+## My part
 
-This is an example of choosing a narrow, useful automation. It does not need an elaborate AI experience to help someone. The user wants a file that imports correctly and a warning when something needs fixing.
-
-## Why I built it
-
-I built around the actual import fields, including the names, copy, links and assets. The details matter because a file that looks right can still launch the wrong ad.
-
-The mapper replaces repeated data entry with a consistent handoff. It preserves approved copy, organizes the expected fields and catches problems before the file reaches the launch tool.
+I spotted the repeated work, read the launch tool's requirements and specified the mapping. I built it with AI, then checked the column layout and documented the cases that still need a person. The same idea now runs inside AdNexus, where planner ads go straight to Meta, created paused for review.

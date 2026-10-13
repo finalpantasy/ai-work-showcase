@@ -1,103 +1,68 @@
-# AI tools my marketing team can actually use
+# AdNexus: the team standard, built into software
 
-I build tools that help paid-media strategists understand accounts, review ads and get work done. The pictures below use sample client information.
+AdNexus is elk Marketing's AI operating system for paid media. I conceived it, wrote the requirements and built it, starting in May 2026. It is in production on live client accounts. The screens on this page use fictional client data.
 
-I built this because I want AI to make my team's job easier. Some strategists use AI all the time. Others barely touch it. I want both to be able to open an account, understand what needs attention and get useful work done.
+![AdNexus command center showing priorities, opportunities and account health for fictional clients](../assets/workspace/command-center.jpg)
 
-That means starting with the tasks people already have. Why did results change? Which ad needs attention? What should the designer make next? Are we spending according to the plan? What did the client approve? I work on putting the answers and the work in one place.
+## Why I built it
 
-[Explore the marketing tools](../workspace-demo.html). You can look into a drop in sales, review two ads, open a creative brief and prepare an ad-import file. The examples use made-up client information.
+My team works from a written standard: know the business before touching the account, change one thing on purpose, prove the change landed, and explain why. I spent years teaching it through a 200-page guide, account audits and reviews of people's work. The standard was sound. Following it on every account, every day, was the hard part.
 
-![Actual command-center demo showing priorities, opportunities and account health with fictional clients](../assets/workspace/command-center.jpg)
+The facts a strategist needs are spread across a dozen tools: campaign numbers, client goals, past decisions, creative, tracking, tasks and client messages. AI did not fix that on its own. Handing someone an empty chat box still leaves them to work out what to ask, which source to trust and what to do with the answer. If AI adds work, a busy strategist stops using it.
 
-Product design walkthrough: account priorities, opportunities and health checks, shown with sample clients.
+So AdNexus starts from the task instead of the prompt. A strategist opens an account and sees what needs a decision, with the context already loaded and the standard's checks already run.
 
-## The problem I am trying to solve
+## What I built, and how
 
-A good paid-media strategist has a lot to keep in their head. There are campaign numbers, customer goals, old decisions, new creative, tracking issues, tasks and client messages. The information is spread across tools. Knowing which tab to open can become a job of its own.
+AdNexus connects Google Ads, Meta, TikTok, Microsoft Advertising, GA4, Triple Whale, Slack, Asana and meeting transcripts. A strategist asks a question in plain English and gets a sourced answer, a dashboard or a change ready for approval.
 
-Giving someone an empty AI chat box does not solve that. They still need to know what to ask, which source to use, how to judge the answer and what to do with it. If using AI adds work, a busy teammate will stop using it.
+I built it with Claude Code and Codex on Next.js, TypeScript and Postgres. Between July 15 and October 12, 2026, 860 of my pull requests were merged, each through CI on a protected main branch. The same tools are available to AI assistants through a 165-tool MCP server, and the system holds 34 client workspaces.
 
-My approach is to build AI into a recognizable task. The person opens creative review because they need to review ads. They ask about a performance change because they need to explain the week. The tool brings in the relevant account information and returns something they can check and use.
+| Part | What it does |
+| --- | --- |
+| Daily decision desk | Numbers first, at most five work items, a plain-English next step |
+| Smart Reviews | Search terms, ad copy, landing pages, budgets, pacing and creative, run when the strategist asks |
+| 18 scheduled monitors | Quiet while an account is healthy; a finding, evidence and a prepared fix when it is not |
+| Creative Confidence | Statistical scoring of every Meta ad, so a new ad is not judged on one day of spend |
+| What Changed | Compares two periods and says where a change is concentrated and what to check next |
+| Governed changes | Preview, approval, live re-check, one dispatch, read-back, audit log and undo |
 
-The product should do the preparation. The strategist should be able to make the decision.
+By my own estimate, it gives each strategist back 20 or more hours a week that used to go to collecting facts and retyping them.
 
-## My part in the work
+## Start with the account
 
-I bring the marketing knowledge, choose the problems worth solving and work hands-on with Claude Code, OpenAI Codex and ChatGPT to build the solutions. I turn real work into requirements, work through the proposed behavior, review changes and keep fixing the rough parts.
+The account view puts the client's goals, budget, performance, open work and constraints on one screen, before anyone opens a tool. It also keeps the client context that usually lives in someone's head: the products that matter, the target customer, approved copy rules and upcoming events.
 
-That includes small details that make a big difference to a teammate. A recommendation needs the right date range. Missing information needs to look missing. A draft needs to remain a draft. A designer needs a reason for the next ad, not ten variations of the same vague instruction.
+It shows urgency and readiness separately. A broken tracking tag is urgent even when there is not yet enough data to diagnose it. An ad review can be ready to decide even when nothing is on fire. Seeing both tells the strategist where to start.
 
-My role combines paid-media leadership, product direction, AI-assisted delivery and quality review. I judge the result by the task: can a strategist understand the account, make a useful decision and complete the work more easily?
+![AdNexus account view with a prepared review, account checks and data freshness](../assets/workspace/client-dashboard.jpg)
 
-## Start with the account, not an empty prompt
+## Explain what changed
 
-The account view brings together its goals, budget, performance, work and constraints. A person can see what is happening before opening a tool. The product also keeps useful client context, such as the products that matter, the target customer, approved copy constraints and upcoming events.
+When results move, What Changed compares two matching periods, finds where the change is concentrated, and writes a short explanation with the evidence attached. It separates what the numbers show from possible causes, and pulls in notes, tasks and recent account changes so the strategist knows what to check.
 
-The account view separates how urgent a task is from whether we have enough information to act. A tracking failure can be urgent even when there is not enough data to diagnose it. An ad review can be ready for a decision even when it is less urgent. Putting both facts on the page helps people choose the right next step.
+In the [public demo](../workspace-demo.html), Meta return falls from 3.2x to 2.4x week over week. Prospecting accounts for the whole drop while retargeting holds. A vague "Meta is down" becomes one specific question about prospecting.
 
-![Actual client-dashboard demo with a recommended review, account checks and when the information was last updated](../assets/workspace/client-dashboard.jpg)
+Saved investigations keep their original evidence, so a later data refresh cannot quietly rewrite last week's explanation.
 
-The account view puts a recommended review beside the business goals, performance and when the information was last updated. That gives the strategist a useful starting point before digging into individual campaigns.
+## Review creative as ads, not rows
 
-## Explain a performance change in words people understand
+An ad is more than a return figure. The creative review shows the ad itself beside its results, lets the strategist switch attribution views, and records the decision. Different attribution sources often disagree. Hiding that makes a tidier page and a worse decision.
 
-One of the tools investigates what changed between two comparable periods. It starts with the numbers, looks for measured contributors and produces a short explanation with supporting evidence. It can use the relevant business reporting source when available, with an explicit fallback when it is not.
+![AdNexus creative review with fictional ads, attribution comparisons and decision controls](../assets/workspace/creative-review.jpg)
 
-The investigation distinguishes measured changes from possible explanations. It combines reporting with notes, task history and recent changes, helping the strategist decide where to investigate next.
-
-A useful output answers four questions: what changed, where the change is concentrated, what the available evidence supports and what needs checking next. The original evidence stays with a saved investigation so a later update does not quietly rewrite the earlier explanation.
-
-In the public sample, two seven-day periods show Meta return falling from 3.2 to 2.4 dollars per advertising dollar. Prospecting accounts for the revenue decline while retargeting holds steady. The sample data lets a visitor follow the same investigation process and see how a broad decline becomes a specific question about prospecting.
-
-## Give creative review a clear next step
-
-Creative review combines ad performance, the actual message and a place for the strategist's decision. The product can present ads in a table or gallery, switch the attribution view and prepare notes for a client or designer.
-
-That matters because an ad is more than a row with a return number. We need to understand the picture, the opening line, the customer concern, the offer and whether the ad has had enough delivery to judge. Different attribution sources can also disagree. Hiding that disagreement makes a tidy page and a worse decision.
-
-![Actual creative-review demo with fictional ads, attribution comparisons and decision controls](../assets/workspace/creative-review.jpg)
-
-The review view connects performance, attribution and the strategist’s decision. The public creative exercise adds an AI-generated advertisement and a completed brief for a sample outdoor brand.
-
-I have worked on the next part of the task too: preparing a useful creative brief. The brief brings together the audience, buying moment, objection, promise, available proof, format, call to action and landing page. It identifies the one part being tested and the parts that should stay the same.
-
-The brief includes a readiness check covering the message, product evidence, assets and destination. That gives the strategist and designer a shared review standard. See the fuller [creative strategy case](creative-work.html) and [sample brief](../examples/fictional-creative-brief.md).
+The review then feeds the next brief: audience, buying moment, objection, promise, proof, format and destination, with the one thing being tested named. See [how I write briefs](creative-work.html).
 
 ## Make search-term review manageable
 
-Search-term work can mean hundreds of rows and repeated decisions. The review view groups the work into useful queues, gives the strategist the account context and keeps decisions visible before anything is applied.
+Search-term review can mean hundreds of rows. AdNexus groups them into queues and keeps every decision visible before anything is applied. A clearly wrong search, like "coffee table" for a coffee brand, is handled differently from a relevant search with too little data to judge.
 
-An obviously unrelated search is different from a relevant search with little data. For a coffee business, a search for a coffee table is the wrong product. A search for a coffee subscription with no orders after a handful of clicks needs a more careful reading. Treating both as the same kind of failure wastes judgment.
+![AdNexus search-term review grouping fictional queries into queues](../assets/workspace/search-review.jpg)
 
-![Actual search-term demo grouping fictional queries into review queues](../assets/workspace/search-review.jpg)
+## Every change goes through one gate
 
-The public exercise lets a visitor stage search decisions and inspect their exact scope. The platform’s account-action workflow brings the same discipline to preview, approval and verification.
+Nothing touches a client account without a person's approval. Each change to Google or Meta is previewed with its exact scope, approved, re-checked against the live account, sent once, read back and logged with a way to undo it. New campaigns and ads are created paused. Launch Guard watches for an ad that lands in the wrong client's account and flags it.
 
-## Keep planning, reporting and account changes connected
+This is the "prove the change landed" rule from the team standard, written into code.
 
-The broader platform brings together reporting and account tools with the surrounding work: documents, creative, task history and client context. I have worked on budget and pacing checks, reporting, audits, creative workflows and account actions.
-
-The value is that one task can lead naturally to the next. An investigation should lead to a review. A review should lead to a clear brief or proposed change. A proposed change should show the exact scope before approval. A completed change should be checked and then explained to the team or client.
-
-That does not mean every decision should be automated. It means the tool should remove the searching, retyping and repeated preparation around the decision. The separate [ad-launch mapper](../projects/ad-launch-mapper.html) is another example: it moves approved planner content into the format a launch tool expects.
-
-## New features and fixes: 860 merged changes
-
-I keep building and improving this. Between July 15 and October 12, 2026, 860 of my pull requests were merged into the private project. A pull request is a set of code changes submitted for review.
-
-Those changes include new features, bug fixes and maintenance. I do not stop at the first version. I keep working on the details that make a tool easier to use and more dependable.
-
-Examples include a reporting feature, a fix for incorrectly flagged copy and an update for a field that an advertising platform had changed. That is part of making the tool dependable: correct numbers, accurate checks and clearer behavior when an outside system changes.
-
-I can walk through the product decisions, feature development and review process in an interview. The portfolio makes that work visible through product views and hands-on examples while protecting client information.
-
-## Less time spent on the same manual work
-
-Across my work on automation, reporting and AI-assisted analysis, the weekly time savings exceed 20 hours. This platform is another way to remove the searching, copying and repeated preparation around a strategist's job.
-
-I want someone to find the account information, review the results and prepare the next piece of work in the same place. If AI takes more effort to use than the task itself, people will not stick with it.
-
-That is what I keep coming back to: make the task simpler, explain the answer clearly and build something people have a reason to use.
-
-[Review ads and account results](../workspace-demo.html), explore [my personal AI brain](personal-ai-work-system.html), or read the separate [marketing results](growth-results.html).
+[Try the demos](../workspace-demo.html) · [How I train the team](team-systems.html) · [The Compartés case](compartes.html)

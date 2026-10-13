@@ -1,69 +1,45 @@
-# Give the designer a brief they can use
+# Briefs a designer can use
 
-I use AI to help research, plan and review ads. The sample below uses a made-up brand.
+"Make more ads" is not a brief. A designer needs to know who the ad is for, what it should say, what proof exists, and what we are trying to learn. This page shows how I write that brief, using an invented brand.
 
-I work on creative strategy from the customer's point of view: what are they trying to do, what is stopping them and what would give them a useful reason to act? AI helps me research, draft, compare and build tools around that work. The brief still needs a clear idea.
+## Start with the customer's problem
 
-One of my main goals is to make the handoff to a designer easier. “Make more ads” is not a good brief. The designer needs to know who the ad is for, what the ad should say, what proof is available and what we want to learn.
+Every brief I write starts from the buyer: what they are trying to do, what is stopping them, and what would give them a reason to act. From there it names a buying moment, an objection, a promise and the proof behind it, plus the product or offer, format, call to action and landing page.
 
-## Start with a customer problem
+If the proof is missing, the brief says so. It does not invent a product benefit because the rest reads well. A draft and a brief that is ready for production are different things, and the brief marks which one it is.
 
-The private brief tool draws on available account context, approved messages, customer language, past creative and performance. It helps bring those inputs together rather than expecting a strategist to find and paste them into an empty chat.
+AdNexus prepares most of this. It pulls the client's approved messages, customer language, past creative and results into the brief, so the strategist is not pasting them into an empty chat.
 
-The output is designed around a buying moment, an objection, a promise and the proof that supports it. It also includes the product or offer, format, call to action and destination. Those details give the creative team something specific to build.
+## Test one idea at a time
 
-If proof is missing, the tool needs to say so. It should not invent a product benefit because the rest of the brief reads well. The system distinguishes a useful draft from a brief that is ready for production.
+A test is only readable if you know what changed. The brief names the one variable being tested and everything that stays the same. Two concepts can then compare a message without also changing the audience, offer, landing page and format.
 
-## Test a real idea, not ten random variations
+## A sample brief
 
-A test is easier to learn from when we know what changed. The brief identifies a planned variable and what should stay the same. Two concepts can then compare a strategic message without changing the audience, offer, landing page and format at the same time.
-
-The test question gives the team a direction for learning. Keeping the main inputs consistent makes the comparison easier to interpret, while delivery and customer mix provide context for the result.
-
-## A sample brief for a bottle ad
-
-The public sample is for Juniper Supply, an invented outdoor brand. Its made-up product is a reusable bottle. The example customer is someone packing for a short hike who wants less fuss when getting ready.
+Juniper Supply is an invented outdoor brand. Its invented product is a reusable bottle, and the customer is someone packing for a short hike who wants less fuss getting ready.
 
 | Brief field | Example |
 | --- | --- |
 | Buying moment | Packing for a weekend walk |
 | Customer concern | Choosing useful gear without overcomplicating the trip |
 | Message to test | Easy preparation versus the pleasure of a small detour |
-| Available proof | Product shape and carry handle are visible in the sample image |
+| Proof available | Product shape and carry handle are visible in the image |
 | Claims still needing proof | Leak resistance, temperature retention and durability |
 | Keep the same | Product, audience, format, destination and offer |
 | Call to action | Explore the bottle |
 
-AI-generated creative for the sample Juniper Supply brand. The exercise uses illustrative performance data to show the review process.
+![AI-generated bottle ad for the invented Juniper Supply brand](../assets/workspace/juniper-ad.png)
 
-![AI-generated bottle advertisement for the fictional Juniper Supply brand](../assets/workspace/juniper-ad.png)
-
-[Open the full sample brief](../examples/fictional-creative-brief.md) or [open the brief in the ad-review tool](../workspace-demo.html#creative).
+[Read the full sample brief](../examples/fictional-creative-brief.md) or [open it in the ad-review demo](../workspace-demo.html#creative).
 
 ## Review the picture and the words together
 
-The creative-review work in the platform combines results with the ad itself. It can prepare notes for different readers: a client needs a clear explanation, while a designer needs a useful next concept.
+In AdNexus, creative review shows each ad beside its results and writes notes for the person who reads them next: a plain explanation for the client, the next concept for the designer. It also checks whether an ad has had enough spend to judge. A new ad with no orders after a few dollars has not failed yet, and an awareness ad is not judged like a purchase ad.
 
-I keep observations close to their context: the ads, dates, delivery and customer response. A useful pattern becomes a focused idea for the next test, with a clear reason for trying it.
+For the bottle example, I would keep the product visible and the message short, test the buying reason first, and ask for product evidence before approving any claim about insulation or durability.
 
-The review also checks whether an ad has run enough to judge its sales results. A new ad should not automatically be called a failure because it has no orders after very little spend. Awareness work needs different judgment from a purchase campaign.
+## Keep the brief, launch and result together
 
-## Make the review useful for the next person
+The same brief carries through production, review, launch and the readout, with an owner at each stage. The [ad-launch mapper](../projects/ad-launch-mapper.html) handles one more handoff: it turns the approved planner into the file the launch tool expects, without retyping the copy.
 
-Good notes identify what to keep, what to try and why. For the fictional bottle example, I would keep the product visible and the message short. I would test the buying reason before adding unverified claims about insulation or durability. I would ask for the relevant product evidence before approving those claims.
-
-This is the kind of practical direction I want an AI tool to help prepare. It should save the strategist from assembling the inputs and give the designer a better starting point. It should not create a pile of generic copy that still needs someone to decide what matters.
-
-## Keep the brief, launch and results together
-
-I have also worked on the process around the ads: preparing the brief, making the creative, checking it, launching it and using the results to plan the next test. Each stage needs a clear owner.
-
-The process design connects the existing brief and review tools to the wider team workflow. A designer gets a clear starting point; a strategist gets a defined review; the next round uses what the team learned.
-
-The [ad-launch mapper](../projects/ad-launch-mapper.html) handles another practical handoff. It converts planner content into the fields the launch tool expects and checks the copy, links and assets before import.
-
-## My part in the work
-
-I define the marketing questions, the brief structure, the evidence needs and the review standard. I work hands-on with AI to build and improve the tools, then check whether the result is useful to the person doing the work.
-
-I use AI to help with the preparation while keeping the customer, the message and the test question clear. Read the [holiday campaign](compartes.html) for the business results, original creative and budget planning behind a specific engagement.
+[How AdNexus works](marketing-ai-operations.html) · [The Compartés case](compartes.html), with real campaign creative

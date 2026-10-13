@@ -1,126 +1,98 @@
-# Compartés: growing holiday sales with a clear plan
+# Compartés, holiday 2025: a bigger season inside a 4x floor
 
-2026 Meta Agency Award winner: Performance Campaign of the Year by a Boutique Agency in North America. Campaign: November 1–December 31, 2025. My role: paid-media leadership, budget planning, creative direction, AI-assisted work and the award submission.
+Winner, 2026 Meta Agency Awards: Performance Campaign of the Year by a Boutique Agency, North America. Campaign dates: November 1 to December 31, 2025. My role: I helped lead the elk team, built the Meta budget plan, set the weekly budget steps, directed creative needs and wrote the award submission.
 
 ![Holiday chocolate gift assortment from the original campaign submission](../assets/compartes/holiday-gifts.png)
 
-Compartés needed to sell more chocolate during its busiest season. The job was to reach more gift buyers, give them a reason to buy and spend more when the sales could support it. We finished the season with $2.84 million in Shopify sales. During Black Friday and Cyber Monday, we nearly doubled Meta spend while lowering the cost of a purchase.
+Compartés sells premium chocolate, and the holiday season decides its year. The job was to reach more gift buyers without spending the budget too early. We finished the season with $2.84 million in Shopify sales, up 33%. Over Black Friday weekend we nearly doubled Meta spend and still lowered the cost of a purchase.
 
-This case shows the work behind those results: my original planning tasks, the budget, the ads, the account decisions and the full results. [Read the full campaign submission](compartes-submission.html), [inspect the planning excerpts](compartes-planning.html) or [download the case and evidence as a PDF](compartes-evidence.pdf).
+This page walks through the plan, the account structure, the ads and the results. The source documents are public too: [the planning excerpts](compartes-planning.html), [the full award submission](compartes-submission.html) and [a PDF evidence pack](compartes-evidence.pdf).
 
-## What I worked on
+## My part and the team's
 
-I helped lead paid media, developed the holiday budget plan and campaign update task, and owned the award submission. My contribution connected budget pacing, creative direction and daily account decisions with the team’s execution.
-
-The update task was created on November 5, 2025 and last updated on November 21, before Black Friday. It calls for larger budgets in measured steps, more compilation videos, holiday creator content, photography and stronger promotion of the advent calendar. One instruction reads:
+I created the two planning tasks that ran the season. The campaign update task, written November 5 and last edited November 21, set the pace and the creative asks. Its first instruction:
 
 > Increase budgets 10-20% WoW
 
-Another calls for a daily check of budget, spend, revenue, marketing efficiency and platform return. That is the work of keeping the team focused: decide what to make, what to watch and how quickly to increase investment. The public excerpt removes people's names and internal links; the private original retains the author and assignment fields.
+It also asked for more compilation videos, holiday creator content, photography, stronger promotion of the advent calendar and a daily check of spend, revenue and return. The budget-plan task, created November 7, holds the $200,000 Meta plan below.
 
-The budget-plan task was created November 7 and last updated December 15. It contains a $200,000 Meta plan with five stages, built around the previous year's demand pattern. Because that task was edited during the season, I describe it as the recorded operating plan rather than claiming every final note was present on November 7.
+Creators, designers and other strategists made the ads and ran the account day to day. The award recognizes that shared work. I used AI for copy drafts, research and analysis along the way. Every call on budget and creative was made by a person.
 
-My AI use supported this work: creative ideas, copy, research, analysis and tools to help with account decisions. I chose the business questions, directed the work, reviewed the output and helped turn it into action. Creators, designers and other strategists contributed the assets and execution. The award recognizes that shared campaign work.
+## The target
 
-## The business problem
+Premium chocolate is a crowded holiday category. Buyers compare prices and worry about delivery dates. Compartés has unusual flavors and striking packaging, so the ads had to make those easy to see.
 
-Premium chocolate is a crowded holiday category. Buyers are choosing a gift, comparing prices and trying to get it delivered on time. Compartés has a strong visual advantage: unusual flavors, striking packaging and products that look like a thoughtful gift. The ads had to make those advantages easy to see.
+We agreed on an account-level Meta return floor of 4x: at least four dollars of attributed purchase value per dollar of spend. We read it alongside store sales and total ad cost, because return on ad spend measures revenue, not profit.
 
-We needed to grow quickly without spending the whole budget too early. We also needed enough useful creative for Meta to find different kinds of buyers. One ad cannot do all of that: a product close-up, a creator explaining a flavor and a clear sale message each give someone a different reason to act.
+## The $200,000 plan
 
-The operating target was an account-level Meta return above 4x, meaning more than four dollars of attributed purchase value per dollar of ad spend. We checked that alongside store sales and overall advertising cost. Return on ad spend is a revenue measure; it is not profit.
+The plan split the season by how people shop. Early November was light testing. The two weeks before Black Friday built momentum. The sale and the week after took the most money. December followed gifting and delivery cutoffs, then post-holiday self-gifting.
 
-## The $200,000 holiday plan
+<!-- block:holiday-budget -->
 
-The plan divided the season by how people were likely to shop. Early November was for lighter testing. The weeks before Black Friday built momentum. The heaviest investment went into the sale and the following peak. December focused on gifting, delivery deadlines and then purchases after the holiday.
-
-| Stage | Dates in the planning task | Planned Meta budget | Purpose |
+| Stage | Dates | Planned Meta budget | Purpose |
 | --- | --- | --- | --- |
-| Early warm-up | November 1–7 | $15,000 | Keep testing light while early demand is weaker |
+| Early warm-up | November 1–7 | $15,000 | Light testing while demand is low |
 | Before Black Friday | November 8–21 | $40,000 | Build toward the sale and test creative |
-| Sale and extended peak | November 22–December 8 | $85,000 | Put the most investment into the strongest demand period |
-| Holiday gifting | December 9–20 | $45,000 | Support gift purchases before delivery cutoffs |
-| After the holiday | December 21–31 | $15,000 | Continue where lower competition and self-gifting support sales |
-| Total plan | November–December | $200,000 | Five stages with room to adjust daily |
+| Sale and extended peak | November 22–December 8 | $85,000 | Most money into the strongest demand |
+| Holiday gifting | December 9–20 | $45,000 | Gift purchases before delivery cutoffs |
+| After the holiday | December 21–31 | $15,000 | Lower competition and self-gifting |
+| Total | November–December | $200,000 | Five stages, adjusted daily |
 
-The five-stage budget plan allocates $200,000. The $85,000 peak allocation covers a longer window than the nine-day Black Friday results below.
+Final Meta spend was $201,210.57, within 1% of the plan. Budgets went up 10 to 20% at a time, and only after the previous step held.
 
-Final Meta spend was $201,210.57, about 0.6% above the plan. The team used 10–20% budget increases and checked performance before the next increase. This gave the team a shared plan without pretending that a holiday account could run on a fixed schedule alone.
+## Four campaigns, four jobs
 
-## Four clear jobs for the campaigns
+Each campaign had one commercial job, so a result always pointed at a decision.
 
-I wanted the account to be easier to understand and act on. The submission describes four commercial roles: keep proven ads selling, support the sale, let shoppers discover products and launch seasonal items. Each role had a clear reason to exist.
-
-| Campaign role | What it did | Reported spend | Meta return |
+| Campaign | Job | Spend | Meta return |
 | --- | --- | --- | --- |
-| Evergreen | Keep proven sales ads running | $121,805.49 | 5.29x |
-| Black Friday promotion | Give buyers a clear reason to act during the offer | $25,514.00 | 4.42x |
-| Shopping and catalog | Show relevant products from the catalog | $22,820.86 | 3.44x |
-| Seasonal products | Promote limited editions and the advent calendar | $29,064.53 | 3.17x |
+| Evergreen | Keep proven ads selling | $121,805.49 | 5.29x |
+| Black Friday promotion | Give buyers a reason to act on the offer | $25,514.00 | 4.42x |
+| Shopping and catalog | Show the right products from the catalog | $22,820.86 | 3.44x |
+| Seasonal products | Launch limited editions and the advent calendar | $29,064.53 | 3.17x |
 
-These four selected campaign roles total $199,204.88 of the $201,210.57 account spend. The Black Friday campaign row covers that role across the season; the nine-day account result includes the other campaigns running during that period.
+These four account for $199,204.88 of the $201,210.57 total. About 87% of consumer spend used Meta's Advantage+ Audience with open placements, guided by Shopify audiences, customer segments, purchaser exclusions and selected lookalikes. Separate tests challenged that default: a household-income and online-shopping test returned 7.12x.
 
-The account used Meta's Advantage+ Audience for approximately 87% of consumer spend and kept placements open. In plain English: give Meta room to find buyers, then judge the result. First-party inputs, including Shopify audiences, customer segments, purchaser exclusions and selected lookalikes, provided additional guidance.
+## The ads
 
-We kept a place for specific tests too. A household-income and Online Shopping test returned 7.12x. Broad delivery was the core, while separate tests let the team challenge assumptions and see where another approach could work.
+These are the original campaign assets from the award submission, with the spend, return and click-through rate reported for each. Videos and the GIF appear as stills.
 
-## Actual creative from the campaign
-
-The images below are reproduced unchanged from the original award submission. They show real campaign assets, not newly made portfolio mockups. Video ads and the GIF appear as still images here. Spend, return and click-through rate are the figures reported for each featured ad in the submission.
-
-### Creator video: show the product in someone's hands
+### Creator video
 
 ![Still from an evergreen creator video holding three Compartés chocolate bars](../assets/compartes/creator-video.jpg)
 
-Spend: **$13,955.15**. Meta return: **6.15x**. Click-through rate: **0.93%**. This was the submission's highest-spend featured ad. It puts the packaging and product in a person's hands, which makes the size, variety and gift appeal easy to understand. I directed campaign needs; the creator made the video.
+Spend **$13,955.15**, return **6.15x**, click-through **0.93%**. The highest-spend featured ad. Product in someone's hands makes the size, variety and gift appeal obvious.
 
-### Pistachio creative: keep a proven asset working
+### Pistachio creative
 
 ![Still image from the pistachio dynamic GIF creative](../assets/compartes/pistachio-still.jpg)
 
-Spend: **$11,277.32**. Meta return: **7.12x**. Click-through rate: **0.76%**. The submission says this creative first ran in June 2024 and remained useful during the 2025 holiday refresh. The lesson is practical: add new ideas while keeping an older ad that still sells. This is a still, not a playable GIF.
+Spend **$11,277.32**, return **7.12x**, click-through **0.76%**. First ran in June 2024 and was still selling in the 2025 holiday refresh. New ideas went in beside proven ones, not in place of them.
 
-### Evergreen compilation: give the buyer more ways to connect
+### Evergreen compilation
 
 ![Poster frame from an evergreen multi-creator video showing a chocolate gift box](../assets/compartes/evergreen-compilation.jpg)
 
-Spend: **$10,818.38**. Meta return: **5.38x**. Click-through rate: **1.13%**. Multi-creator videos brought different people and product moments into the same format. The campaign did not depend on one creator or one message.
+Spend **$10,818.38**, return **5.38x**, click-through **1.13%**. Several creators in one video, so the campaign never rested on one face or one message.
 
-### Black Friday compilation: connect product interest to the sale
+### Black Friday compilation
 
 ![Poster frame from the Black Friday creator compilation unwrapping a chocolate bar](../assets/compartes/sale-compilation.jpg)
 
-Spend: **$9,466.06**. Meta return: **4.65x**. Click-through rate: **1.82%**. The planning task specifically asks for more compilation videos and holiday creator content. This is an example of that format appearing in the campaign, rather than proof that I personally edited this video.
+Spend **$9,466.06**, return **4.65x**, click-through **1.82%**. The format my update task asked for, applied to the sale.
 
-### Sale static: make the offer impossible to miss
+### Sale static
 
 ![Original Compartés sale ad offering twenty percent off chocolate bars](../assets/compartes/sale-static.jpg)
 
-Spend: **$8,220.54**. Meta return: **3.83x**. Click-through rate: **1.48%**. The ad clearly states the discount and code alongside the bars. Its return was lower than several evergreen winners. It still shows the promotional role: make the offer understandable at a glance. A clear ad is not automatically the best-returning ad.
+Spend **$8,220.54**, return **3.83x**, click-through **1.48%**. The offer is readable at a glance. It returned less than the evergreen winners, which is normal for a promotion ad.
 
-### Catalog ads: let the product set do more work
+The featured catalog ad, assembled by Meta from the product feed, spent **$9,467.88** at **3.35x** with a **2.19%** click-through rate. Holiday creator round two returned 5.79x against 5.02x for round one. These are observed results, not controlled tests.
 
-The featured catalog ad spent **$9,467.88**, returned **3.35x** and had a **2.19%** click-through rate. It has no single fixed creative image because Meta assembled the ad from the product catalog. I have kept it as a written example rather than inventing a screenshot of it.
+## Black Friday: nearly double the spend, cheaper purchases
 
-The wider creative mix included at least seven creators, compilations, statics, GIFs, product stories and catalog treatments. Assets were prepared for square, portrait and vertical placements. The team tested new hooks, copy and formats while keeping winners in place.
-
-Holiday creator Round 2 returned 5.79x versus 5.02x for Round 1. Closing-urgency creative returned 4.76x. A subscription test returned 4.79x and earned more budget. Those are observed campaign results, not controlled tests proving that one creative choice caused the difference.
-
-## Where AI helped me do the work
-
-There were two kinds of AI in this story. Meta's delivery system chose who saw each eligible ad and where it appeared. My own AI use helped with the human work around that system: working through ideas, writing and refining copy, researching, analyzing results and building tools.
-
-My job was to turn those capabilities into something the team could use. A strategist needed a useful brief, a clear next step and a reason for a budget decision. I used AI to help produce and review that work. I still had to judge whether the idea fit the product, whether the claim was supported and whether the next action made commercial sense.
-
-That is also why I build a private marketing workspace and a personal AI brain. The marketing workspace brings account context, performance explanations, creative briefs, ad reviews and budget checks together. The brain keeps useful decisions, evidence and working rules available across projects. The goal is less repeated explanation and preparation for the people doing the work.
-
-That same way of working now shapes [the marketing workspace](marketing-ai-operations.html) and [my personal AI brain](personal-ai-work-system.html): bring the context together, prepare useful work and make the next decision clear.
-
-I used AI across creative, copy, analysis and tooling to prepare and review the work. The team combined those inputs with campaign management, customer understanding and day-to-day commercial judgment.
-
-## Black Friday: more spend, better purchase economics
-
-This comparison uses the same weekdays around Black Friday and Cyber Monday: **November 24–December 2, 2025**, against **November 25–December 3, 2024**. Both are nine-day account-level windows.
+Same weekdays each year: November 24 to December 2, 2025, against November 25 to December 3, 2024.
 
 | Meta measure | 2024 | 2025 | Change |
 | --- | --- | --- | --- |
@@ -132,32 +104,28 @@ This comparison uses the same weekdays around Black Friday and Cyber Monday: **N
 | Cost per 1,000 impressions | $33.31 | $22.67 | −31.9% |
 | Click-through rate | 1.395% | 1.508% | +8.1% relative |
 
-This was the strongest scaling result in the submission. Spend nearly doubled, purchase value grew a little faster than spend and the cost of a purchase fell. It was useful evidence that the account could take more budget during the peak without losing purchase efficiency.
+Spend doubled and purchase value grew slightly faster. That was the evidence we needed to keep the peak budget high.
 
-## The full season: more volume, with a return tradeoff
+## The full season: more volume, a planned dip in return
 
-The full-season comparison is **November 1–December 31 in each year**. It answers a different question from the nine-day sale window.
+November 1 to December 31 in each year.
 
 | Meta measure | Holiday 2024 | Holiday 2025 | Change |
 | --- | --- | --- | --- |
 | Ad spend | $125,927 | $201,211 | +59.8% |
 | Attributed purchases | 4,646 | 6,924 | +49.0% |
 | Attributed purchase value | $636,562 | $926,640 | +45.6% |
-| Impressions | 8,311,802 | 11,418,646 | +37.4% |
 | Click-through rate | 0.980% | 1.375% | +40.3% relative |
 | Cost per click | $1.55 | $1.28 | −17.1% |
 | Adds to cart | 34,410 | 78,509 | +128.2% |
 | Cost per add to cart | $3.66 | $2.56 | −30.0% |
 | Checkouts started | 9,807 | 18,860 | +92.3% |
-| Cost per checkout | $12.84 | $10.67 | −16.9% |
 
-Dividing the reported purchase value by spend gives a full-season Meta return of about **5.06x in 2024 and 4.61x in 2025**. Those two values are calculated from the submission, rounded to two decimals. Overall return declined, even though purchases and sales grew. The 2025 account remained above the 4x operating threshold.
+Full-season Meta return works out to about 5.06x in 2024 and 4.61x in 2025. Return fell while purchases and sales grew, and it stayed above the 4x floor. That was the trade we planned: more of the business, inside an agreed efficiency limit.
 
-The decision was not simply to maximize the return figure. It was to grow the business within agreed spending and efficiency limits. The lower costs earlier in the shopping path were encouraging, but they did not erase the lower full-season return per advertising dollar.
+## Store results
 
-## Store results and new customers
-
-Shopify provides the total-store view. These numbers include the effect of all channels and other influences, rather than only sales attributed to Meta.
+Shopify shows the whole store, all channels included.
 
 | Shopify measure | Holiday 2024 | Holiday 2025 | Change |
 | --- | --- | --- | --- |
@@ -166,52 +134,19 @@ Shopify provides the total-store view. These numbers include the effect of all c
 | Average order value | $126.23 | $126.93 | +0.6% |
 | First-time customer orders | 8,303 | 11,800 | +42.1% |
 | Returning-customer orders | 7,679 | 9,312 | +21.3% |
-| First-time share of orders | 51.95% | 55.89% | +3.94 percentage points |
 
-First-time customer orders grew faster than returning-customer orders. Average order value stayed close to $127, so the growth was largely about more orders rather than a large rise in the typical order's value.
+Growth came from more orders, mostly from new customers, not from bigger baskets. Combined Meta and Google spend rose 19.2% against 33.1% store growth, so Shopify sales per ad dollar went from 7.40x to 8.26x.
 
-Across Meta and Google, combined spend rose 19.2%, compared with 33.1% growth in store sales. Shopify sales per combined advertising dollar increased from 7.40x to 8.26x. Combined spend as a share of Shopify sales fell from 13.52% to 12.10%.
-
-The submission also reports combined ad spend per first-time order falling from $34.77 to $29.17. That calculation uses all first-time store orders. It is a business-level ratio, not a verified channel acquisition cost.
-
-## Cross-channel and placement decisions
-
-The team reviewed Meta and Google together. More of the advertising budget moved toward Meta, while Google reported more conversions on less spend.
-
-| Advertising spend | Holiday 2024 | Holiday 2025 | Change |
+| Ad spend | Holiday 2024 | Holiday 2025 | Change |
 | --- | --- | --- | --- |
 | Meta | $125,926.72 | $201,210.57 | +59.8% |
 | Google Ads | $162,764.26 | $142,957.99 | −12.2% |
 | Combined | $288,690.98 | $344,168.56 | +19.2% |
 
-Google reported 28.8% more conversions. That is a separate platform result; it should not be added to Meta purchases as if both systems count sales in the same way.
+Money moved toward Meta. Google reported 28.8% more conversions on less spend; the two platforms count differently, so those are not added together.
 
-Open placements also gave the team more ways to reach buyers. Instagram Stories combined meaningful spend with a strong return. Facebook Reels Overlay returned more per dollar, but on a much smaller budget.
+## How the numbers were checked
 
-| Selected Meta placement | Reported spend | Return |
-| --- | --- | --- |
-| Facebook Feed | $72,052 | 3.83x |
-| Instagram Feed | $56,103 | 4.73x |
-| Instagram Stories | $31,605 | 6.23x |
-| Instagram Reels | $15,396 | 4.19x |
-| Facebook Reels | $12,367 | 2.70x |
-| Facebook Reels Overlay | $4,933 | 8.16x |
-| Facebook Stories | $2,245 | 4.15x |
+Both years use Meta's seven-day click, one-day view attribution. Meta measured delivery and attributed purchases, Shopify measured store sales and customer mix, and Triple Whale cross-checked the reporting. Pixel and server-side purchase events supported measurement, with an Event Match Quality score of 9.3.
 
-A placement's past return is not a promise that it can absorb unlimited spend at that return. The comparison helped the team understand the mix; it did not justify putting the whole account into the smallest high-return placement.
-
-## How I checked the results
-
-The submission used Meta's seven-day click and one-day view attribution setting consistently in both years. Meta measured ad delivery and attributed purchases. Shopify measured store sales, orders and customer mix. Triple Whale was used to cross-check reporting. Pixel and server-side purchase signals supported measurement; the submission reports a Purchase Event Match Quality score of 9.3.
-
-The reporting keeps the measurement sources clear: Meta-attributed purchases and return alongside Shopify store sales, orders and customer mix. That lets the team connect platform performance with the wider business.
-
-The case brings together the original budget planning, campaign creative and award submission. The dated result tables follow the campaign’s reporting periods, with client account access kept private.
-
-## What I bring to the next team
-
-I work through the budget, the creative and the account decisions together. The team needs to know what we are trying to sell, when to spend more and what the results are telling us. I use AI to help with the research, copy, analysis and tools around that work.
-
-That is what I bring to a team: years of marketing experience, hands-on AI work and a clear plan people can use.
-
-[Read the full campaign submission](compartes-submission.html) · [Read the original planning excerpts](compartes-planning.html) · [Download the PDF evidence pack](compartes-evidence.pdf)
+[Read the full award submission](compartes-submission.html) · [Read the original planning excerpts](compartes-planning.html) · [Download the PDF evidence pack](compartes-evidence.pdf)

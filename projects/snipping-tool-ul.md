@@ -1,59 +1,35 @@
-# Snipping Tool UL: capture, mark up and paste
+# Snipping Tool UL: capture, mark up, paste
 
-A lightweight Windows screenshot app I am building with AI, using Rust.
+A lightweight Windows screenshot app I build with AI, in Rust. Grabbing an area of the screen to paste into a chat is a small job, and a heavy tool makes it feel bigger. I wanted one that opens instantly and gets out of the way.
 
-I wanted a screenshot tool that feels light and gets out of the way. The task is common: select an area, paste it into a chat, add a mark when needed and get back to work. Waiting on a heavy interface makes that small task feel bigger than it should.
-
-I built Snipping Tool UL on the MIT-licensed [HydroShot foundation](https://github.com/Real-Fruit-Snacks/HydroShot), extending the workflow, editor and Windows integration around the way I use screenshots at work.
-
-## Capture, edit and share screenshots
-
-The app includes region, window and full-screen capture, configurable hotkeys and three-, five- and ten-second delays. The capture workflow pairs clipboard copy with an annotation preview, keeping the common next steps together.
-
-The editor includes pencil strokes, arrows, shapes, highlights, pixelation, text and numbered steps. Width and size controls are visible. Selecting a mark lets you move or change it; deleting a numbered step renumbers the later steps, and undo restores the change.
-
-There is also saving, OCR, optional history and sharing. History and auto-save are off by default. Sharing is a deliberate action, with a clear confirmation before an image is uploaded publicly.
-
-The 0.3.6 build adds an explicit “Upload publicly” confirmation showing the destination and link visibility. Cancelling or changing the image clears approval. Repeated requests can reuse a small in-memory cache of successful links instead of uploading the same image again.
-
-Saving also has practical safeguards. Auto-save creates a chosen missing folder and preserves files when timestamps collide. Manual Save asks for a destination before flattening or encoding the image, so cancelling avoids that work. Encoding runs on a worker after selection. This keeps expensive image processing off the main interface and avoids unnecessary work when a person cancels.
-
-## Keep the app light
-
-The app uses no webview or permanent rendering loop. Its event loop can sleep when no work needs drawing. Icon assets are prepared ahead of time rather than parsed on every interaction.
-
-The editor keeps the original image for export while drawing the visible preview at the window's size. That avoids repeatedly doing full-resolution work just to show a smaller view. Copy and save use the original resolution separately.
-
-This is where product and performance meet. A fast preview should still produce a sharp export. Making the preview cheaper should not quietly lower the quality of the file a person saves or pastes.
-
-## The interface
+I built it on the MIT-licensed [HydroShot foundation](https://github.com/Real-Fruit-Snacks/HydroShot), keeping its license, and reworked the capture flow, the editor and the Windows integration.
 
 ![Dark editor preview with a sample image](../assets/snipping/editor-dark.png)
 
+## What it does
+
+Region, window and full-screen capture, with configurable hotkeys and three-, five- and ten-second delays. A capture goes to the clipboard and opens a markup preview in one step.
+
+The editor has pencil, arrows, shapes, highlights, pixelation, text and numbered steps. Any mark can be selected, moved or changed. Deleting a numbered step renumbers the ones after it, and undo restores it.
+
+Saving, OCR, optional history and sharing are there too. History and auto-save are off by default. Uploading an image publicly asks first and shows where it is going and who can see the link. Cancelling or editing the image clears that approval.
+
 ![Light editor preview with a sample image](../assets/snipping/editor-light.png)
 
-The editor previews show the app’s light and dark themes using a sample image.
+## Keeping it fast
 
-The interface uses restrained teal controls, light and dark themes, a frosted workspace and clear tool names. The image stays sharp and opaque inside the surrounding workspace. The supplied bird-and-scissors identity gives the small app a recognizable visual character.
+There is no web view and no constant redraw loop. The app sleeps when nothing needs drawing. The editor keeps the full-resolution original for copy and save, but draws the on-screen preview at window size, so it never does 4K work just to show a smaller picture.
 
-## Less work for the preview, full quality for the export
+On October 12 I measured the two rendering paths with a synthetic 3840 × 2160 image in a 1410 × 918 editor at 150% scaling:
 
-The retained October 12 version 0.3.5 benchmark compared two rendering paths inside the app, using a synthetic 3840 × 2160 image and a 1410 × 918 editor viewport at 150% DPI.
-
-| Internal rendering path | Warm CPU render time, median of 21 frames | Retained image and render buffers |
+| Rendering path | Median render time, 21 frames | Image and render buffers held |
 | --- | --- | --- |
-| Full-image path | 11.484 ms | 71,532,720 bytes |
-| Cached viewport path | 4.514 ms | 44,929,008 bytes |
-| Difference | 60.7% less CPU render time | 37.2% fewer retained buffer bytes |
-
-The comparison measures editor rendering and retained image buffers. Caching the viewport makes the preview cheaper to draw while preserving the full-resolution original for copy and export.
+| Full image | 11.484 ms | 71,532,720 bytes |
+| Cached viewport | 4.514 ms | 44,929,008 bytes |
+| Difference | 60.7% faster | 37.2% less memory |
 
 [Read the benchmark method and data](../examples/snipping-render-benchmark.md).
 
-## My contribution
+## My part
 
-I decide how the app should work and look, build with AI and keep checking the details. That includes clear controls, live annotation editing, clipboard ordering, accurate exports, installation behavior and privacy checks.
-
-I started with something I use all the time and wanted to make it better. I used an existing open-source foundation, kept its license and worked on the capture flow, editor and Windows behavior.
-
-I like this project because the goal is easy to explain: take the screenshot, add what you need, paste it and get back to work.
+I decide how the app should work and look, build it with AI, and check the details: control labels, live editing, clipboard order, export quality, installation and privacy. The current build is 0.3.6.

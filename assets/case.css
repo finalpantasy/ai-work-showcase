@@ -1,0 +1,61 @@
+/* Case-study and project pages, on the homepage design (styles.css tokens). */
+:root {
+  --blue: var(--cobalt);
+  --surface: var(--paper-light);
+  --wash: #ECE6D3;
+  --line: var(--rule);
+  --field-border: var(--rule-strong);
+}
+
+body.case-page { background: var(--paper); color: var(--ink); font-family: var(--body); }
+
+.case-layout { display: grid; grid-template-columns: minmax(180px, 230px) minmax(0, 760px); gap: clamp(2rem, 5vw, 5rem); justify-content: center; padding-top: clamp(2.5rem, 5vw, 4.5rem); padding-bottom: clamp(3.5rem, 7vw, 6rem); }
+
+.case-nav { position: sticky; top: 1.5rem; align-self: start; font-size: 0.85rem; line-height: 1.4; }
+.case-nav > a { display: inline-block; margin-bottom: 1.4rem; font-weight: 700; text-decoration: none; }
+.case-nav .toc-links { display: grid; gap: 0.15rem; padding-top: 1rem; border-top: 1px solid var(--rule-strong); }
+.case-nav .toc-links a { padding: 0.35rem 0; color: var(--muted); text-decoration: none; }
+.case-nav .toc-links a:hover { color: var(--ink); }
+.case-resources { display: grid; gap: 0.15rem; margin-top: 1.6rem; padding-top: 1rem; border-top: 1px solid var(--rule); }
+.case-resources a { padding: 0.3rem 0; color: var(--accent); text-decoration: none; font-weight: 700; }
+.case-resources a:hover { text-decoration: underline; }
+
+.case-content { min-width: 0; font-size: 1.05rem; line-height: 1.65; }
+.case-content h1 { margin: 0 0 1.5rem; font-family: var(--display); font-size: clamp(2.3rem, 4.4vw, 3.9rem); font-weight: 500; line-height: 1.05; letter-spacing: -0.035em; text-wrap: balance; }
+.case-content h1 + p { padding-bottom: 1.4rem; margin-bottom: 1.8rem; border-bottom: 1px solid var(--rule-strong); color: var(--muted); font-size: 0.95rem; }
+.case-content h2 { margin: 3rem 0 1rem; padding-top: 1.4rem; border-top: 1px solid var(--rule-strong); font-family: var(--display); font-size: clamp(1.7rem, 2.6vw, 2.3rem); font-weight: 500; line-height: 1.15; letter-spacing: -0.02em; scroll-margin-top: 1.5rem; }
+.case-content h3 { margin: 2rem 0 0.6rem; font-size: 1.15rem; font-weight: 700; }
+.case-content p { max-width: 68ch; margin: 0 0 1.1rem; }
+.case-content ul, .case-content ol { max-width: 66ch; margin: 0 0 1.3rem; padding-left: 1.3rem; }
+.case-content li { margin: 0.45rem 0; }
+.case-content a { color: var(--accent); }
+.case-content strong { font-weight: 700; }
+.case-content code { font-family: Consolas, monospace; font-size: 0.9em; background: var(--wash); padding: 0.1em 0.3em; }
+
+.case-content blockquote { margin: 1.5rem 0; padding: 1rem 1.3rem; border-left: 4px solid var(--accent); background: var(--paper-light); }
+.case-content blockquote p { margin: 0.3rem 0; font-family: var(--display); font-size: 1.15rem; }
+
+.case-content figure { margin: 1.8rem 0; }
+.case-content figure img { display: block; width: 100%; height: auto; border: 1px solid var(--rule-strong); background: var(--paper-light); }
+.case-content figure a { display: block; }
+.case-content figcaption { margin-top: 0.6rem; color: var(--muted); font-size: 0.8rem; line-height: 1.45; }
+.campaign-image:not(.case-hero) { max-width: 520px; }
+
+.table-scroll-hint { display: none; color: var(--muted); font-size: 0.8rem; }
+.table-wrap { overflow-x: auto; margin: 1.3rem 0 1.6rem; border-top: 2px solid var(--ink); }
+.case-content table { width: 100%; border-collapse: collapse; font-size: 0.9rem; font-variant-numeric: tabular-nums; }
+.case-content th, .case-content td { padding: 0.7rem 1rem 0.7rem 0; text-align: left; vertical-align: top; border-bottom: 1px solid var(--rule); }
+.case-content th { font-weight: 700; }
+
+.case-ending { margin-top: 3rem; padding-top: 1.4rem; border-top: 1px solid var(--rule-strong); }
+.case-ending .text-link { font-weight: 700; color: var(--ink); text-decoration: none; border-bottom: 2px solid var(--accent); }
+
+.case-footer .footer-bottom { font-size: 0.8rem; }
+.case-footer .footer-bottom a { margin-left: 1rem; }
+
+@media (max-width: 900px) {
+  .case-layout { grid-template-columns: minmax(0, 1fr); }
+  .case-nav { position: static; }
+  .case-nav .toc-links { display: none; }
+  .table-scroll-hint { display: block; }
+}
