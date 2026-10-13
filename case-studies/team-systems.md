@@ -1,6 +1,6 @@
 # How I train the team
 
-I joined elk Marketing in 2017, ran paid media as Director from 2020 and became VP of Paid Media in April 2026. Six strategists report to me. This page covers the standard they work from and how they learn it.
+I joined elk Marketing in 2017 as its only paid-media person and built the department from there. I'm VP of Paid Media, and six strategists report to me. This page covers the standard they work from and how they learn it.
 
 A strong strategist can do good work on their own. A department needs good work to happen when people are busy, new, or covering an account they did not build. That takes a written standard, practice on real work, and regular review.
 
