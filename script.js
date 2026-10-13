@@ -3,25 +3,6 @@
   const menuToggle = document.querySelector(".menu-toggle");
   const primaryNavigation = document.querySelector("#primary-navigation");
   const accentToggle = document.querySelector("[data-accent-toggle]");
-  const film = document.querySelector('#portfolio-film');
-  const filmPlay = document.querySelector('[data-film-play]');
-  const filmStatus = document.querySelector('[data-film-status]');
-
-  if (film && filmPlay) {
-    const updateFilmButton = () => {
-      filmPlay.textContent = film.ended ? 'Replay film ↻' : film.paused ? 'Play film ▶' : 'Pause film Ⅱ';
-    };
-    filmPlay.addEventListener('click', async () => {
-      if (!film.paused) { film.pause(); return; }
-      try {
-        if (film.ended) film.currentTime = 0;
-        await film.play();
-      } catch {
-        filmStatus.textContent = 'Use the player controls or download the MP4.';
-      }
-    });
-    ['play', 'pause', 'ended'].forEach(event => film.addEventListener(event, updateFilmButton));
-  }
 
   if (menuToggle && primaryNavigation) {
     const closeMenu = ({ restoreFocus = false } = {}) => {

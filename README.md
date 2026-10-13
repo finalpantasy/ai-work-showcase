@@ -12,14 +12,6 @@ James Dupre is a paid-media executive and the creator of AdNexus, elk Marketing'
 
 This is an actual product component capture with fictional account data. The portfolio's contextual reasoning examples are illustrative scenarios, not a connection to advertising accounts.
 
-## Better Work: the portfolio film
-
-[Watch the 45-second film](https://finalpantasy.github.io/ai-work-showcase/#film) · [Download the 1080p MP4](assets/better-work-film.mp4)
-
-![An actual frame from the Better Work portfolio film](assets/better-work-film-poster.jpg)
-
-Created with JavaScript motion graphics and an original instrumental score. Includes real component captures with fictional account data, contextual paid-media judgment, the official Meta award artwork, and Summoner's in-development status. Playback is user-initiated, with optional sound, English captions, and a text transcript.
-
 ## Explore
 
 - [AdNexus and platform capabilities](https://finalpantasy.github.io/ai-work-showcase/#adnexus)
