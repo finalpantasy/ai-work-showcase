@@ -2,6 +2,8 @@
 
 Practical AI, marketing leadership and hands-on product building. Published as finalpantasy.
 
+Frosted light and dark themes with teal accents. Use the toggle at the top; your appearance choice carries across pages. Only that preference is stored.
+
 [Open the portfolio](https://finalpantasy.github.io/ai-work-showcase/) · [Try the fictional marketing workday](workspace-demo.html).
 
 ![Actual portfolio page in a browser](assets/portfolio.jpg)
