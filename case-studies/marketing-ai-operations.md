@@ -25,9 +25,9 @@ I built it with Claude Code and Codex on Next.js, TypeScript and Postgres. Betwe
 | 18 scheduled monitors | Quiet while an account is healthy; a finding, evidence and a prepared fix when it is not |
 | Creative Confidence | Statistical scoring of every Meta ad, so a new ad is not judged on one day of spend |
 | What Changed | Compares two periods and says where a change is concentrated and what to check next |
-| Governed changes | Preview, approval, live re-check, one dispatch, read-back, audit log and undo |
+| Approval on every change | Nothing changes in a client account until a strategist approves it |
 
-By my own estimate, it gives each strategist back 20 or more hours a week that used to go to collecting facts and retyping them.
+It is built for the whole agency, with dashboards for strategists, account executives, project managers, creative teams and leadership. By my own estimate, it gives each strategist back 20 or more hours a week that used to go to collecting facts and retyping them, and a full audit and optimization of an unfamiliar account now takes about 30 minutes.
 
 ## Start with the account
 
@@ -59,9 +59,9 @@ Search-term review can mean hundreds of rows. AdNexus groups them into queues an
 
 ![AdNexus search-term review grouping fictional queries into queues](../assets/workspace/search-review.jpg)
 
-## Every change goes through one gate
+## A person approves every change
 
-Nothing touches a client account without a person's approval. Each change to Google or Meta is previewed with its exact scope, approved, re-checked against the live account, sent once, read back and logged with a way to undo it. New campaigns and ads are created paused. Launch Guard watches for an ad that lands in the wrong client's account and flags it.
+Nothing changes in a client account until a strategist approves it, and every change is logged with a way to undo it. Launch Guard flags any ad that lands in the wrong client's account.
 
 This is the "prove the change landed" rule from the team standard, written into code.
 

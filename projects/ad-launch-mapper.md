@@ -32,4 +32,4 @@ The [demo](../workspace-demo.html#mapper) converts two invented ads for Juniper 
 
 ## My part
 
-I spotted the repeated work, read the launch tool's requirements and specified the mapping. I built it with AI, then checked the column layout and documented the cases that still need a person. The same idea now runs inside AdNexus, where planner ads go straight to Meta, created paused for review.
+I spotted the repeated work, read the launch tool's requirements and specified the mapping. I built it with AI, then checked the column layout and documented the cases that still need a person. The same idea now runs inside AdNexus, where a planner's ads upload straight to Meta.
